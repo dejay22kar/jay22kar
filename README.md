@@ -1,4 +1,5 @@
 # pwtest
+[Thoughts](https://dejay22kar.github.io/pwtest/thoughts) / Music /  
 Physics Wallahhhh
 
 # This is my 1st heading. 
