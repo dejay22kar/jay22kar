@@ -1,0 +1,55 @@
+# Site Settings
+title: Jay22kar      # Title of your site
+description: A blog about web development, tech, and more!  # Short description of the site
+baseurl: ""                # The subpath of your site, e.g., /blog, leave empty if deploying at root level
+url: "https://your-username.github.io"  # The base URL of your site
+
+# Author Information
+author:
+  name: Your Name
+  email: your-email@example.com
+  twitter: your-twitter-handle
+  github: your-github-username
+  bio: "Developer and tech enthusiast."
+
+# Build Settings
+markdown: kramdown          # Specifies the markdown engine (default is kramdown)
+permalink: /:year/:month/:day/:title/  # URL structure for blog posts
+
+# Pagination
+paginate: 5                # Number of posts per page (if using pagination)
+paginate_path: "/page:num/"
+
+# Jekyll Theme
+theme: minima              # Jekyll default theme (you can replace it with any other theme)
+
+# Plugins
+plugins:
+  - jekyll-feed            # Adds an RSS feed to your site
+  - jekyll-sitemap         # Generates a sitemap for search engines
+  - jekyll-seo-tag         # SEO tags for better search engine ranking
+
+# Social Links (Optional)
+social_links:
+  twitter: "https://twitter.com/your-twitter-handle"
+  github: "https://github.com/your-username"
+  linkedin: "https://linkedin.com/in/your-linkedin-handle"
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""             # All files
+      type: posts
+    values:
+      layout: post
+      author: your-name
+
+# Exclusions
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Google Analytics (Optional)
+google_analytics: UA-XXXXXXXX-X  # Replace with your Google Analytics tracking ID
