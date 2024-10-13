@@ -12,10 +12,10 @@ Me? Ooof... I can too much at times.
 
 <style>
 body{
-    bakground-color:red;
+    background-color:red;
 }
 </style>
-> 
+
 
 
 
