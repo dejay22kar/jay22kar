@@ -3,14 +3,15 @@ title: Sample Page
 ---
 
 <style>
-  body {
-    background-color: #f9f9f9;
-    font-family: 'Arial, sans-serif';
-  }
-  .highlight {
-    color: red;
-    font-weight: bold;
-  }
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: yellow;}
+}
+body {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+}
 </style>
 
 # Welcome to My Page
