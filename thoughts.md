@@ -1,6 +1,4 @@
----
-title: Sample Page
----
+
 
 <style>
 @keyframes example {
@@ -8,9 +6,9 @@ title: Sample Page
   to {background-color: yellow;}
 }
 body {
-  background-color: red;
+  background-color: white;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 </style>
 
