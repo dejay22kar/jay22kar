@@ -8,7 +8,13 @@
 body {
   background-color: white;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 8s;
+}
+</style>
+
+<style>
+body{
+    background-color: yellow;
 }
 </style>
 
