@@ -4,23 +4,23 @@
 @keyframes example {
   from {background-color: white;}
   to {background-color: yellow;}
+  from {color: black;}
+  to {background-color: red;}
 }
 body {
   background-color: white;
+  color: black;
   animation-name: example;
-  animation-duration: 8s;
+  animation-duration: 10s;
+  animation-delay: 2s;
 }
 </style>
 
-<style>
-body{
-    background-color: yellow;
-}
-</style>
+
 
 # Welcome to My Page
 
-This is a paragraph with a <span class="highlight">highlighted text</span>.
+This is a paragraph with a test.
 
 
 # THOUGHTS
