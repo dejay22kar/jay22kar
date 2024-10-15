@@ -5,7 +5,7 @@
   from {background-color: white;}
   to {background-color: yellow;}
   from {color: black;}
-  to {background-color: red;}
+  to {color: red;}
 }
 body {
   background-color: white;
