@@ -13,18 +13,17 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <style>
 body{
-    background-color:lightblue;
+    background-color:white;
 }
 </style>
 
 <details>
   <summary>Read more</summary>
     Me? Ooof... I can too much at times.
-</details>
-
-<details>
-  <summary>Little more</summary>
-    I look the better from the left side rather than right, and I look the best at an angle of 45 degrees from the front.
+    <details>
+      <summary>Little more</summary>
+        I look the better from the left side rather than right, and I look the best at an angle of 45 degrees from the front.
+    </details>
 </details>
 
 
