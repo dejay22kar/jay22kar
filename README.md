@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
-# [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/the)
+## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/the)
 
 Lets talk about the elephant in the room first - what's a number doing in my name. Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence Baviskar = 22kar. 
 
@@ -17,8 +17,16 @@ body{
 }
 </style>
 
-Me? Ooof... I can too much at times. [[MORE]] I look the better from the left side rather than right, and I look the best at an angle of 45 degrees from the front. 
-[[MORE]] I like dogs. 
+<details>
+  <summary>Read more</summary>
+    Me? Ooof... I can too much at times.
+</details>
+
+<details>
+  <summary>Little more</summary>
+    I look the better from the left side rather than right, and I look the best at an angle of 45 degrees from the front.
+</details>
+
 
 
 And this is my paragraph. 
