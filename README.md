@@ -20,16 +20,9 @@ body{
 <details>
   <summary>Read more</summary>
     Me? Ooof... I can too much at times.
-    <details>
-      <summary>Little more</summary>
-        I look the better from the left side rather than right, and I look the best at an angle of 45 degrees from the front.
-    </details>
 </details>
 
 
-
-And this is my paragraph. 
-Kinda fun. 
 
 Languages - 
 - **English -** Not that great vocabulary though (which can be good for writing at times, I believe. Yes, you read that right - good)
