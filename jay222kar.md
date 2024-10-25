@@ -15,10 +15,13 @@ body {
   animation-delay: 2s;
 }
 </style>
-background-color: black;
-color: white;
 
-<div style="text-align: center; padding-left: 40px;">
+body {
+  background-color: black;
+  color: white;
+}
+
+<div style="text-align:center; font-size: 69px; padding-left: 40px;">
     Password: 
 </div>
 
