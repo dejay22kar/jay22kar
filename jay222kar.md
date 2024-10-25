@@ -1,3 +1,4 @@
+## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
 <style>
 @keyframes example {
@@ -11,12 +12,11 @@ body {
   color: black;
   animation-name: example;
   animation-duration: 10s;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
-
+</style>
 background-color: black;
 color: white;
-</style>
 
 <div style="text-align: center; padding-left: 40px;">
     Password: 
