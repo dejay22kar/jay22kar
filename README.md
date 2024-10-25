@@ -13,7 +13,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <style>
 body{
-    background-color:white;
+    background-color:red;
 }
 </style>
 
