@@ -9,19 +9,20 @@
 }
 body {
   background-color: white;
-  color: black;
+  color: #333333;
   animation-name: example;
   animation-duration: 10s;
   animation-delay: 2s;
 }
 </style>
-
+<style>
 body {
-  background-color: black;
+  background-color: #333333;
   color: white;
 }
+</style>
 
-<div style="text-align:center; font-size: 69px; padding-left: 40px;">
+<div style="text-align:center; background-color:yellow; padding:30px; font-size: 60px; padding-left: 40px;">
     Password: 
 </div>
 
