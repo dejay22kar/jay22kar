@@ -8,6 +8,7 @@ body {
   animation-name: example;
   animation-duration: 10s;
   animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
   @keyframes example {
   from {background-color: white;}
