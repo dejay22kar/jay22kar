@@ -3,18 +3,19 @@
 <style>
 @keyframes example {
   from {background-color: white;}
-  to {background-color: black;}
+  to {background-color: #333333;}
   from {color: black;}
   to {color: white;}
 }
 body {
   background-color: white;
-  color: #333333;
+  color: black;
   animation-name: example;
   animation-duration: 10s;
   animation-delay: 2s;
 }
 </style>
+
 <style>
 body {
   background-color: #333333;
@@ -27,4 +28,4 @@ body {
 </div>
 
 
-<div class="tenor-gif-embed" data-postid="19918388" data-share-method="host" data-aspect-ratio="1.58416" data-width="100%"><a href="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388">Star Wars Journey To Dark Side GIF</a>from <a href="https://tenor.com/search/star+wars-gifs">Star Wars GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<div class="tenor-gif-embed" data-postid="19918388" data-share-method="host" data-aspect-ratio="1.58416" data-width="50%"><a href="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388">Star Wars Journey To Dark Side GIF</a>from <a href="https://tenor.com/search/star+wars-gifs">Star Wars GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
