@@ -3,8 +3,7 @@
 
 ## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
-Lets talk about the elephant in the room first - what's a number doing in my name. Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence Baviskar = 22kar. 
-
+Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence Baviskar = 22kar. 
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. And yes, I abso-fucking-lutely hate it whenever I try making my account on a new website and cannot use _jay22kar_ as my username, like who in the world has exactly the same name as mine and is as stupidly obsessed as me with such a username -_-
 
 ## How am I doing?
@@ -13,7 +12,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <style>
 body{
-    background-color:red;
+    background-color:light blue;
 }
 </style>
 
@@ -25,7 +24,7 @@ body{
 
 
 Languages - 
-- **English -** Not that great vocabulary though (which can be good for writing at times, I believe. Yes, you read that right - good)
+- **English -** Not that great vocabulary though (which I believe, can be good for writing at times. Yes, you read that right - good)
 - **French -** Oui, mais je suis encore un debutant :P
 - **Marathi -** Because its my mothertongue
 - **Hindi -** Because its the common tongue of India
