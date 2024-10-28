@@ -24,8 +24,8 @@ body {
     <button onclick="checkPassword()">Submit</button>
 </div>
 
-<div id="secretImage" style="display: none; text-align: center; margin-top: 20px;">
-    <img src="<div class="tenor-gif-embed" data-postid="19918388" data-share-method="host" data-aspect-ratio="1.58416" data-width="100%"><a href="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388">Star Wars Journey To Dark Side GIF</a>from <a href="https://tenor.com/search/star+wars-gifs">Star Wars GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>" alt="Secret Image" style="width: 600px;">
+<div style="display: none; text-align: center; margin-top: 20px;">
+    <img src="<div class="tenor-gif-embed" data-postid="19918388" data-share-method="host" data-aspect-ratio="1.58416" data-width="100%"><a href="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388">Star Wars Journey To Dark Side GIF</a>from <a href="https://tenor.com/search/star+wars-gifs">Star Wars GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>" 
 </div>
 
 <script>
@@ -35,8 +35,12 @@ function checkPassword() {
 
     if (password === correctPassword) {
         document.getElementById("secretImage").style.display = "block";
+          setTimeout(function() {
+        window.location.href = "https://mechstuff.com"; 
+            }, 5000);
     } else {
         alert("Incorrect password. Please try again.");
     }
 }
 </script>
+
