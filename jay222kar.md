@@ -26,7 +26,7 @@ body {
 </div>
 
 <div id="secretImage" style="display: none; text-align: center; margin-top: 20px;">
-    <img src="[your-image-url.jpeg](https://thumb.ac-illust.com/5a/5ae562edae316872b39a1667b6f38e2f_t.jpeg)" alt="Secret Image" style="width: 300px;">
+    <img src="https://thumb.ac-illust.com/5a/5ae562edae316872b39a1667b6f38e2f_t.jpeg" alt="Secret Image" style="width: 600px;">
 </div>
 
 <script>
@@ -37,7 +37,7 @@ function checkPassword() {
     if (password === correctPassword) {
         document.getElementById("secretImage").style.display = "block";
     } else {
-        alert("Incorrect password. Please try again.");
+        alert("Oops! You know whom to contact");
     }
 }
 </script>
