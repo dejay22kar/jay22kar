@@ -1,22 +1,22 @@
 ## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
-        <style>
+<style>
 
-        body {
-          background-color: white;
-          color: black;
-          animation-name: example;
-          animation-duration: 10s;
-          animation-delay: 2s;
-          animation-fill-mode: forwards;
-        }
-          @keyframes example {
-          from {background-color: white;}
-          to {background-color: #333333;}
-          from {color: black;}
-          to {color: white;}
-        }
-        </style>
+body {
+  background-color: white;
+  color: black;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+  @keyframes example {
+  from {background-color: white;}
+  to {background-color: #383838;}
+  from {color: black;}
+  to {color: white;}
+}
+</style>
 
 <div style="text-align: center; background-color: black; color: white; padding: 20px; font-size: 24px;">
     Password:
@@ -39,7 +39,7 @@ function checkPassword() {
         document.getElementById("secretGIF").style.display = "block";
           setTimeout(function() {
         window.location.href = "https://mechstuff.com"; 
-            }, 5000);
+            }, 10000);
     } 
     else {
         alert("Incorrect password. Please try again.");
