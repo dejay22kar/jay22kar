@@ -20,19 +20,13 @@ body {
 
 <div style="text-align: center; background-color: black; color: white; padding: 20px; font-size: 24px;">
     Password:
-    <input type="password" id="passwordInput" placeholder="Enter password" style="font-size: 20px; background-color: black; color: white; border: 1px solid white; outline: none; caret-color: white; animation: blink-cursor 1s step-end infinite;">
+    <input type="password" id="passwordInput" placeholder="Enter password" style="font-size: 20px; background-color: black; color: white; border: 1px black; outline: none; caret-color: white;">
     <button onclick="checkPassword()">Submit</button>
 </div>
 
 <div id="secretImage" style="display: none; text-align: center; margin-top: 20px;">
-    <img src="your-image-url.jpg" alt="Secret Image" style="width: 300px;">
+    <img src="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388" alt="Secret Image" style="width: 600px;">
 </div>
-
-<style>
-@keyframes blink-cursor {
-    50% { opacity: 0; }
-}
-</style>
 
 <script>
 function checkPassword() {
@@ -46,6 +40,3 @@ function checkPassword() {
     }
 }
 </script>
-
-
-
