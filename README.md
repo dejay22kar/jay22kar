@@ -12,7 +12,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <style>
 body{
-    background-color:light blue;
+    background-color:light-blue;
 }
 </style>
 
@@ -31,5 +31,5 @@ Languages -
 - **Swedish -** I know enough Swedish to say - I don't speak Swedish
 - **Math -** Just at an intermediate level. But hey, I can teach you the basics in almost no time! (I mean, if you're interested in learning, it's beautiful!) 
 - **Music -** Oooofff... where do I even begin. Better I just share a song with you - [https://www.youtube.com/watch?v=TUVcZfQe-Kw](https://www.youtube.com/watch?v=TUVcZfQe-Kw) (come on, get on your feet already!)
-- **Bookish -** "Yes, Bookish" assured Jay nodding his head as he imagined the confused face of the reader while reading this. "Don't you like Bookish? The language novels speak?" asked Jay excitedly.
+- **Bookish -** "Yes, Bookish" assured Jay nodding his head as he imagined the confused face of the reader while reading this. "Don't you like Bookish? The language novels speak?" asked Jay enthusiastically.
 - **Actions -** Well, this one's tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice you know. Secondly, you rarely come across people who speak it.
