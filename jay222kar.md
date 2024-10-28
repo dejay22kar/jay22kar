@@ -19,9 +19,26 @@ body {
 </style>
 
 
-<div style="text-align:center; background-color:black; padding:20px; font-size: 60px; padding-left: 40px;">
-    Password: 
+<div style="text-align: center; background-color: black; color: white; padding: 20px; font-size: 24px;">
+    Password:
+    <input type="password" id="passwordInput" placeholder="Enter password" style="font-size: 20px;">
+    <button onclick="checkPassword()">Submit</button>
 </div>
 
+<div id="secretImage" style="display: none; text-align: center; margin-top: 20px;">
+    <img src="[your-image-url.jpeg](https://thumb.ac-illust.com/5a/5ae562edae316872b39a1667b6f38e2f_t.jpeg)" alt="Secret Image" style="width: 300px;">
+</div>
 
-<div class="tenor-gif-embed" data-postid="19918388" data-share-method="host" data-aspect-ratio="1.58416" data-width="100%"><a href="https://tenor.com/view/star-wars-journey-to-dark-side-evil-luke-skywalker-emperor-gif-19918388">Star Wars Journey To Dark Side GIF</a>from <a href="https://tenor.com/search/star+wars-gifs">Star Wars GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<script>
+function checkPassword() {
+    const password = document.getElementById("passwordInput").value;
+    const correctPassword = "test123"; // replace with your actual password
+
+    if (password === correctPassword) {
+        document.getElementById("secretImage").style.display = "block";
+    } else {
+        alert("Incorrect password. Please try again.");
+    }
+}
+</script>
+
