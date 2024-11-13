@@ -17,18 +17,33 @@ body {
 </style>
 
 
-
-# Welcome to My Page
-
-This is a paragraph with a test.
-
-
 # THOUGHTS
 I THINK, THUS I GOT DESTROYED
 
 # This is my 1st heading. 
 
-## This is 2nd. 
+# One Line-years
+It was November 2024 and it randomly came upto me and it suddenly struck to me 'Damn... 2025 is already here. I've been through sooo much this year, I wonder if I could put it one line?'. Then I was curious how many years can I describe in one line and here we go
+ 
+ - 2024 - The year of learning discomforting, painful truths about myself.
+ - 2023 - The year of pain and darkness.
+ - 2022 - The year of career growth and roller-coaster of emotions that were brought with it.
+ - 2021 - The year of focus!
+ - 2020 - Well, everyone knows - the year of Covid-19 and everyone's struggles.
+ - 2019 - The monotonous year.
+ - 2018 - The year of spirituality!
+ - 2017 - The year of existential crisis.
+ - 2016 - Meh
+ - 2015 - The year of Tuberculosis
+ - 2014 - Meh
+ - 2013 - Meh
+ - 2012 - Meh
+ - 2011 - The year of My dear loneliness :blue_heart:
+ - 2010 - Meh
+ - 2009 - Meh
+ - 2008 - The year of heartbreak :broken_heart: <br>
+   .<br>
+   .<br>
+   .<br>
+- 1996 - The year when I was conceived. Hi!
 
-And this is my paragraph. 
-Kinda fun. 
