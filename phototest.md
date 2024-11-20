@@ -65,7 +65,7 @@
     <img src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Photo 1" data-caption="This is the description for Photo 1">
     <img src="https://posterjack.ca/cdn/shop/articles/Tips_for_Taking_Photos_at_the_Beach_55dd7d25-11df-4acf-844f-a5b4ebeff4df.jpg?v=1563409972&width=1500" alt="Photo 2" data-caption="This is the description for Photo 2">
     <img src="https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75" alt="Photo 3" data-caption="This is the description for Photo 3">
-    <img src="images/gothenburg/IMG_2520.heic" alt="Photo 4" data-caption="This is the description for Photo 4">
+    <img src="images/gothenburg/IMG_2520.jpeg" alt="Photo 4" data-caption="This is the description for Photo 4">
     <!-- Add more photos as needed -->
   </div>
 
