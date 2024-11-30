@@ -3,8 +3,10 @@
 
 ## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
-Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence Baviskar = 22kar. 
-I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. And yes, I abso-fucking-lutely hate it whenever I try making my account on a new website and cannot use _jay22kar_ as my username, like who in the world has exactly the same name as mine and is as stupidly obsessed as me with such a username -_-
+Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar. 
+
+I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
+PS: I abso-fucking-lutely hate it whenever I try making my account on a new website and cannot use _jay22kar_ as my username, like who in the world is as stupidly obsessed as me having the same username -_-
 
 ## How am I doing?
 [](https://tenor.com/view/im-fine-little-boy-crying-gif-15238441)
