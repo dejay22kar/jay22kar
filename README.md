@@ -16,14 +16,9 @@ body{
 }
 </style>
 
-<details>
-  <summary>Read more</summary>
-    Me? Ooof... I can too much at times.
-</details>
 
 
-
-Languages - 
+## Languages I speak - 
 - **English -** Not that great vocabulary though (which I believe, can be good for writing at times. Yes, you read that right - good)
 - **French -** Oui, mais je suis encore un debutant :P
 - **Marathi -** Because its my mothertongue
