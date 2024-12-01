@@ -26,9 +26,8 @@ Welcome to my photo gallery! Click on any image to see the full size.
   </div>
   <script>
     lightGallery(document.getElementById('lightgallery'), {
-      plugins: [lgZoom, lgThumbnail], // Use zoom and thumbnail plugins
-      download: false // Disable the download button
+      plugins: [lgZoom, lgThumbnail], 
+      download: false 
         });
   </script>
 </body>
-</html>
