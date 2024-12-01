@@ -27,8 +27,7 @@ Welcome to my photo gallery! Click on any image to see the full size.
 
   <style>
   img {
-    -webkit-user-drag: none; /* Prevent dragging */
-    user-select: none;       /* Disable text/image selection */
+pointer-events: none;
   }
  </style>
   
