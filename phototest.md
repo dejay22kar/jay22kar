@@ -26,8 +26,15 @@ Welcome to my photo gallery! Click on any image to see the full size.
   </div>
 
   <style>
-  img {
-    pointer-events: none;
+  .gallery img {
+    pointer-events: none; /* Prevent direct interactions */
+  }
+
+  /* Ensure clicks are handled at the container level */
+  .gallery a {
+    display: inline-block;
+    pointer-events: auto; /* Allow interactions on the link */
+    position: relative; /* Required for overlay */
   }
  </style>
   
