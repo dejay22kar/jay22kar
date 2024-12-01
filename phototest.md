@@ -30,4 +30,10 @@ Welcome to my photo gallery! Click on any image to see the full size.
       download: false 
         });
   </script>
+  <style>
+  img {
+    pointer-events: none;
+  }
+ </style>
+
 </body>
