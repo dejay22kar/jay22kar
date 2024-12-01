@@ -24,16 +24,17 @@ Welcome to my photo gallery! Click on any image to see the full size.
     </a>
     <!-- Add more images -->
   </div>
+
+  <style>
+  img {
+    pointer-events: none;
+  }
+ </style>
+  
   <script>
     lightGallery(document.getElementById('lightgallery'), {
        
       download: false 
         });
   </script>
-  <style>
-  img {
-    pointer-events: none;
-  }
- </style>
-
 </body>
