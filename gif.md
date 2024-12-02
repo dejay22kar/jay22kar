@@ -8,7 +8,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('https://giphy.com/clips/strange-stark-mysterious-QSyig4oxad2Pc6qTBv') no-repeat center center fixed;
+      background: url('https://media.giphy.com/media/3o7TKsQx4a0UnR1Y6w/giphy.gif') no-repeat center center fixed;
       background-size: cover;
     }
   </style>
