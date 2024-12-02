@@ -8,7 +8,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('your-gif-url.gif') no-repeat center center fixed;
+      background: url('https://giphy.com/clips/strange-stark-mysterious-QSyig4oxad2Pc6qTBv') no-repeat center center fixed;
       background-size: cover;
     }
   </style>
