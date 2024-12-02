@@ -14,19 +14,22 @@ PS: I abso-fucking-lutely hate it whenever I try making my account on a new webs
 
 <style>
 body{
-    background-color:light-blue;
+    <!background-color:light-blue;>
+      margin: 0;
+      padding: 0;
+      background: url('https://giphy.com/clips/strange-stark-mysterious-QSyig4oxad2Pc6qTBv') no-repeat center center fixed;
+      background-size: cover;
 }
 </style>
 
-<iframe src="https://scratch.mit.edu/projects/853026342/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ## Languages I speak - 
 - **English -** Not that great vocabulary though (which I believe, can be good for writing at times. Yes, you read that right - good)
 - **French -** Oui, mais je suis encore un debutant :P
 - **Marathi -** Because its my mothertongue
 - **Hindi -** Because its the common tongue of India
-- **Swedish -** I know enough Swedish to say - I don't speak Swedish
-- **Math -** Just at an intermediate level. But hey, I can teach you the basics in almost no time! (I mean, if you're interested in learning, it's beautiful!) 
-- **Music -** Oooofff... where do I even begin. Better I just share a song with you - [https://www.youtube.com/watch?v=TUVcZfQe-Kw](https://www.youtube.com/watch?v=TUVcZfQe-Kw) (come on, get on your feet already!)
+- **Swedish -** I know enough Swedish to say - Jag inte prata svenska (I don't speak Swedish)
+- **Math -** Just at an intermediate level. Its mind-blowing and mind-boggling
+- **Music -** Oooofff... where do I even begin. Better I just share a song with you - [guess?](https://www.youtube.com/watch?v=TUVcZfQe-Kw) (come on, get on your feet already!)
 - **Bookish -** "Yes, Bookish" assured Jay nodding his head as he imagined the confused face of the reader while reading this. "Don't you like Bookish? The language novels speak?" asked Jay enthusiastically.
 - **Actions -** Well, this one's tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice you know. Secondly, you rarely come across people who speak it.
