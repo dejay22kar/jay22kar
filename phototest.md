@@ -11,23 +11,10 @@ Welcome to my photo gallery! Click on any image to see the full size.
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
 </head>
 <body>
-  <h1>My Photo Gallery</h1>
-  # Just test
-  <div id="lightgallery">
-    <a href="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg">
-      <img src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg" alt="Image 1" style="width: 150px;">
-    </a>
-    <a href="https://th.bing.com/th/id/OIG3.80EN2JPNx7kp5VqoB5kz">
-      <img src="https://th.bing.com/th/id/OIG3.80EN2JPNx7kp5VqoB5kz" alt="Image 2" style="width: 150px;">
-    </a>
-    <a href="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg">
-      <img src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg" alt="Image 3" style="width: 150px;">
-    </a>
-    <!-- Add more images -->
-  </div>
 
+  <h1>Sweden</h1>
 
-  ## Copenhagen
+  <h2>Copenhagen</h2>
   <div id="cphgallery">
 <a href="photos/copenhagen/cph_1.webp">
   <img src="photos/copenhagen/cph_1.webp" alt="A random building" style="width: 150px;">
