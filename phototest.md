@@ -26,15 +26,17 @@ Welcome to my photo gallery! Click on any image to see the full size.
   </div>
 
 
-## Copenhagen
-  <div id="lightgallery">
+   ## Copenhagen
+  <div id="cphgallery">
 <a href="photos/copenhagen/cph_1.webp">
   <img src="photos/copenhagen/cph_1.webp" alt="A random building" style="width: 150px;">
 </a>
 <a href="photos/copenhagen/cph_2.webp">
   <img src="photos/copenhagen/cph_2.webp" alt="Darkness... is the new normal!" style="width: 150px;">
 </a>
-    </a>
+<a href="photos/copenhagen/cph_3.webp">
+  <img src="photos/copenhagen/cph_3.webp" alt="Copenhagen_image_3" style="width: 150px;">
+</a>
     <a href="https://th.bing.com/th/id/OIG3.80EN2JPNx7kp5VqoB5kz">
       <img src="https://th.bing.com/th/id/OIG3.80EN2JPNx7kp5VqoB5kz" alt="Image 2" style="width: 150px;">
     </a>
@@ -51,7 +53,7 @@ pointer-events: none;
  </style>
   
   <script>
-    lightGallery(document.getElementById('lightgallery'), {
+    lightGallery(document.getElementById('cphgallery'), {
        
       download: false 
         });
