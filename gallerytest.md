@@ -1,14 +1,17 @@
 <style>
   .gallery {
-    column-count: 5;
-    column-gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
   .gallery img {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
+    flex: 1 1 calc(33.33% - 10px); /* Adjust percentage for 3 images per row */
+    max-width: calc(33.33% - 10px);
+    height: auto;
   }
 </style>
+
 
 
 <div class="gallery" id="lightgallery">
