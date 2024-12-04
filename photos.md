@@ -25,31 +25,31 @@ Here are a bunch of photos I have taken.
   <!-- Your Image Gallery -->
 <div id="cphgallery">
 <a href="photos/copenhagen/cph_1.webp">
-  <img src="photos/copenhagen/cph_1.webp" alt="A random building" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_1.webp" alt="A random building" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_2.webp">
-  <img src="photos/copenhagen/cph_2.webp" alt="Darkness... is the new normal!" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_2.webp" alt="Darkness... is the new normal!" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_3.webp">
-  <img src="photos/copenhagen/cph_3.webp" alt="Copenhagen_image_3" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_3.webp" alt="Copenhagen_image_3" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_4.webp">
-  <img src="photos/copenhagen/cph_4.webp" alt="Copenhagen_image_4" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_4.webp" alt="Copenhagen_image_4" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_5.webp">
-  <img src="photos/copenhagen/cph_5.webp" alt="Nyhaven" style="width: 250px;" />
+  <img src="photos/copenhagen/cph_5.webp" alt="Nyhaven" style="width: 180px;" />
 </a>
 <a href="photos/copenhagen/cph_6.webp">
-  <img src="photos/copenhagen/cph_6.webp" alt="Church of Our Savior" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_6.webp" alt="Church of Our Savior" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_7.webp">
-  <img src="photos/copenhagen/cph_7.webp" alt="City view from top of Church of Our Savior" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_7.webp" alt="City view from top of Church of Our Savior" style="width: 180px;" />
 </a>
 <a href="photos/copenhagen/cph_8.webp">
-  <img src="photos/copenhagen/cph_8.webp" alt="Copenhagen_image_8" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_8.webp" alt="Copenhagen_image_8" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_9.webp">
-  <img src="photos/copenhagen/cph_9.webp" alt="Copenhagen_image_9" style="width: 150px;" />
+  <img src="photos/copenhagen/cph_9.webp" alt="Copenhagen_image_9" style="width: 120px;" />
 </a>
 <a href="photos/copenhagen/cph_10.webp">
   <img src="photos/copenhagen/cph_10.webp" alt="Copenhagen_image_10" style="width: 150px;" />
