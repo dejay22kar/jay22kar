@@ -1,25 +1,21 @@
 
 
 
+
 <style>
   .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    }
-    img {
-    pointer-events: none;
+    column-count: 3;
+    column-gap: 10px;
   }
-  
   .gallery img {
-    flex: 1 1 calc(33.33% - 10px); /* Adjust percentage for 3 images per row */
-    max-width: calc(33.33% - 10px);
-    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    pointer-events: none;
   }
 </style>
 
-
+## Copenhagen
 
 <div class="gallery" id="lightgallery">
   <a href="photos/copenhagen/cph_1.webp">
