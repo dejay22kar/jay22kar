@@ -9,12 +9,13 @@ Here are a bunch of photos I have taken.
   <style>
     img {
       height: auto; /* Maintain aspect ratio */
+      pointer-events: none;
     }
   </style>
 </head>
 <body>
   <!-- Your Image Gallery -->
-  
+<div id="cphgallery">
   <a href="photos/copenhagen/cph_1.webp">
     <img src="photos/copenhagen/cph_1.webp" alt="Copenhagen_image_1">
   </a>
@@ -27,7 +28,7 @@ Here are a bunch of photos I have taken.
   <a href="photos/copenhagen/cph_12.webp">
     <img src="photos/copenhagen/cph_12.webp" alt="Copenhagen_image_2">
   </a>
-
+</div>
   <!-- JavaScript -->
   <script>
     document.querySelectorAll('img').forEach((img) => {
@@ -41,6 +42,13 @@ Here are a bunch of photos I have taken.
         }
       };
     });
+  </script>
+  
+  <script>
+    lightGallery(document.getElementById('cphgallery'), {
+       
+      download: false 
+        });
   </script>
 </body>
 </html>
