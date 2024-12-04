@@ -1,10 +1,17 @@
+
+
+
 <style>
   .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    }
+    img {
+    pointer-events: none;
   }
+  
   .gallery img {
     flex: 1 1 calc(33.33% - 10px); /* Adjust percentage for 3 images per row */
     max-width: calc(33.33% - 10px);
@@ -62,3 +69,10 @@
 </a>
   <!-- More images -->
 </div>
+
+  <script>
+    lightGallery(document.getElementById('cphgallery'), {
+       
+      download: false 
+        });
+  </script>
