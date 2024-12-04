@@ -1,15 +1,15 @@
 <style>
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+    column-count: 5;
+    column-gap: 5px;
   }
   .gallery img {
     width: 100%;
-    height: auto;
     display: block;
+    margin-bottom: 10px;
   }
 </style>
+
 
 <div class="gallery" id="lightgallery">
   <a href="photos/copenhagen/cph_1.webp">
