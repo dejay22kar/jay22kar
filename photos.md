@@ -1,31 +1,46 @@
 #Photos
 Here are a bunch of photos I have taken.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    img {
+      height: auto; /* Maintain aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <!-- Your Image Gallery -->
+  
+  <a href="photos/copenhagen/cph_1.webp">
+    <img src="photos/copenhagen/cph_1.webp" alt="Copenhagen_image_1">
+  </a>
+  <a href="photos/copenhagen/cph_2.webp">
+    <img src="photos/copenhagen/cph_2.webp" alt="Copenhagen_image_2">
+  </a>
+    <a href="photos/copenhagen/cph_6.webp">
+    <img src="photos/copenhagen/cph_6.webp" alt="Copenhagen_image_1">
+  </a>
+  <a href="photos/copenhagen/cph_12.webp">
+    <img src="photos/copenhagen/cph_12.webp" alt="Copenhagen_image_2">
+  </a>
 
-  <div style="flex: 1; min-width: 200px;">
-    <a href="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg">
-    <img src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg" alt="Image 1" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 1; min-width: 200px;">
-    <a href="https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75">
-    <img src="https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75" alt="Image 2" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 1; min-width: 200px;">
-    <a href="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Image 3" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 1; min-width: 200px;">
-    <a href="https://th.bing.com/th/id/OIG1.wQ7nqzXG6LLji1s3MrOP">
-    <img src="https://th.bing.com/th/id/OIG1.wQ7nqzXG6LLji1s3MrOP" alt="Image 1" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 1; min-width: 200px;">
-    <a href="https://pixlr.com/images/index/ai-image-generator-one.webp)>
-    <img src="https://pixlr.com/images/index/ai-image-generator-one.webp" alt="Image 1" style="width: 100%; height: auto;">
-  </div>   
-</div>
-
+  <!-- JavaScript -->
+  <script>
+    document.querySelectorAll('img').forEach((img) => {
+      img.onload = () => {
+        if (img.naturalWidth > img.naturalHeight) {
+          // Landscape
+          img.style.width = '250px';
+        } else {
+          // Portrait
+          img.style.width = '150px';
+        }
+      };
+    });
+  </script>
+</body>
+</html>
