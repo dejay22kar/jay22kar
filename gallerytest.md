@@ -1,10 +1,16 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+</head>
 
-
-
+<body>
 
 <style>
   .gallery {
-    column-count: 3;
+    column-count: 4;
     column-gap: 10px;
   }
   .gallery img {
@@ -72,3 +78,5 @@
       download: false 
         });
   </script>
+  
+  </body>
