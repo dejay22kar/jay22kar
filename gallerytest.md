@@ -23,7 +23,7 @@
 
 ## Copenhagen
 
-<div class="gallery" id="lightgallery">
+<div class="gallery" id="cphgallery">
   <a href="photos/copenhagen/cph_1.webp">
     <img src="photos/copenhagen/cph_1.webp" alt="Copenhagen_image_1">
   </a>
@@ -74,7 +74,6 @@
 
   <script>
     lightGallery(document.getElementById('cphgallery'), {
-       
       download: false 
         });
   </script>
