@@ -41,14 +41,11 @@ Here are a bunch of photos I have taken.
           img.style.width = '150px';
         }
       };
+    }
+    lightGallery(document.getElementById('cphgallery'), {
+    download: false                                        
     });
   </script>
   
-  <script>
-    lightGallery(document.getElementById('cphgallery'), {
-       
-      download: false 
-        });
-  </script>
 </body>
 </html>
