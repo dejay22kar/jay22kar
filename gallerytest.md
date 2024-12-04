@@ -17,11 +17,13 @@
     width: 100%;
     display: block;
     margin-bottom: 10px;
-    pointer-events: none;
+  }
+  img {
+  pointer-events: none;
   }
 </style>
 
-## Copenhagen
+<h2> Copenhagen</h2> 
 
 <div class="gallery" id="cphgallery">
   <a href="photos/copenhagen/cph_1.webp">
