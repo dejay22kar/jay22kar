@@ -29,7 +29,7 @@ Welcome to my photo gallery! Click on any image to see the full size.
   <img src="photos/copenhagen/cph_4.webp" alt="Copenhagen_image_4" style="width: 150px;">
 </a>
 <a href="photos/copenhagen/cph_5.webp">
-  <img src="photos/copenhagen/cph_5.webp" alt="Nyhaven" style="width: 150px;">
+  <img src="photos/copenhagen/cph_5.webp" alt="Nyhaven" style="width: 250px;">
 </a>
 <a href="photos/copenhagen/cph_6.webp">
   <img src="photos/copenhagen/cph_6.webp" alt="Church of Our Savior" style="width: 150px;">
