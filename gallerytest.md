@@ -18,9 +18,6 @@
     display: block;
     margin-bottom: 10px;
   }
-  img {
-  pointer-events: none;
-  }
 </style>
 
 <h2> Copenhagen</h2> 
@@ -80,7 +77,8 @@
   <a href="photos/copenhagen/cph_18.webp">
   <img src="photos/copenhagen/cph_18.webp" alt="Copenhagen_image_18"  />
 </a>
-  <img src="photos/copenhagen/cph_19.webp" alt="Copenhagen_image_19"  />
+ <a> href="photos/copenhagen/cph_19.webp">
+   <img src="photos/copenhagen/cph_19.webp" alt="Copenhagen_image_19"  />
 </a>
   <!-- More images -->
 </div>
