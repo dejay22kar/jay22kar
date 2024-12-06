@@ -71,6 +71,17 @@
 <a href="photos/copenhagen/cph_15.webp">
   <img src="photos/copenhagen/cph_15.webp" alt="Copenhagen_image_15"  />
 </a>
+  <a href="photos/copenhagen/cph_16.webp">
+  <img src="photos/copenhagen/cph_16.webp" alt="Copenhagen_image_16"  />
+</a>
+  <a href="photos/copenhagen/cph_17.webp">
+  <img src="photos/copenhagen/cph_17.webp" alt="Copenhagen_image_17"  />
+</a>
+  <a href="photos/copenhagen/cph_18.webp">
+  <img src="photos/copenhagen/cph_18.webp" alt="Copenhagen_image_18"  />
+</a>
+  <img src="photos/copenhagen/cph_19.webp" alt="Copenhagen_image_19"  />
+</a>
   <!-- More images -->
 </div>
 
