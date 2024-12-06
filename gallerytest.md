@@ -87,6 +87,12 @@
     lightGallery(document.getElementById('cphgallery'), {
       download: false 
         });
+
+
+  const images = document.querySelectorAll('.gallery img');
+  images.forEach(img => {
+    img.addEventListener('contextmenu', (e) => e.preventDefault());
+  });
   </script>
   
   </body>
