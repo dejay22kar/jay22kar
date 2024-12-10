@@ -4,6 +4,9 @@
   <title>Image Gallery</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-fullscreen.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/lg-fullscreen.min.js"></script>
+
 </head>
 
 <body>
@@ -94,6 +97,7 @@ pointer-events: none;
         thumbnail: true,        // Enable thumbnails
         autoplay: true,         // Enable autoplay
         fullscreen: true,       // Add fullscreen button
+        plugins: [lgFullscreen], 
         });
   </script>
   
