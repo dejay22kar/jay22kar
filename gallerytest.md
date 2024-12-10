@@ -11,12 +11,15 @@
 <style>
   .gallery {
     column-count: 4;
-    column-gap: 10px;
+    column-gap: 15px;
   }
   .gallery img {
     width: 100%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  img {
+pointer-events: none;
   }
 </style>
 
@@ -77,7 +80,7 @@
   <a href="photos/copenhagen/cph_18.webp">
   <img src="photos/copenhagen/cph_18.webp" alt="Copenhagen_image_18"  />
 </a>
- <a> href="photos/copenhagen/cph_19.webp">
+ <a>
    <img src="photos/copenhagen/cph_19.webp" alt="Copenhagen_image_19"  />
 </a>
   <!-- More images -->
@@ -90,12 +93,6 @@
         autoplay: true,         // Enable autoplay
         fullscreen: true,       // Add fullscreen button
         });
-
-
-  const images = document.querySelectorAll('.gallery img');
-  images.forEach(img => {
-    img.addEventListener('contextmenu', (e) => e.preventDefault());
-  });
   </script>
   
   </body>
