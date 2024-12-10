@@ -94,11 +94,12 @@ pointer-events: none;
   <script>
     lightGallery(document.getElementById('cphgallery'), {
         download: false,        // Disable download button
-        thumbnail: true,        // Enable thumbnails
-        autoplay: true,         // Enable autoplay
-        fullscreen: true,       // Add fullscreen button
-        plugins: [lgFullscreen], 
         });
+
+    const images = document.querySelectorAll('.gallery img');
+    images.forEach(img => {
+    img.addEventListener('contextmenu', (e) => e.preventDefault());
+  });
   </script>
   
   </body>
