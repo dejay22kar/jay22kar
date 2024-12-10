@@ -12,12 +12,13 @@
   .gallery {
     column-count: 4;
     column-gap: 15px;
-    pointer-events: none;
+
   }
   .gallery img {
     width: 100%;
     display: block;
     margin-bottom: 15px;
+    pointer-events: none;
   }
   img {
 pointer-events: none;
