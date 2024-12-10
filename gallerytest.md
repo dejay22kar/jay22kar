@@ -12,6 +12,7 @@
   .gallery {
     column-count: 4;
     column-gap: 15px;
+    pointer-events: none;
   }
   .gallery img {
     width: 100%;
