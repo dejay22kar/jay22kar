@@ -21,7 +21,6 @@
     width: 100%;
     display: block;
     margin-bottom: 15px;
-    pointer-events: none;
   }
   img {
 pointer-events: none;
@@ -100,6 +99,11 @@ pointer-events: none;
     images.forEach(img => {
     img.addEventListener('contextmenu', (e) => e.preventDefault());
   });
+
+    const links = document.querySelectorAll('.gallery a');
+    links.forEach(link => {
+    link.addEventListener('contextmenu', (e) => e.preventDefault());
+    });
   </script>
   
   </body>
