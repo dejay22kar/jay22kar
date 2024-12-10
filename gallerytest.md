@@ -85,7 +85,10 @@
 
   <script>
     lightGallery(document.getElementById('cphgallery'), {
-      download: false 
+        download: false,        // Disable download button
+        thumbnail: true,        // Enable thumbnails
+        autoplay: true,         // Enable autoplay
+        fullscreen: true,       // Add fullscreen button
         });
 
 
