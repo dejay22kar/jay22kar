@@ -8,6 +8,6 @@ my first line
 
 then 2nd article 
 
-***
+<hr style="border: 0; height: 4px; background: #ccc; margin: 20px 0;">
 
 then 3rd and so on
