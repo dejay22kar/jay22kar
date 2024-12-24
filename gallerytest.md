@@ -27,6 +27,8 @@ pointer-events: none;
   }
 </style>
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/181913147@N07/albums/72177720320948299" title="Dragonflys"><img src="https://live.staticflickr.com/65535/53801918483_38ba915dce_b.jpg" width="1024" height="768" alt="Dragonflys"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 <h2> Gothenburg</h2> 
 
 <div class="gallery" id="gotgallery">
