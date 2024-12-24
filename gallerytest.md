@@ -27,7 +27,7 @@ pointer-events: none;
   }
 </style>
 
-<a data-pin-do="embedBoard" data-pin-board-width="800" data-pin-scale-height="480" data-pin-scale-width="80" href="https://www.pinterest.com/j22kar/morphine/"></a>
+<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/j22kar/morphine/"></a>
 
 <h2> Gothenburg</h2> 
 
@@ -182,9 +182,9 @@ pointer-events: none;
 </div>
 
   <script>
-    lightGallery(document.getElementById('cphgallery'), {
-        download: false,        // Disable download button
-        });
+  document.querySelectorAll('.gallery').forEach(gallery => {
+  lightGallery(gallery, { download: false });
+  });
 
     const images = document.querySelectorAll('.gallery img');
     images.forEach(img => {
