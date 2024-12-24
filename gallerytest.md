@@ -27,6 +27,95 @@ pointer-events: none;
   }
 </style>
 
+<h2> Gothenburg</h2> 
+
+<div class="gallery" id="gotgallery">
+<a href="photos/gothenburg/got_1.webp">
+  <img src="photos/gothenburg/got_1.webp" alt="Gothenburg_image_1">
+</a>
+<a href="photos/gothenburg/got_2.webp">
+  <img src="photos/gothenburg/got_2.webp" alt="Gothenburg_image_2">
+</a>
+<a href="photos/gothenburg/got_3.webp">
+  <img src="photos/gothenburg/got_3.webp" alt="Gothenburg_image_3">
+</a>
+<a href="photos/gothenburg/got_4.webp">
+  <img src="photos/gothenburg/got_4.webp" alt="Gothenburg_image_4">
+</a>
+<a href="photos/gothenburg/got_5.webp">
+  <img src="photos/gothenburg/got_5.webp" alt="Gothenburg_image_5">
+</a>
+<a href="photos/gothenburg/got_6.webp">
+  <img src="photos/gothenburg/got_6.webp" alt="Gothenburg_image_6">
+</a>
+<a href="photos/gothenburg/got_7.webp">
+  <img src="photos/gothenburg/got_7.webp" alt="Gothenburg_image_7">
+</a>
+<a href="photos/gothenburg/got_8.webp">
+  <img src="photos/gothenburg/got_8.webp" alt="Gothenburg_image_8">
+</a>
+<a href="photos/gothenburg/got_9.webp">
+  <img src="photos/gothenburg/got_9.webp" alt="Gothenburg_image_9">
+</a>
+<a href="photos/gothenburg/got_10.webp">
+  <img src="photos/gothenburg/got_10.webp" alt="Gothenburg_image_10">
+</a>
+<a href="photos/gothenburg/got_11.webp">
+  <img src="photos/gothenburg/got_11.webp" alt="Gothenburg_image_11">
+</a>
+<a href="photos/gothenburg/got_12.webp">
+  <img src="photos/gothenburg/got_12.webp" alt="Gothenburg_image_12">
+</a>
+<a href="photos/gothenburg/got_13.webp">
+  <img src="photos/gothenburg/got_13.webp" alt="Gothenburg_image_13">
+</a>
+<a href="photos/gothenburg/got_14.webp">
+  <img src="photos/gothenburg/got_14.webp" alt="Gothenburg_image_14">
+</a>
+<a href="photos/gothenburg/got_15.webp">
+  <img src="photos/gothenburg/got_15.webp" alt="Gothenburg_image_15">
+</a>
+<a href="photos/gothenburg/got_16.webp">
+  <img src="photos/gothenburg/got_16.webp" alt="Gothenburg_image_16">
+</a>
+<a href="photos/gothenburg/got_17.webp">
+  <img src="photos/gothenburg/got_17.webp" alt="Gothenburg_image_17">
+</a>
+<a href="photos/gothenburg/got_18.webp">
+  <img src="photos/gothenburg/got_18.webp" alt="Gothenburg_image_18">
+</a>
+<a href="photos/gothenburg/got_19.webp">
+  <img src="photos/gothenburg/got_19.webp" alt="Gothenburg_image_19">
+</a>
+<a href="photos/gothenburg/got_20.webp">
+  <img src="photos/gothenburg/got_20.webp" alt="Gothenburg_image_20">
+</a>
+<a href="photos/gothenburg/got_21.webp">
+  <img src="photos/gothenburg/got_21.webp" alt="Gothenburg_image_21">
+</a>
+<a href="photos/gothenburg/got_22.webp">
+  <img src="photos/gothenburg/got_22.webp" alt="Gothenburg_image_22">
+</a>
+<a href="photos/gothenburg/got_23.webp">
+  <img src="photos/gothenburg/got_23.webp" alt="Gothenburg_image_23">
+</a>
+<a href="photos/gothenburg/got_24.webp">
+  <img src="photos/gothenburg/got_24.webp" alt="Gothenburg_image_24">
+</a>
+<a href="photos/gothenburg/got_25.webp">
+  <img src="photos/gothenburg/got_25.webp" alt="Gothenburg_image_25">
+</a>
+<a href="photos/gothenburg/got_26.webp">
+  <img src="photos/gothenburg/got_26.webp" alt="Gothenburg_image_26">
+</a>
+<a href="photos/gothenburg/got_27.webp">
+  <img src="photos/gothenburg/got_27.webp" alt="Gothenburg_image_27">
+</a>
+<a href="photos/gothenburg/got_28.webp">
+  <img src="photos/gothenburg/got_28.webp" alt="Gothenburg_image_28">
+</a>
+</div>
+
 <h2> Copenhagen</h2> 
 
 <div class="gallery" id="cphgallery">
