@@ -1,5 +1,5 @@
 
-[🠔 Back to Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories)
+[&#129044; Back to Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories)
 
 <h1 style="text-align: center;">God loves kids more than teachers</h1>
 
