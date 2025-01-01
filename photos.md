@@ -189,7 +189,7 @@ Hello! Here are some photos that I have taken in my life. I do sometimes wish th
 </div>
 
 <h2> Room 1514 </h2> 
-Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I lived in this house when I was going through the worst (and metamorphosis stage) of my life and it has gave me a safe space to be and feel anything, anytime. Naturally, I have grown to be very fond and attached to it and this is why I will forever be grateful to universe for this house, this room - Room 1514.
+Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I lived in this house when I was going through the worst (and 'metamorphosis' stage) of my life and it has gave me a safe space to be and feel anything, anytime. Naturally, I have grown to be very fond and attached to it and perhaps this is my humble way to capture it, to keep it with me, in the form of photos. I will forever be grateful to universe for this house, this room - Room 1514.
 
   <script>
   document.querySelectorAll('.gallery').forEach(gallery => {
