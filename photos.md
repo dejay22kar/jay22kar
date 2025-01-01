@@ -117,6 +117,12 @@ Hello! Here are some photos that I have taken in my life. I do sometimes wish th
 <a href="photos/gothenburg/got_28.webp">
   <img src="photos/gothenburg/got_28.webp" alt="Gothenburg_image_28">
 </a>
+  <a href="photos/gothenburg/got_29.webp">
+  <img src="photos/gothenburg/got_29.webp" alt="Gothenburg_image_29">
+</a>
+  <a href="photos/gothenburg/got_30.webp">
+  <img src="photos/gothenburg/got_30.webp" alt="Gothenburg_image_30">
+</a>
 </div>
 
 <h2> Copenhagen</h2> 
