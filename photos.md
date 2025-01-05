@@ -13,14 +13,14 @@
 
 <style>
   .gallery {
-    column-count: 4;
-    column-gap: 15px;
+    column-count: 5;
+    column-gap: 10px;
 
   }
   .gallery img {
     width: 100%;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   img {
 pointer-events: none;
@@ -30,7 +30,7 @@ pointer-events: none;
 Hello! Here are some photos that I have taken in my life. I do sometimes wish that I had that perspective of a photographer that I do not possess and I am not sure why do I **not** have a very strong motivation to learn it. Hence, I take photos purely guided by intuition.
 90% of the photos are taken from my phone. I have tried my best to organise them. Hope some of the photos will make you feel something 🙂 
 
-<h2> Gothenburg</h2> 
+<h1> Gothenburg</h1> 
 
 <div class="gallery" id="gotgallery">
 <a href="photos/gothenburg/got_1.webp">
@@ -125,7 +125,7 @@ Hello! Here are some photos that I have taken in my life. I do sometimes wish th
 </a>
 </div>
 
-<h2> Copenhagen</h2> 
+<h1> Copenhagen</h1> 
 
 <div class="gallery" id="cphgallery">
   <a href="photos/copenhagen/cph_1.webp">
@@ -188,8 +188,28 @@ Hello! Here are some photos that I have taken in my life. I do sometimes wish th
   <!-- More images -->
 </div>
 
-<h2> Room 1514 </h2> 
+<h1> Room 1514 </h1> 
 Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I lived in this house when I was going through the worst (and 'metamorphosis' stage) of my life and it has gave me a safe space to be and feel anything, anytime. Naturally, I have grown to be very fond and attached to it and perhaps this is my humble way to capture it, to keep it with me, in the form of photos. I will forever be grateful to universe for this house, this room - Room 1514.
+
+<div class="gallery" id="roomGallery"></div>
+
+<script>
+  const galleryContainer = document.getElementById('roomGallery');
+  const totalImages = 70; // Total number of images
+
+  for (let i = 1; i <= totalImages; i++) {
+    const link = document.createElement('a');
+    link.href = `photos/room1514/room1514_${i}.webp`;
+
+    const image = document.createElement('img');
+    image.src = `photos/room1514/thumbnail_room1514_${i}.webp`;
+    image.alt = `Room1514_image_${i}`;
+    
+    link.appendChild(image);
+    galleryContainer.appendChild(link);
+  }
+</script>
+
 
   <script>
   document.querySelectorAll('.gallery').forEach(gallery => {
