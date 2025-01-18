@@ -1,0 +1,27 @@
+# hello
+Just testing
+
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"
+    stroke="black"
+    fill="transparent"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-dasharray="300"
+    stroke-dashoffset="300"
+    id="animatedPath"
+  />
+</svg>
+
+<style>
+  #animatedPath {
+    animation: draw 2s linear forwards;
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+</style>
