@@ -57,9 +57,9 @@ Who am I?
 I’m that thing which is caught in the middle,   
 I am the rope. 
 
-No matter who wins, 
-I have to endure. 
-Who am I, again? 
+No matter who wins,    
+I have to endure.    
+Who am I, again?   
 I am Suffering. 
 
 
