@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">Invisible</h1>
 
-I was 15. I had this new feeling. Very unsettling, uncomfortable, didn't know what to call it, how to describe it. It was there when I was alone and it was also there when I was part of people standing in a circle having chips and chatting. Somehow this feeling always made me feel different, separating me from others. 
+I was 15. I had this new feeling. Well, not new, I experienced it even before when I was a bit younger, but now it felt very concrete and very sure, like the last stage of cancer - sort of irrecoverable. So yes, I had this feeling. Very unsettling, uncomfortable, didn't know what to call it, how to describe it. It was there when I was alone and it was also there when I was part of people standing in a circle having chips and chatting. Somehow this feeling always made me feel different, separating me from others. 
 
 That year was the first winter I felt. As if, there was no winter for the first 14 years of my life. I remember my dry knuckles and the Nivea cream and its very diffusive smell, the full shirt and the earmuffs I wore. The only time when I felt warm and comfortable was when I pressed that huge round power button on the CPU, and the monitor turned on with a Lamborghini wallpaper and I played NFS Most Wanted on my computer even though it lagged, lagged as the government. 
 
