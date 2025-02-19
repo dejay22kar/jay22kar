@@ -3,6 +3,28 @@
 
 ## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories) | [Music](https://dejay22kar.github.io/jay22kar/my-favorite-music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
+<div class="video-background">
+  <video autoplay loop muted playsinline>
+    <source src="photos/intro new mechstuff.mp4" type="video/mp4">
+  </video>
+</div>
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar. 
 
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
