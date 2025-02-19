@@ -5,7 +5,7 @@
 
 <div class="video-background">
   <video autoplay loop muted playsinline>
-    <source src="photos/intro-new-mechstuff.mp4" type="video/mp4">
+    <source src="photos/intro new mechstuff.mp4" type="video/mp4">
   </video>
 </div>
 
