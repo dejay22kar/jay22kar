@@ -5,23 +5,34 @@
 
 <div class="video-background">
   <video autoplay loop muted playsinline>
-    <source src="photos/intro new mechstuff.mp4" type="video/mp4">
+    <source src="photos/intro-new-mechstuff.mp4" type="video/mp4">
   </video>
 </div>
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-.video-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
+<style>
+  /* Ensure the background fills the entire viewport */
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100; /* Keep it in the background */
+  }
+
+  /* Make sure the video fully covers the screen */
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
 
 
 
