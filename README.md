@@ -5,7 +5,7 @@
 
 <div class="video-background">
   <video autoplay loop muted playsinline>
-    <source src="photos/background 1.mov" type="video/mov">
+    <source src="photos/Timeline 1.mp4" type="video/mp4">
   </video>
 </div>
 
