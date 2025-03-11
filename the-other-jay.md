@@ -18,6 +18,12 @@ body {
 }
 </style>
 
+Well, I don't have a split personality disorder (or not that I'm aware of🫢) and that you'd find my another personality over here. 
+Here you would find yet just another recollection of some of my writings which I am not comfortable with sharing with everyone *yet*, but I would make them public in near future. These source of these writings were from majorly from the toughest times of my life and are related to mental health issues, trauma and toxic behaviors that we learn on our way to protect ourselves. 
+
+Simply put, this page consists just another collection of my writings which I am not comfortable sharing with everyone *yet*. But I know I would be with some people and I needed a place where I can keep them all at one place. Hence, this page :)
+If you're curious enough to want to read them, please contact me and then let me decide if I am comfortable enough with sharing you :)
+
 <div style="text-align: center; background-color: black; color: white; padding: 20px; font-size: 24px;">
     Password:
     <input type="password" id="passwordInput" placeholder="Enter password" style="font-size: 20px text-align: center; background-color: black; color: white; border: 1px black; outline: none; caret-color: white;">
