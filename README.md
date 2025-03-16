@@ -1,39 +1,31 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
-## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories) | [Music](https://dejay22kar.github.io/jay22kar/my-favorite-music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
-
 <div class="video-background">
-  <video autoplay loop muted playsinline>
-    <source src="photos/Timeline 1.mp4" type="video/mp4">
-  </video>
+    <video autoplay loop muted playsinline preload="auto">
+        <source src="photos/Timeline 1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </div>
 
-<style>
-  /* Ensure the background fills the entire viewport */
-  .video-background {
+.video-background {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    z-index: -100; /* Keep it in the background */
-  }
+    z-index: -1;
+}
 
-  /* Make sure the video fully covers the screen */
-  .video-background video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    height: 100vh;
+.video-background video {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    transform: translate(-50%, -50%);
-  }
-</style>
+    animation: loopfix 0.1s infinite; /* Prevents black flash on loop */
+}
 
-
+## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories) | [Music](https://dejay22kar.github.io/jay22kar/my-favorite-music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar. 
