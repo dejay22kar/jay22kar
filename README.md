@@ -2,28 +2,31 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
 <div class="video-background">
-    <video autoplay loop muted playsinline preload="auto">
-        <source src="photos/Timeline 1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <video autoplay loop muted playsinline preload="auto">
+    <source src="photos/Timeline 1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
-.video-background {
+<style>
+  .video-background {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     z-index: -1;
-}
+  }
 
-.video-background video {
+  .video-background video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: loopfix 0.1s infinite; /* Prevents black flash on loop */
-}
+    opacity: 0.75; 
+  }
+</style>
+
 
 ## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories) | [Music](https://dejay22kar.github.io/jay22kar/my-favorite-music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
