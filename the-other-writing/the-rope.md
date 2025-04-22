@@ -1,7 +1,6 @@
 [&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
 
 <h1 style="text-align: center;">The Rope</h1>
-<hr style="border: 0; height: 1px; background: #2b2b2b; margin: 25px 0;">
 
 Between being kind to people and    
 them taking advantage of it,   
