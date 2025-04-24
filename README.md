@@ -45,7 +45,7 @@ body, html {
   text-align: center;
   min-width: 300px;
   max-width: 90%;
-  width: 400px;
+  width: 300px;
 }
 
     .menu-box h1 {
@@ -84,6 +84,7 @@ body, html {
   <div class="menu-box">
     <a href="music.html">🎵 Music</a>
     <a href="about.html">👤 About Me</a>
+    <a href="photos.html">💭 Photos</a>
     <a href="thoughts.html">💭 Thoughts</a>
   </div>
 
