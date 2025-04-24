@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,11 +8,6 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
-
-    body, html {
-      height: 100%;
-      font-family: sans-serif;
     }
 
     .video-background {
@@ -32,19 +27,26 @@
       opacity: 0.6; /* Adjust this to control video brightness */
     }
 
-    .menu-box {
-      position: relative;
-      z-index: 1;
-      background-color: rgba(255, 255, 255, 0.85);
-      padding: 40px;
-      border-radius: 30px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-      text-align: center;
-      width: 300px;
-      margin: auto;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px 60px;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  min-width: 300px;
+  max-width: 90%;
+  width: 400px;
+}
 
     .menu-box h1 {
       margin-bottom: 20px;
@@ -80,7 +82,6 @@
 
   <!-- Menu Box -->
   <div class="menu-box">
-    <h1>Welcome</h1>
     <a href="music.html">🎵 Music</a>
     <a href="about.html">👤 About Me</a>
     <a href="thoughts.html">💭 Thoughts</a>
