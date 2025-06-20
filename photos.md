@@ -188,7 +188,7 @@ Hello! Here are some photos that I have taken in my recent years and I will keep
 </div>
 
 <h1> Room 1514 </h1> 
-Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful and loving times of my life. Naturally, I have grown to be very fond and attached to it and perhaps this is my humble way to capture it, to keep it with me, in the form of photos. I will forever be grateful to universe for this house, this room - Room 1514.
+Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful and loving times of my life in this house. Naturally, I have grown to be very fond and attached to it and perhaps this is my humble way to capture it, to keep it with me, in the form of photos. I will forever be grateful to universe for this house, this room - Room 1514.
 
 <div class="gallery" id="roomGallery"></div>
 
