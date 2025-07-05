@@ -1,7 +1,5 @@
 Here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some... just emotions - pure raw emotions which didn't just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana sword. 
 
-And lemme try adding an image here. Next line and now on the next one... [![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform) One more line just to check.
-
 ## TV Shows
 - Breaking Bad
 - Game of Thrones (nope, not 8, there are only 7 seasons of GoT)
