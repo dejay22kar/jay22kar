@@ -9,12 +9,15 @@
 <div class="section">
   <button onclick="toggleSection(this)">Section 2</button>
   <div class="preview"> 
-  A short teaser for section 2 goes here... And lemme try adding an image here.   
-  Next line and now on the next one...   
-  [![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform)
+  A short teaser for section 2 goes here... 
   </div>
   <div class="content hidden">
-    <p>This is the full content of Section 2. Again, this appears only when you click the button.</p>
+    <p>This is the full content of Section 2. Again, this appears only when you click the button.
+     And lemme try adding an image here.   
+     Next line and now on the next one...   
+  [![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform)   
+    One more line just to check.
+    </p>
   </div>
 </div>
 
