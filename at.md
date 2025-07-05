@@ -1,19 +1,26 @@
 <div class="section">
   <button onclick="toggleSection(this)">Section 1</button>
+  <div class="preview">This is a short preview of section 1...</div>
   <div class="content hidden">
-    <p>This is the full content of Section 1.</p>
+    <p>This is the full content of Section 1. It could be a longer paragraph that only shows up when the section is expanded.</p>
   </div>
 </div>
 
 <div class="section">
   <button onclick="toggleSection(this)">Section 2</button>
+  <div class="preview"> 
+  A short teaser for section 2 goes here... And lemme try adding an image here.   
+  Next line and now on the next one...   
+  [![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform)
+  </div>
   <div class="content hidden">
-    <p>This is the full content of Section 2.</p>
+    <p>This is the full content of Section 2. Again, this appears only when you click the button.</p>
   </div>
 </div>
 
 <div class="section">
   <button onclick="toggleSection(this)">Section 3</button>
+  <div class="preview">Section 3 summary or lead-in...</div>
   <div class="content hidden">
     <p>This is the full content of Section 3.</p>
   </div>
@@ -21,21 +28,28 @@
 
 <style>
 .section {
-  margin: 1em 0;
+  margin: 1.5em 0;
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 button {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   padding: 0.5em 1em;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #888;
   border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.preview {
+  color: #444;
+  margin-bottom: 0.5em;
+  font-style: italic;
 }
 
 .content {
@@ -52,12 +66,12 @@ function toggleSection(button) {
   const section = button.parentElement;
   const content = section.querySelector('.content');
 
-  // Collapse all other open sections
+  // Collapse all others
   document.querySelectorAll('.section .content').forEach(el => {
     if (el !== content) el.classList.add('hidden');
   });
 
-  // Toggle current section
+  // Toggle this one
   content.classList.toggle('hidden');
 }
 </script>
