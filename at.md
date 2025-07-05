@@ -1,24 +1,3 @@
-<script>
-function toggleSection(button) {
-  const section = button.closest('.section');
-  const fullText = section.querySelector('.full-text');
-  const allSections = document.querySelectorAll('.section');
-
-  // Close all sections
-  allSections.forEach(sec => {
-    if (sec !== section) {
-      sec.querySelector('.full-text').classList.add('hidden');
-      sec.querySelector('button').textContent = 'Read more';
-    }
-  });
-
-  // Toggle clicked section
-  const isHidden = fullText.classList.contains('hidden');
-  fullText.classList.toggle('hidden', !isHidden);
-  button.textContent = isHidden ? 'Read less' : 'Read more';
-}
-</script>
-
 
 <div class="accordion">
   <div class="section">
@@ -65,4 +44,23 @@ function toggleSection(button) {
   margin: 0 0 0.5em;
 }
 
+<script>
+function toggleSection(button) {
+  const section = button.closest('.section');
+  const fullText = section.querySelector('.full-text');
+  const allSections = document.querySelectorAll('.section');
 
+  // Close all sections
+  allSections.forEach(sec => {
+    if (sec !== section) {
+      sec.querySelector('.full-text').classList.add('hidden');
+      sec.querySelector('button').textContent = 'Read more';
+    }
+  });
+
+  // Toggle clicked section
+  const isHidden = fullText.classList.contains('hidden');
+  fullText.classList.toggle('hidden', !isHidden);
+  button.textContent = isHidden ? 'Read less' : 'Read more';
+}
+</script>
