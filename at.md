@@ -13,9 +13,8 @@
   </div>
   <div class="content hidden">
     <p>This is the full content of Section 2. Again, this appears only when you click the button.
-     And lemme try adding an image here.   
-     Next line and now on the next one...   
-  [![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform)   
+     And lemme try adding an image here.  
+     Next line and now on the next one...  <img src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg" alt="Example" style="max-width: 100%; border-radius: 8px;"> 
     One more line just to check.
     </p>
   </div>
