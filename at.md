@@ -1,66 +1,63 @@
-
-<div class="accordion">
-  <div class="section">
-    <h2>Section 1</h2>
-    <p class="preview">This is a short preview of section 1...</p>
-    <div class="full-text hidden">
-      <p>This is the full content of section 1.</p>
-    </div>
-    <button onclick="toggleSection(this)">Read more</button>
-  </div>
-
-  <div class="section">
-    <h2>Section 2</h2>
-    <p class="preview">Preview of section 2...</p>
-    <div class="full-text hidden">
-      <p>Here’s everything in section 2.</p>
-    </div>
-    <button onclick="toggleSection(this)">Read more</button>
-  </div>
-
-  <div class="section">
-    <h2>Section 3</h2>
-    <p class="preview">Section 3 starts here...</p>
-    <div class="full-text hidden">
-      <p>Details of section 3 go here.</p>
-    </div>
-    <button onclick="toggleSection(this)">Read more</button>
+<div class="section">
+  <button onclick="toggleSection(this)">Section 1</button>
+  <div class="content hidden">
+    <p>This is the full content of Section 1.</p>
   </div>
 </div>
+
+<div class="section">
+  <button onclick="toggleSection(this)">Section 2</button>
+  <div class="content hidden">
+    <p>This is the full content of Section 2.</p>
+  </div>
+</div>
+
+<div class="section">
+  <button onclick="toggleSection(this)">Section 3</button>
+  <div class="content hidden">
+    <p>This is the full content of Section 3.</p>
+  </div>
+</div>
+
+<style>
+.section {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.content {
+  margin-top: 0.5em;
+}
 
 .hidden {
   display: none;
 }
-
-.section {
-  margin-bottom: 1.5em;
-  padding: 1em;
-  border-radius: 10px;
-  background: #f2f2f2;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.section h2 {
-  margin: 0 0 0.5em;
-}
+</style>
 
 <script>
 function toggleSection(button) {
-  const section = button.closest('.section');
-  const fullText = section.querySelector('.full-text');
-  const allSections = document.querySelectorAll('.section');
+  const section = button.parentElement;
+  const content = section.querySelector('.content');
 
-  // Close all sections
-  allSections.forEach(sec => {
-    if (sec !== section) {
-      sec.querySelector('.full-text').classList.add('hidden');
-      sec.querySelector('button').textContent = 'Read more';
-    }
+  // Collapse all other open sections
+  document.querySelectorAll('.section .content').forEach(el => {
+    if (el !== content) el.classList.add('hidden');
   });
 
-  // Toggle clicked section
-  const isHidden = fullText.classList.contains('hidden');
-  fullText.classList.toggle('hidden', !isHidden);
-  button.textContent = isHidden ? 'Read less' : 'Read more';
+  // Toggle current section
+  content.classList.toggle('hidden');
 }
 </script>
