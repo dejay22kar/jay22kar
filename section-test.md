@@ -127,3 +127,27 @@ function toggleSection(button) {
   content.classList.toggle('hidden');
 }
 </script>
+
+  <script>
+  document.querySelectorAll('.gallery').forEach(gallery => {
+  lightGallery(gallery, { download: false });
+  });
+
+    const images = document.querySelectorAll('.gallery img');
+    images.forEach(img => {
+    img.addEventListener('contextmenu', (e) => e.preventDefault());
+  });
+
+    const links = document.querySelectorAll('.gallery a');
+    links.forEach(link => {
+    link.addEventListener('contextmenu', (e) => e.preventDefault());
+    });
+  </script>
+
+  <script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+></script>
+  
+  </body>
