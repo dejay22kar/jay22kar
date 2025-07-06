@@ -36,7 +36,7 @@ pointer-events: none;
 </div>
 
 <div class="section">
-  <button onclick="toggleSection(this)">🇩🇰Denmark</button>
+  <button onclick="toggleSection(this)">:denmark: Denmark</button>
   <div class="preview"> 
   A short teaser for section 2 goes here... 
   </div>
@@ -65,11 +65,11 @@ pointer-events: none;
 </div>
 
 <div class="section">
-  <button onclick="toggleSection(this)">🏡Room 1514</button>
+  <button onclick="toggleSection(this)">🏡 Room 1514</button>
   <div class="preview">The place I lived for 2 years in Sweden</div>
   <div class="content hidden">
     <p>
-      Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful times (and "metamorphosis stage) of my life in this house. Naturally, I have grown to be very fond and attached to it since it gave me a safe space to be and feel anything, anytime. It has been one of the best things that has happened to me and perhaps this is my humble way to capture it, to keep it with me, in the form of photos (and videos on YouTube). I will forever be grateful to universe for this house, this room - Room 1514.
+      Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful times (and "metamorphosis" stage) of my life in this house. Naturally, I have grown to be very fond and attached to it since it gave me a safe space to be and feel anything, anytime. It has been one of the best things that has happened to me and perhaps this is my humble way to capture it, to keep it with me, in the form of photos (and videos on YouTube). I will forever be grateful to universe for this house, this room - Room 1514.
 
 <div class="gallery" id="roomGallery"></div>
 
