@@ -36,21 +36,36 @@ pointer-events: none;
 </div>
 
 <div class="section">
-  <button onclick="toggleSection(this)">Section 2</button>
+  <button onclick="toggleSection(this)">🇩🇰Denmark</button>
   <div class="preview"> 
   A short teaser for section 2 goes here... 
   </div>
   <div class="content hidden">
-    <p>This is the full content of Section 2. Again, this appears only when you click the button.
-     And lemme try adding an image here.  
-     Next line and now on the next one...  <img src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg" alt="Example" style="max-width: 100%; border-radius: 8px;"> 
-    One more line just to check.
+    <p>
+<div class="gallery" id="Copenhagen_Gallery"></div>
+
+<script>
+  const galleryContainer = document.getElementById('roomGallery');
+  const totalImages = 19; // Total number of images
+
+  for (let i = 1; i <= totalImages; i++) {
+    const link = document.createElement('a');
+    link.href = `photos/copenhagen/cph_${i}.webp`;
+
+    const image = document.createElement('img');
+    image.src = `photos/copenhagen/thumbnail_cph_${i}.webp`;
+    image.alt = `Denmark_image_${i}`;
+    
+    link.appendChild(image);
+    galleryContainer.appendChild(link);
+  }
+</script>
     </p>
   </div>
 </div>
 
 <div class="section">
-  <button onclick="toggleSection(this)">Room 1514</button>
+  <button onclick="toggleSection(this)">🏡Room 1514</button>
   <div class="preview">The place I lived for 2 years in Sweden</div>
   <div class="content hidden">
     <p>
