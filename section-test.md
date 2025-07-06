@@ -45,7 +45,7 @@ pointer-events: none;
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
 <script>
-  const galleryContainer = document.getElementById('roomGallery');
+  const galleryContainer = document.getElementById('Copenhagen_Gallery');
   const totalImages = 19; // Total number of images
 
   for (let i = 1; i <= totalImages; i++) {
