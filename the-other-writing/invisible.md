@@ -1,10 +1,14 @@
 [&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
 
+<head>
+<style>
 body {
   background-color: #202124;             
   color: #F2E8D5;
 }
 <!-- Old background color #383838;    Apple font colour #E8E6E3 -->
+</style>
+</head> 
 
 <h1 style="text-align: center;">Invisible</h1>
 
