@@ -1,5 +1,11 @@
 [&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
 
+body {
+  background-color: #202124             
+  color: #F2E8D5 
+}
+<!-- Old background color #383838;    Apple font colour #E8E6E3 -->
+
 <h1 style="text-align: center;">Invisible</h1>
 
 I was 15. I had this new feeling. Well, not new, I experienced it even before when I was a bit younger, but now it felt very concrete and very sure, like the last stage of cancer - sort of irrecoverable. So yes, I had this feeling. Very unsettling, uncomfortable, didn't know what to call it, how to describe it. It was there when I was alone and it was also there when I was part of people standing in a circle having chips and chatting. Somehow this feeling always made me feel different, separating me from others. 
