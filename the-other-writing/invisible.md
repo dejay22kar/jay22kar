@@ -4,9 +4,9 @@
 <style>
 body {
   background-color: #202124;             
-  color: #F2E8D5;
+  color: #E8E6E3;
 }
-<!-- Old background color #383838;    Apple font colour #E8E6E3 -->
+<!-- Old background color #383838;    Apple font colour #E8E6E3;     warm white #F2E8D5 -->
 </style>
 </head> 
 
@@ -20,9 +20,9 @@ I had recently started watching Vh1 on TV and it had become my favorite channel!
 
 Fast forward a few years and then I realised why I loved that song, what did it say, what I felt, what is that uneasy, resisting, wanting-to-escape feeling called. 
 
-The song was - 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NVVrT_wNw_Y?si=m-fWqHTzm0q6xLGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+The song was -    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVVrT_wNw_Y?si=m-fWqHTzm0q6xLGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
 
-Then fast forward more years and I understood why I felt the way I felt. 
+Then fast forward more years and today I understand why I felt the way I felt while I write this. 
 
 [&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
