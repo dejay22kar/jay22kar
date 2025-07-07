@@ -25,7 +25,7 @@ body.dark-mode {
 
 @keyframes fadeToDark {
   from { background-color: white; color: black; }
-  to { background-color: #383838; color: white; }
+  to { background-color: #202124; color: #E8E6E3; }
 }
 </style>
 </head>
