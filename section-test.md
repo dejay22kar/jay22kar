@@ -45,8 +45,8 @@ pointer-events: none;
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
 <script>
-  const galleryContainer = document.getElementById('Copenhagen_Gallery');
-  const totalImages = 23; // Total number of images
+  var galleryContainer = document.getElementById('Copenhagen_Gallery');
+  var totalImages = 23; // Total number of images
 
   for (let i = 1; i <= totalImages; i++) {
     const link = document.createElement('a');
@@ -74,8 +74,8 @@ pointer-events: none;
 <div class="gallery" id="roomGallery"></div>
 
 <script>
-  const galleryContainer = document.getElementById('roomGallery');
-  const totalImages = 74; // Total number of images
+  var galleryContainer = document.getElementById('roomGallery');
+  var totalImages = 74; // Total number of images
 
   for (let i = 1; i <= totalImages; i++) {
     const link = document.createElement('a');
