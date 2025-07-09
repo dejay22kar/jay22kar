@@ -36,7 +36,7 @@ pointer-events: none;
 </div>
 
 <div class="section">
-  <button onclick="toggleSection(this)">:denmark: Denmark</button>
+  <button onclick="toggleSection(this)">🇩🇰 Denmark</button>
   <div class="preview"> 
   A short teaser for section 2 goes here... 
   </div>
