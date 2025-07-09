@@ -8,6 +8,12 @@
 
 ### I like salted peanuts.
 
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="/photos/Timeline 1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
 
 
