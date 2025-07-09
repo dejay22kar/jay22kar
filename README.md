@@ -6,4 +6,15 @@
   <link rel="icon" type="image/png" href="/favicon.png">
 </head>
 
-#### I like salted peanuts.
+### I like salted peanuts.
+
+
+
+
+<script>
+
+x = document.getElementsByTagName("h1");
+
+x[0].innerHTML= "<img src='https://dejay22kar.github.io/jay22kar/favicon.png' height='100px' width='100px'><a href='https://dejay22kar.github.io/jay22kar/'>Jay22kar</a>";
+
+</script>
