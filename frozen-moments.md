@@ -28,20 +28,40 @@ pointer-events: none;
 </style>
 
 <div class="section">
-  <button onclick="toggleSection(this)">Section 1</button>
-  <div class="preview">This is a short preview of section 1...</div>
+  <button onclick="toggleSection(this)">🇸🇪 Sweden</button>
+  <div class="preview">Photos from Gothenburg, it's neighbouring islands and Stockholm</div>
   <div class="content hidden">
-    <p>This is the full content of Section 1. It could be a longer paragraph that only shows up when the section is expanded.</p>
+    <p>
+      <div class="gallery" id="Sweden_Gallery"></div>
+
+<script>
+  var galleryContainer = document.getElementById('Sweden_Gallery');
+  var totalImages = 37; // Total number of images
+
+  for (let i = 1; i <= totalImages; i++) {
+    const link = document.createElement('a');
+    link.href = `photos/gothenburg/got_${i}.webp`;
+
+    const image = document.createElement('img');
+    image.src = `photos/gothenburg/thumbnail_got_${i}.webp`;
+    image.alt = `Denmark_image_${i}`;
+    
+    link.appendChild(image);
+    galleryContainer.appendChild(link);
+  }
+</script>
+    </p>
   </div>
 </div>
 
 <div class="section">
   <button onclick="toggleSection(this)">🇩🇰 Denmark</button>
   <div class="preview"> 
-  A short teaser for section 2 goes here... 
+  Photos from mere 4 days in Denmark
   </div>
   <div class="content hidden">
     <p>
+      Most of the photos are from Copenhagen (Mother of God, I could talk about that city all day!) (The canals, the not-as-cold-as-Sweden and not-as-hot-as-Germany perfect temperature, the modern architecture but also containing European essence, the transporatation systems, the number of bicycles, the lush green parks in the very hearts of the city, the church bells and public naked pools - yes, you heard that right, my dear friend 🙃) (Also, Denmark is one of the highest paying countries in the world with an unmatched work-life balance.) (Wait, did I ever tell you about the time I met the prettiest girl I have ever-ever-ever talked to in my life here, in this city? Now, give me one good reason to not move there!) (Okay... I need to stop. I told you I could keep on going!). Som other photos are from Fredrikshavn and Skagen - the northern tip of Denmark. 
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
 <script>
@@ -84,6 +104,36 @@ pointer-events: none;
     const image = document.createElement('img');
     image.src = `photos/room1514/thumbnail_room1514_${i}.webp`;
     image.alt = `Room1514_image_${i}`;
+    
+    link.appendChild(image);
+    galleryContainer.appendChild(link);
+  }
+</script>
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <button onclick="toggleSection(this)">🇵🇱 Poland</button>
+  <div class="preview"> 
+  Photos from my first solo trip to Poland for 9 days
+  </div>
+  <div class="content hidden">
+    <p>
+      It has been a month returning from Poland (while I write and upload these photos), and I would say it was... an experience. I am still processing what I felt and trying to give my feelings some words. Talking about the photos, I am a bit disappointed and unsatisfied because I expected I would have much more photos but apparently I don't. Nevermind, I know I am going to go back some day 🙂
+<div class="gallery" id="Poland_Gallery"></div>
+
+<script>
+  var galleryContainer = document.getElementById('Poland_Gallery');
+  var totalImages = 37; // Total number of images
+
+  for (let i = 1; i <= totalImages; i++) {
+    const link = document.createElement('a');
+    link.href = `photos/poland/polska_${i}.webp`;
+
+    const image = document.createElement('img');
+    image.src = `photos/poland/thumbnail_polska_${i}.webp`;
+    image.alt = `Polska_image_${i}`;
     
     link.appendChild(image);
     galleryContainer.appendChild(link);
