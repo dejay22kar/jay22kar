@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <style>
+    body {
+      background-color: #202124;
+      color: #e8e6e3;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 1em;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #e8e6e3;
+      font-size: 1.2em;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      nav a {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Your Name</h1>
+  <nav>
+    <a href="/music">Music</a>
+    <a href="/about">About</a>
+    <a href="/thoughts">Thoughts</a>
+    <a href="/projects">Projects</a>
+  </nav>
+</body>
+</html>
+
