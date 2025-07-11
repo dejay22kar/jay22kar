@@ -5,11 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Delayed Homepage</title>
   <style>
-    body {
+    * {
       margin: 0;
-      background-color: #202124;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: 'Segoe UI', sans-serif;
       color: #F2E8D5;
+      overflow: hidden;
+    }
+
+    /* Background video container */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .video-background video {
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
     }
 
     #content {
@@ -20,6 +42,8 @@
       min-height: 100vh;
       opacity: 0;
       transition: opacity 1.5s ease;
+      text-align: center;
+      padding: 2rem;
     }
 
     #content.show {
@@ -47,6 +71,15 @@
 </head>
 <body>
 
+  <!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="photos/bckvid.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Delayed Content -->
   <div id="content">
     <h1>Your Name</h1>
     <nav>
@@ -68,5 +101,3 @@
 
 </body>
 </html>
-
-
