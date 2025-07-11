@@ -13,7 +13,7 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      color: #F2E8D5;
+      color: #000000;
       overflow: hidden;
     }
 
@@ -28,11 +28,15 @@
       overflow: hidden;
     }
 
-    .video-background video {
-      min-width: 100%;
-      min-height: 100%;
-      object-fit: cover;
-    }
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center; /* <-- keeps the video centered */
+}
 
     #content {
       display: flex;
@@ -58,9 +62,9 @@
     }
 
     nav a {
-      color: #F2E8D5;
+      color: #000000;
       text-decoration: none;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       transition: color 0.3s;
     }
 
