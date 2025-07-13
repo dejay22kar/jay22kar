@@ -1,5 +1,5 @@
 
-[&#129044; Back to Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories)
+[&#129044; Back to Thoughts and Feelings](https://dejay22kar.github.io/jay22kar/thoughts-and-feelings)
 
 <h1 style="text-align: center;">God loves kids more than teachers</h1>
 
@@ -13,4 +13,4 @@ I swear to god, staying awake during X teacher's lectures has to be one of the h
 
 <p>He went on further to cut the power supply off, which was his way of saying “Have a good nap”. He smiled but you’re already asleep. The universe smiled.</p>
 
-[🠔 Back to Writing](https://dejay22kar.github.io/jay22kar/flash-fiction-and-short-stories)
+[🠔 Back to Thoughts and Feelings](https://dejay22kar.github.io/jay22kar/thoughts-and-feelings)
