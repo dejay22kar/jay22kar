@@ -27,6 +27,8 @@ pointer-events: none;
   }
 </style>
 
+<p> Here are some photos that I have taken in my recent years and I will keep on adding more from the less recent times as I get time. 90% of the photos are taken from my phone. I have tried my best to organise them. Hope some of the photos will make you feel something 🙂 </p>
+
 <div class="section">
   <button onclick="toggleSection(this)">🇸🇪 Sweden</button>
   <div class="preview">Photos from Gothenburg, it's neighbouring islands and Stockholm</div>
@@ -62,11 +64,6 @@ pointer-events: none;
   <div class="content hidden">
     <p>
       Most of the photos are from Copenhagen (Mother of God, I could talk about that city all day!) <br> 
-      takes a pause* <br>
-      (The canals, the bright coloured buildings, the leafy walls, the number of bicycles, the church bells, the not-as-cold-as-Sweden and not-as-hot-as-Germany perfect temperature, the modern architecture but also containing European essence, the lush green parks in the very hearts of the city and... the public naked pools - yes, you heard that right, my dear friend 🙃) <br>
-      (Also, Denmark is one of the highest paying countries in the world with an unmatched work-life balance. Isn't that perfect?) <br>
-      (Wait, did I also tell you that it was this city where I met the _prettiest_ girl I have _ever_ talked to in my life? Yeah... I am still recovering. Do you see any reason for me to _not_ move there?) <br>
-      (Okay... I need to stop. I told you I could keep on going!). <br>
       Some other photos are from Fredrikshavn and Skagen - the northern tip of Denmark. 
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
@@ -147,6 +144,16 @@ pointer-events: none;
     galleryContainer.appendChild(link);
   }
 </script>
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <button onclick="toggleSection(this)">📷 Miscellaneous </button>
+  <div class="preview">Miscellaneous photos from India. Coming soon...</div>
+  <div class="content hidden">
+    <p>
+<div class="gallery" id="miscGallery"></div>
     </p>
   </div>
 </div>
