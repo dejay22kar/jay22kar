@@ -1,8 +1,30 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+<style>
+  body {
+    margin: 0;
+    animation: pastelBackground 20s infinite alternate;
+    transition: background-color 2s ease-in-out;
+  }
+
+  @keyframes pastelBackground {
+    0%   { background-color: #fde2e4; } /* soft pink */
+    25%  { background-color: #e2f0cb; } /* mint green */
+    50%  { background-color: #cce2f0; } /* baby blue */
+    75%  { background-color: #f6e6cb; } /* peachy cream */
+    100% { background-color: #f0e4f7; } /* lavender */
+  }
+</style>
+
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
+
+## Why did I make this website?
+Well...  
+1. Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.
+2. And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!
+
 
 ## How am I doing?
 [](https://tenor.com/view/im-fine-little-boy-crying-gif-15238441)
@@ -18,6 +40,13 @@ body{
 }
 </style>
 
+## Where am I based out out of?
+I am born, brought up and currently based in Mumbai, India.
+
+## Some random utterly useless facts about me - 
+- I like salted peanuts.
+- I attended a Hans Zimmer concert in 2023.
+- 
 
 ## Languages I speak - 
 - **English -** Not that great vocabulary though (which I believe, can be good for writing sometimes. Yes, you read that right - good)
@@ -35,13 +64,13 @@ I loved Science and Math when I was a kid. It fascinated me! I am grateful for m
 
 Personally, I have a lot of other diverse interests -   
 
-**I love music!** What's my genre? None and all. I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. It's like someone being hot, not for you perhaps but for their type.   
+**I love music!** What's my genre? None and all. I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. Also, I attended a Hans Zimmer concert in 2023. What!? It's worth mentioning twice!
 
 I've realised that it's not something that I absolutely love, but **I am good at table tennis**.   
 
 **I have recently started loving films** actually. Or now that I think, I have started appreciating the art in them, because again, I have started understanding art more in itself.   
 
-I don't know if I like philosophy (atleast, anymore) but **I am a philosophical man**. I do ask a lot of questions, but asking them for 25 years and going mad, a chapter from a book made my realise that it's important to ask the right questions. It's another thing that I still ask wrong questions though (inserts Captain America: I can do this all day.. gif*)   
+I don't know if I like philosophy (atleast, anymore) but **I am a philosophical man**. I do ask a lot of questions, but asking them for 25 years and going mad, a chapter from a book made my realise that it's important to ask the right questions. It's another thing that I still ask wrong questions though (inserts Captain America: I can do this all day gif*)   
 
 **I love psychology!** I can get pretty obsessed with it sometimes, a behavior which I am not a fan of.   
 
