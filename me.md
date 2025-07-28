@@ -4,16 +4,23 @@
 <style>
   body {
     margin: 0;
-    animation: pastelBackground 20s infinite alternate;
+    animation: pastelBackground 30s infinite alternate;
     transition: background-color 2s ease-in-out;
+    display: flex;
   }
 
   @keyframes pastelBackground {
-    0%   { background-color: #fde2e4; } /* soft pink */
-    25%  { background-color: #e2f0cb; } /* mint green */
-    50%  { background-color: #cce2f0; } /* baby blue */
-    75%  { background-color: #f6e6cb; } /* peachy cream */
-    100% { background-color: #f0e4f7; } /* lavender */
+  0%   { background-color: #ffffff; } /* start with white */
+  10%  { background-color: #e3f2fd; } /* very light sky blue */
+  20%  { background-color: #f0f4ff; } /* icy white-blue */
+  30%  { background-color: #f3e5f5; } /* faint violet-lavender */
+  40%  { background-color: #ede7f6; } /* misty soft purple */
+  50%  { background-color: #e8f5e9; } /* light mint green */
+  60%  { background-color: #f0ffff; } /* azure-cyan-white */
+  70%  { background-color: #e0f7fa; } /* pale blue-cyan */
+  80%  { background-color: #f1f8e9; } /* barely-there lime */
+  90%  { background-color: #f4fafe; } /* icy sci-fi white-blue */
+  100% { background-color: #ffffff; } /* loop back to white */
   }
 </style>
 
