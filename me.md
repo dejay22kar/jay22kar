@@ -20,17 +20,35 @@ body{
 
 
 ## Languages I speak - 
-- **English -** Not that great vocabulary though (which I believe, can be good for writing at times. Yes, you read that right - good)
+- **English -** Not that great vocabulary though (which I believe, can be good for writing sometimes. Yes, you read that right - good)
 - **French -** Oui, mais je suis encore un debutant :P
 - **Marathi -** Because its my mothertongue
 - **Hindi -** Because its the common tongue of India
 - **Swedish -** I know enough Swedish to say - Jag inte prata svenska (I don't speak Swedish)
 - **Math -** Just at an intermediate level. Its mind-blowing and mind-boggling!
-- **Music -** Oooofff... where do I even begin. Better I just share a song with you - [guess?](https://www.youtube.com/watch?v=TUVcZfQe-Kw) (come on, get on your feet already!)
+- **Music -** Oooofff... where do I even begin. Let me just share a song with you - [guess?](https://www.youtube.com/watch?v=TUVcZfQe-Kw) 
 - **Bookish -** "Yes, Bookish" assured Jay nodding his head as he imagined the confused face of the reader while reading this. "Don't you like Bookish? The language novels speak?" asked Jay enthusiastically.
-- **Actions -** Well, this one's tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice you know. Secondly, you rarely come across people who speak it.
+- **Actions -** Well, this one's tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice. Secondly, you rarely come across people who speak it.
 
 ## My hobbies
+I loved Science and Math when I was a kid. It fascinated me! I am grateful for my mother that she let me buy all the story books related to scientists, inventors and mathematicians (I can still remember the scenes I imagined as a kid when I read them). My love for them obviously transformed into love for Physics, which got transformed to mechanics/mechanical engineering eventually finding my core niche as Heat and mass transfer and computer simulations now. 
+
+Personally, I have a lot of other diverse interests -   
+
+**I love music!** What's my genre? None and all. I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. It's like someone being hot, not for you perhaps but for their type.   
+
+I've realised that it's not something that I absolutely love, but **I am good at table tennis**.   
+
+**I have recently started loving films** actually. Or now that I think, I have started appreciating the art in them, because again, I have started understanding art more in itself.   
+
+I don't know if I like philosophy (atleast, anymore) but **I am a philosophical man**. I do ask a lot of questions, but asking them for 25 years and going mad, a chapter from a book made my realise that it's important to ask the right questions. It's another thing that I still ask wrong questions though (inserts Captain America: I can do this all day.. gif*)   
+
+**I love psychology!** I can get pretty obsessed with it sometimes, a behavior which I am not a fan of.   
+
+**I have taken quite some liking to literature**, especially flash fiction and short stories. I like to make lists of books I wanna read instead of actually reading them - it's one my guilty pleasures. Also, I think I am too dumb for poems, but I absolutey love poetic things!   
+
+**I have started loving to create content.** I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can't think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)
+
 
 ## My other blog
 
