@@ -10,17 +10,17 @@
   }
 
   @keyframes pastelBackground {
-  0%   { background-color: #ffffff; } /* start with white */
-  10%  { background-color: #fbf8cc; } /* light lemon chiffon */
-  20%  { background-color: #fde4cf; } /* soft apricot cream */
-  30%  { background-color: #ffcfd2; } /* blush rose pink */
-  40%  { background-color: #f1c0e8; } /* pastel orchid */
-  50%  { background-color: #cfbaf0; } /* soft periwinkle */
-  60%  { background-color: #a3c4f3; } /* baby blue-violet */
-  70%  { background-color: #90dbf4; } /* light sky blue */
-  80%  { background-color: #8eecf5; } /* soft aqua cyan */
-  90%  { background-color: #98f5e1; } /* seafoam pastel */
-  100% { background-color: #b9fbc0; } /* minty light green */
+  0%   { background-color: rgba(255, 255, 255, 1); }   /* white */
+  10%  { background-color: rgba(251, 248, 204, 0.2); } /* soft lemon */
+  20%  { background-color: rgba(253, 228, 207, 0.2); } /* pale apricot */
+  30%  { background-color: rgba(255, 207, 210, 0.2); } /* whisper pink */
+  40%  { background-color: rgba(241, 192, 232, 0.2); } /* faded orchid */
+  50%  { background-color: rgba(207, 186, 240, 0.2); } /* dusty lilac */
+  60%  { background-color: rgba(163, 196, 243, 0.2); } /* soft blue */
+  70%  { background-color: rgba(144, 219, 244, 0.2); } /* sky tint */
+  80%  { background-color: rgba(142, 236, 245, 0.2); } /* cloud cyan */
+  90%  { background-color: rgba(152, 245, 225, 0.2); } /* faint mint seafoam */
+  100% { background-color: rgba(185, 251, 192, 0.2); } /* hint of green */
   }
 </style>
 
