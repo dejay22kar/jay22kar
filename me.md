@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+<head> 
+<style>
 body {
       display: flex;
       justify-content: center;
@@ -22,6 +24,8 @@ body {
         background-position: 0% 50%;
       }
     }
+</style>
+</head>
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
