@@ -2,25 +2,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
 body {
-  margin: 0;
-  font-family: 'Nunito', sans-serif;
-  background: linear-gradient(-45deg, #fef8f3, #b3d9ff, #d5b8ff, #c0f0e8);
-  background-size: 600% 600%;
-  animation: animatedGradient 30s ease infinite;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(-45deg, #ffffff, #b3d9ff, #d5b8ff, #c0f0e8);
+      background-size: 400% 400%;
+      animation: animatedGradient 30s ease infinite;
+      transition: background 1s ease;
+    }
 
-@keyframes animatedGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
+    @keyframes animatedGradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
