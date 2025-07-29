@@ -1,39 +1,26 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
-<style>
-  body {
-    margin: 0;
-    animation: herMoodBackground 30s infinite alternate;
-    transition: background-color 2s ease-in-out;
-    display: flex;
-  }
-
-@keyframes herMoodBackground {
-  0%   { background-color: #fef8f3; }  /* cream */
-  15%  { background-color: #e8b4b8; }  /* muted rose */
-  30%  { background-color: #f4dada; }  /* blush pink */
-  45%  { background-color: #fdd9b5; }  /* soft peach */
-  60%  { background-color: #d9cfc1; }  /* warm sand */
-  75%  { background-color: #db7f67; }  /* dusty coral */
-  90%  { background-color: #fef8f3; }  /* back to cream */
-  100% { background-color: #fef8f3; }
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(-45deg, #fef8f3, #b3d9ff, #d5b8ff, #c0f0e8);
+  background-size: 600% 600%;
+  animation: animatedGradient 30s ease infinite;
 }
-  
-  @keyframes pastelBackground {
-  0%   { background-color: #ffffff; } /* start with white */
-  10%  { background-color: #e3f2fd; } /* very light sky blue */
-  20%  { background-color: #f0f4ff; } /* icy white-blue */
-  30%  { background-color: #f3e5f5; } /* faint violet-lavender */
-  40%  { background-color: #ede7f6; } /* misty soft purple */
-  50%  { background-color: #e8f5e9; } /* light mint green */
-  60%  { background-color: #f0ffff; } /* azure-cyan-white */
-  70%  { background-color: #e0f7fa; } /* pale blue-cyan */
-  80%  { background-color: #f1f8e9; } /* barely-there lime */
-  90%  { background-color: #f4fafe; } /* icy sci-fi white-blue */
-  100% { background-color: #ffffff; } /* loop back to white */
+
+@keyframes animatedGradient {
+  0% {
+    background-position: 0% 50%;
   }
-</style>
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
