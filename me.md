@@ -6,21 +6,20 @@
     margin: 0;
     animation: pastelBackground 30s infinite alternate;
     transition: background-color 2s ease-in-out;
-    display: flex;
   }
 
   @keyframes pastelBackground {
   0%   { background-color: rgba(255, 255, 255, 1); }   /* white */
-  10%  { background-color: rgba(251, 248, 204, 0.2); } /* soft lemon */
-  20%  { background-color: rgba(253, 228, 207, 0.2); } /* pale apricot */
-  30%  { background-color: rgba(255, 207, 210, 0.2); } /* whisper pink */
-  40%  { background-color: rgba(241, 192, 232, 0.2); } /* faded orchid */
-  50%  { background-color: rgba(207, 186, 240, 0.2); } /* dusty lilac */
-  60%  { background-color: rgba(163, 196, 243, 0.2); } /* soft blue */
-  70%  { background-color: rgba(144, 219, 244, 0.2); } /* sky tint */
-  80%  { background-color: rgba(142, 236, 245, 0.2); } /* cloud cyan */
-  90%  { background-color: rgba(152, 245, 225, 0.2); } /* faint mint seafoam */
-  100% { background-color: rgba(185, 251, 192, 0.2); } /* hint of green */
+  10%  { background-color: rgba(251, 248, 204, 0.3); } /* soft lemon */
+  20%  { background-color: rgba(253, 228, 207, 0.3); } /* pale apricot */
+  30%  { background-color: rgba(255, 207, 210, 0.3); } /* whisper pink */
+  40%  { background-color: rgba(241, 192, 232, 0.3); } /* faded orchid */
+  50%  { background-color: rgba(207, 186, 240, 0.3); } /* dusty lilac */
+  60%  { background-color: rgba(163, 196, 243, 0.3); } /* soft blue */
+  70%  { background-color: rgba(144, 219, 244, 0.3); } /* sky tint */
+  80%  { background-color: rgba(142, 236, 245, 0.3); } /* cloud cyan */
+  90%  { background-color: rgba(152, 245, 225, 0.3); } /* faint mint seafoam */
+  100% { background-color: rgba(185, 251, 192, 0.3); } /* hint of green */
   }
 </style>
 
