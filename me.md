@@ -1,43 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jay22kar</title>
+<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
-  <!-- Use Inter font and new.css for Markdown styling -->
-  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
+<style>
+  body {
+    margin: 0;
+    animation: pastelBackground 30s infinite alternate;
+    transition: background-color 2s ease-in-out;
+    display: flex;
+  }
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(-45deg, #ffffff, #b3d9ff, #d5b8ff, #c0f0e8);
-      background-size: 400% 400%;
-      animation: animatedGradient 30s ease infinite;
-      transition: background 1s ease;
-    }
-
-    @keyframes animatedGradient {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    main {
-      max-width: 700px;
-      margin: 4rem auto;
-      padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.85);
-      border-radius: 16px;
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-    }
-  </style>
-</head>
-<body>
-  <main>
-
+  @keyframes pastelBackground {
+  0%   { background-color: #ffffff; } /* start with white */
+  10%  { background-color: #e3f2fd; } /* very light sky blue */
+  20%  { background-color: #f0f4ff; } /* icy white-blue */
+  30%  { background-color: #f3e5f5; } /* faint violet-lavender */
+  40%  { background-color: #ede7f6; } /* misty soft purple */
+  50%  { background-color: #e8f5e9; } /* light mint green */
+  60%  { background-color: #f0ffff; } /* azure-cyan-white */
+  70%  { background-color: #e0f7fa; } /* pale blue-cyan */
+  80%  { background-color: #f1f8e9; } /* barely-there lime */
+  90%  { background-color: #f4fafe; } /* icy sci-fi white-blue */
+  100% { background-color: #ffffff; } /* loop back to white */
+  }
+</style>
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
@@ -101,6 +86,6 @@ I don't know if I like philosophy (atleast, anymore) but **I am a philosophical 
 **I have started loving to create content.** I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can't think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)
 
 
-  </main>
-</body>
-</html>
+## My other blog
+
+## My YouTube channel
