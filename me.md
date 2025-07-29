@@ -11,16 +11,16 @@
 
   @keyframes pastelBackground {
   0%   { background-color: #ffffff; } /* start with white */
-  10%  { background-color: #e3f2fd; } /* very light sky blue */
-  20%  { background-color: #f0f4ff; } /* icy white-blue */
-  30%  { background-color: #f3e5f5; } /* faint violet-lavender */
-  40%  { background-color: #ede7f6; } /* misty soft purple */
-  50%  { background-color: #e8f5e9; } /* light mint green */
-  60%  { background-color: #f0ffff; } /* azure-cyan-white */
-  70%  { background-color: #e0f7fa; } /* pale blue-cyan */
-  80%  { background-color: #f1f8e9; } /* barely-there lime */
-  90%  { background-color: #f4fafe; } /* icy sci-fi white-blue */
-  100% { background-color: #ffffff; } /* loop back to white */
+  10%  { background-color: #fbf8cc; } /* light lemon chiffon */
+  20%  { background-color: #fde4cf; } /* soft apricot cream */
+  30%  { background-color: #ffcfd2; } /* blush rose pink */
+  40%  { background-color: #f1c0e8; } /* pastel orchid */
+  50%  { background-color: #cfbaf0; } /* soft periwinkle */
+  60%  { background-color: #a3c4f3; } /* baby blue-violet */
+  70%  { background-color: #90dbf4; } /* light sky blue */
+  80%  { background-color: #8eecf5; } /* soft aqua cyan */
+  90%  { background-color: #98f5e1; } /* seafoam pastel */
+  100% { background-color: #b9fbc0; } /* minty light green */
   }
 </style>
 
