@@ -23,7 +23,7 @@
 
     .show-more-btn {
       display: block;
-      margin: 20px auto;
+      margin: 1em auto;
       text-align: center;
       padding: 10px 20px;
       background-color: #007BFF;
@@ -48,27 +48,21 @@
     <p>Details revealed after clicking first button.</p>
   </div>
 
-  <button class="show-more-btn">Show More</button>
+  <button class="show-more-btn">I wanna know more...</button>
 </div>
-
-<div class="content-section">
-  <p>Another section of the article...</p>
 
   <div class="hidden-content" style="display: none;">
     <p>2nd SHOW MORE AS A TEST</p>
   </div>
 
-  <button class="show-more-btn" style="display: none;">Show More</button>
+  <button class="show-more-btn" style="display: none;">A little more...</button>
 </div>
-
-<div class="content-section">
-  <p>Yet another section...</p>
 
   <div class="hidden-content" style="display: none;">
     <p>3RD SHOW MORE AS A TEST</p>
   </div>
 
-  <button class="show-more-btn" style="display: none;">Show More</button>
+  <button class="show-more-btn" style="display: none;">MORE!!</button>
 </div>
 
 <script>
