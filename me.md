@@ -2,24 +2,31 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
 <style>
-  body {
-    margin: 0;
+  body 
+  {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+    
     animation: pastelBackground 30s infinite alternate;
     transition: background-color 2s ease-in-out;
   }
 
   @keyframes pastelBackground {
   0%   { background-color: rgba(255, 255, 255, 1); }   /* white */
-  10%  { background-color: rgba(251, 248, 204, 0.3); } /* soft lemon */
-  20%  { background-color: rgba(253, 228, 207, 0.3); } /* pale apricot */
-  30%  { background-color: rgba(255, 207, 210, 0.3); } /* whisper pink */
-  40%  { background-color: rgba(241, 192, 232, 0.3); } /* faded orchid */
-  50%  { background-color: rgba(207, 186, 240, 0.3); } /* dusty lilac */
-  60%  { background-color: rgba(163, 196, 243, 0.3); } /* soft blue */
-  70%  { background-color: rgba(144, 219, 244, 0.3); } /* sky tint */
-  80%  { background-color: rgba(142, 236, 245, 0.3); } /* cloud cyan */
-  90%  { background-color: rgba(152, 245, 225, 0.3); } /* faint mint seafoam */
-  100% { background-color: rgba(185, 251, 192, 0.3); } /* hint of green */
+  10%  { background-color: rgba(251, 248, 204, 0.22); } /* soft lemon */
+  20%  { background-color: rgba(253, 228, 207, 0.22); } /* pale apricot */
+  30%  { background-color: rgba(255, 207, 210, 0.22); } /* whisper pink */
+  40%  { background-color: rgba(241, 192, 232, 0.22); } /* faded orchid */
+  50%  { background-color: rgba(207, 186, 240, 0.22); } /* dusty lilac */
+  60%  { background-color: rgba(163, 196, 243, 0.22); } /* soft blue */
+  70%  { background-color: rgba(144, 219, 244, 0.22); } /* sky tint */
+  80%  { background-color: rgba(142, 236, 245, 0.22); } /* cloud cyan */
+  90%  { background-color: rgba(152, 245, 225, 0.22); } /* faint mint seafoam */
+  100% { background-color: rgba(185, 251, 192, 0.22); } /* hint of green */
   }
 </style>
 
