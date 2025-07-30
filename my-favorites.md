@@ -1,14 +1,12 @@
 
 <body>
-Just a list of my favorite shtuff
   <div class="section">
   <button onclick="toggleSection(this)">🎵 My playlists</button>
   <div class="preview"></div>
   <div class="content hidden">
-    <p>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <p> Some of my favorite music - 
+      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/71DXTDsTlfXKgStgiwhFOA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5GKgIyrYZzweRy9116kDAf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BrinBcOBDxL4HhqZnwrNP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
    </p>
   </div>
@@ -18,8 +16,8 @@ Just a list of my favorite shtuff
   <button onclick="toggleSection(this)">📚 Literature</button>
   <div class="preview"></div>
  <div class="content hidden">
+     <p>Some books and short stories that I felt, understood or learned the most from - </p>
   <h2>Books</h2>
-  <p>Here are some books and short stories that I felt, understood or learned the most from - </p>
    <ul>
     <li><em>Harry Potter & Goblet of Fire</em> by J.K. Rowling</li>
     <li><em>Harry Potter & the Half-Blood Prince</em> by J.K. Rowling</li>
@@ -38,12 +36,13 @@ Just a list of my favorite shtuff
     <li><em>How the leopard got his spots</em> by Rudyard Kipling</li>
   </ul>
 </div>
+</div>
 
 <div class="section">
   <button onclick="toggleSection(this)">🎥 Films and TV series</button>
   <div class="preview"></div>
   <div class="content hidden">
-      <p>Here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some… just emotions - pure raw emotions which didn’t just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana sword.</p>
+      <p>And here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some… just emotions - pure raw emotions which didn’t just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana sword.</p>
 
 <h2 id="tv-shows">TV Shows</h2>
 <ul>
