@@ -41,43 +41,45 @@
 </head>
 <body>
 
-<div class="content">
+<div class="content-section">
   <h1>My Long Article</h1>
-  <p>This is the first part of the article. It provides an introduction to the topic and engages the reader with some key points and an overview.</p>
-  <p>The reader can see this part immediately, without needing to interact with the page. The content is concise and designed to pique interest.</p>
-  
-  <!-- Hidden content -->
-  <div class="hidden-content" id="hiddenContent">
-    <p>Now we delve into the details of the topic. This section provides in-depth information, examples, and analysis that expand upon the ideas introduced earlier</p>
-    <p>Finally, we wrap up with conclusions, recommendations, and closing thoughts. This ensures the article has a comprehensive structure.</p>
-  </div>  
-  <!-- Show More Button -->
-  <button class="show-more-btn" id="showMoreBtn">Show More</button>
+  <p>This is the first part of the article...</p>
+  <p>The reader can see this part immediately...</p>
+
+  <div class="hidden-content" style="display: none;">
+    <p>Now we delve into the details...</p>
+    <p>Finally, we wrap up...</p>
+  </div>
+  <button class="show-more-btn">Show More</button>
 </div>
 
-  <!-- Hidden content -->
-  <div class="hidden-content" id="hiddenContent">
+<div class="content-section">
+  <p>Another section...</p>
+  <div class="hidden-content" style="display: none;">
     <p>2nd SHOW MORE AS A TEST</p>
   </div>
-  <!-- Show More Button -->
-  <button class="show-more-btn" id="showMoreBtn">Show More</button>
+  <button class="show-more-btn">Show More</button>
 </div>
 
-  <!-- Hidden content -->
-  <div class="hidden-content" id="hiddenContent">
+<div class="content-section">
+  <p>Yet another section...</p>
+  <div class="hidden-content" style="display: none;">
     <p>3RD SHOW MORE AS A TEST</p>
   </div>
-  <!-- Show More Button -->
-  <button class="show-more-btn" id="showMoreBtn">Show More</button>
+  <button class="show-more-btn">Show More</button>
 </div>
 
 <script>
-  const showMoreBtn = document.getElementById('showMoreBtn');
-  const hiddenContent = document.getElementById('hiddenContent');
+  const buttons = document.querySelectorAll('.show-more-btn');
 
-  showMoreBtn.addEventListener('click', () => {
-    hiddenContent.style.display = 'block'; // Show the hidden content
-    showMoreBtn.style.display = 'none';   // Hide the "Show More" button
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const parent = button.closest('.content-section');
+      const hidden = parent.querySelector('.hidden-content');
+
+      hidden.style.display = 'block';
+      button.style.display = 'none';
+    });
   });
 </script>
 
