@@ -48,10 +48,25 @@
   
   <!-- Hidden content -->
   <div class="hidden-content" id="hiddenContent">
-    <p>Now we delve into the details of the topic. This section provides in-depth information, examples, and analysis that expand upon the ideas introduced earlier.</p>
+    <p>Now we delve into the details of the topic. This section provides in-depth information, examples, and analysis that expand upon the ideas introduced earlier</p>
     <p>Finally, we wrap up with conclusions, recommendations, and closing thoughts. This ensures the article has a comprehensive structure.</p>
+  </div>  
+  <!-- Show More Button -->
+  <button class="show-more-btn" id="showMoreBtn">Show More</button>
+</div>
+
+  <!-- Hidden content -->
+  <div class="hidden-content" id="hiddenContent">
+    <p>2nd SHOW MORE AS A TEST</p>
   </div>
-  
+  <!-- Show More Button -->
+  <button class="show-more-btn" id="showMoreBtn">Show More</button>
+</div>
+
+  <!-- Hidden content -->
+  <div class="hidden-content" id="hiddenContent">
+    <p>3RD SHOW MORE AS A TEST</p>
+  </div>
   <!-- Show More Button -->
   <button class="show-more-btn" id="showMoreBtn">Show More</button>
 </div>
