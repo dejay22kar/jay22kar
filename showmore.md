@@ -12,31 +12,31 @@
     }
 
     .content-section {
-      line-height: 1.6;
-      max-width: 600px;
-      margin: 0 auto 40px;
-      text-align: center;
-    }
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
 
-    .hidden-content {
-      display: none;
-    }
+.button-wrapper {
+  text-align: center;
+  margin-top: 1em;
+}
 
-    .show-more-btn {
-      display: inline-block;
-      margin-top: 1em;
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
+.show-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    .show-more-btn:hover {
-      background-color: #0056b3;
-    }
+.show-more-btn:hover {
+  background-color: #0056b3;
+}
+
   </style>
 </head>
 <body>
@@ -46,7 +46,9 @@
   <div class="hidden-content">
     <p>Details revealed after clicking first button.</p>
   </div>
-  <button class="show-more-btn">I wanna know more...</button>
+  <div class="button-wrapper">
+    <button class="show-more-btn">I wanna know more...</button>
+  </div>
 </div>
 
 <div class="content-section">
@@ -54,34 +56,41 @@
   <div class="hidden-content">
     <p>2nd SHOW MORE AS A TEST</p>
   </div>
-  <button class="show-more-btn" style="display: none;">A little more...</button>
+  <div class="button-wrapper" style="display: none;">
+    <button class="show-more-btn">A little more...</button>
+  </div>
 </div>
 
 <div class="content-section">
+  <p>Wrapping it up...</p>
   <div class="hidden-content">
     <p>3RD SHOW MORE AS A TEST</p>
   </div>
-  <button class="show-more-btn" style="display: none;">MORE!!</button>
+  <div class="button-wrapper" style="display: none;">
+    <button class="show-more-btn">MORE!!</button>
+  </div>
 </div>
 
+
 <script>
-  const buttons = document.querySelectorAll('.show-more-btn');
+const buttons = document.querySelectorAll('.show-more-btn');
 
-  buttons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-      const section = button.closest('.content-section');
-      const hidden = section.querySelector('.hidden-content');
+buttons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    const section = button.closest('.content-section');
+    const hidden = section.querySelector('.hidden-content');
+    const wrapper = button.closest('.button-wrapper');
 
-      hidden.style.display = 'block';
-      button.style.display = 'none';
+    hidden.style.display = 'block';
+    wrapper.style.display = 'none';
 
-      // Show the next button, if it exists
-      const nextButton = buttons[index + 1];
-      if (nextButton) {
-        nextButton.style.display = 'inline-block';
-      }
-    });
+    const nextWrapper = document.querySelectorAll('.button-wrapper')[index + 1];
+    if (nextWrapper) {
+      nextWrapper.style.display = 'block';
+    }
   });
+});
+
 </script>
 
 </body>
