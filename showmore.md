@@ -11,20 +11,20 @@
       padding: 20px;
     }
 
-    .content {
+    .content-section {
       line-height: 1.6;
       max-width: 600px;
-      margin: 0 auto;
+      margin: 0 auto 40px;
+      text-align: center;
     }
 
     .hidden-content {
-      display: none; /* Initially hide the bottom content */
+      display: none;
     }
 
     .show-more-btn {
-      display: block;
-      margin: 1em auto;
-      text-align: center;
+      display: inline-block;
+      margin-top: 1em;
       padding: 10px 20px;
       background-color: #007BFF;
       color: white;
@@ -43,25 +43,24 @@
 
 <div class="content-section">
   <p>This is the first part of the article...</p>
-
-  <div class="hidden-content" style="display: none;">
+  <div class="hidden-content">
     <p>Details revealed after clicking first button.</p>
   </div>
-
   <button class="show-more-btn">I wanna know more...</button>
 </div>
 
-  <div class="hidden-content" style="display: none;">
+<div class="content-section">
+  <p>Another interesting chunk...</p>
+  <div class="hidden-content">
     <p>2nd SHOW MORE AS A TEST</p>
   </div>
-
   <button class="show-more-btn" style="display: none;">A little more...</button>
 </div>
 
-  <div class="hidden-content" style="display: none;">
+<div class="content-section">
+  <div class="hidden-content">
     <p>3RD SHOW MORE AS A TEST</p>
   </div>
-
   <button class="show-more-btn" style="display: none;">MORE!!</button>
 </div>
 
@@ -84,7 +83,6 @@
     });
   });
 </script>
-
 
 </body>
 </html>
