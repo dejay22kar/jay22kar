@@ -13,7 +13,6 @@
 
   .content-section {
   line-height: 1.6;
-  max-width: 600px;
   margin: 0 auto 40px;
 }
 
@@ -42,6 +41,39 @@
   </style>
 </head>
 <body>
+
+<p>Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what’s a number doing in my name? Well, my last name is Baviskar. ‘Bavis’ in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar. <br />
+I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo.</p>
+
+<p>Alright, now then... Hi! Welcome to my personal site. </p>
+
+<h2 id="why-did-i-make-this-website">Why did I make this website?</h2>
+<p>Well…</p>
+<ol>
+  <li>Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.</li>
+  <li>And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!</li>
+</ol>
+
+<h2 id="how-am-i-doing">How am I doing?</h2>
+<p><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441"></a></p>
+<div class="tenor-gif-embed" data-postid="15238441" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441">Im Fine Little Boy GIF</a>from <a href="https://tenor.com/search/im+fine-gifs">Im Fine GIFs</a></div>
+<script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
+
+<h2 id="where-am-i-based-out-out-of">Where am I based out out of?</h2>
+<p>I am born, brought up and currently based in Mumbai, India.</p>
+
+<h2 id="languages-i-speak--">Languages I speak -</h2>
+<ul>
+  <li><strong>English -</strong> Not that great vocabulary though (which I believe, can be good for writing sometimes. Yes, you read that right - good)</li>
+  <li><strong>French -</strong> Oui, mais je suis encore un debutant :P</li>
+  <li><strong>Marathi -</strong> Because its my mothertongue</li>
+  <li><strong>Hindi -</strong> Because its the common tongue of India</li>
+  <li><strong>Swedish -</strong> I know enough Swedish to say - Jag inte prata svenska (I don’t speak Swedish)</li>
+  <li><strong>Math -</strong> Just at an intermediate level. Its mind-blowing and mind-boggling!</li>
+  <li><strong>Music -</strong> Oooofff… where do I even begin. Let me just share a song with you - <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">guess?</a></li>
+  <li><strong>Bookish -</strong> “Yes, Bookish” assured Jay nodding his head as he imagined the confused face of the reader while reading this. “Don’t you like Bookish? The language novels speak?” asked Jay enthusiastically.</li>
+  <li><strong>Actions -</strong> Well, this one’s tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice. Secondly, you rarely come across people who speak it.</li>
+</ul>
 
 <div class="content-section">
   <p>This is the first part of the article...</p>
@@ -83,7 +115,7 @@
 <div class="content-section">
   <p>Wrapping it up...</p>
   <div class="hidden-content">
-    <p>3RD SHOW MORE AS A TEST</p>
+    <p>Jeez, calm down. Here's some random useless facts about me</p>
   </div>
   <div class="button-wrapper" style="display: none;">
     <button class="show-more-btn">MORE!!</button>
