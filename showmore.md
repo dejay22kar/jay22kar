@@ -42,46 +42,55 @@
 <body>
 
 <div class="content-section">
-  <h1>My Long Article</h1>
   <p>This is the first part of the article...</p>
-  <p>The reader can see this part immediately...</p>
 
   <div class="hidden-content" style="display: none;">
-    <p>Now we delve into the details...</p>
-    <p>Finally, we wrap up...</p>
+    <p>Details revealed after clicking first button.</p>
   </div>
+
   <button class="show-more-btn">Show More</button>
 </div>
 
 <div class="content-section">
-  <p>Another section...</p>
+  <p>Another section of the article...</p>
+
   <div class="hidden-content" style="display: none;">
     <p>2nd SHOW MORE AS A TEST</p>
   </div>
-  <button class="show-more-btn">Show More</button>
+
+  <button class="show-more-btn" style="display: none;">Show More</button>
 </div>
 
 <div class="content-section">
   <p>Yet another section...</p>
+
   <div class="hidden-content" style="display: none;">
     <p>3RD SHOW MORE AS A TEST</p>
   </div>
-  <button class="show-more-btn">Show More</button>
+
+  <button class="show-more-btn" style="display: none;">Show More</button>
 </div>
 
 <script>
   const buttons = document.querySelectorAll('.show-more-btn');
 
-  buttons.forEach(button => {
+  buttons.forEach((button, index) => {
     button.addEventListener('click', () => {
-      const parent = button.closest('.content-section');
-      const hidden = parent.querySelector('.hidden-content');
+      const section = button.closest('.content-section');
+      const hidden = section.querySelector('.hidden-content');
 
       hidden.style.display = 'block';
       button.style.display = 'none';
+
+      // Show the next button, if it exists
+      const nextButton = buttons[index + 1];
+      if (nextButton) {
+        nextButton.style.display = 'inline-block';
+      }
     });
   });
 </script>
+
 
 </body>
 </html>
