@@ -16,7 +16,7 @@
   <button onclick="toggleSection(this)">📚 Literature</button>
   <div class="preview"></div>
  <div class="content hidden">
-     <p>Some books and short stories that I felt, understood or learned the most from - </p>
+     <p>Some books and short stories that I felt deeply, enjoyed or made me have a major shift in perspective - </p>
   <h2>Books</h2>
    <ul>
     <li><em>Harry Potter & Goblet of Fire</em> by J.K. Rowling</li>
@@ -26,6 +26,7 @@
     <li><em>The Art of Strategy</em> by Dixit and Nalebuff</li>
     <li><em>Incognito</em> by David Eagleman</li>
     <li><em>The Power of Habit</em> by Charles Duhigg</li>
+     <li><em>The Courage to be disliked</em> by Fumitake Koga and Ichiro Kishimi</li>
   </ul>
 
      <h2>Short stories</h2>
