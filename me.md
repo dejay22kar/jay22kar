@@ -1,3 +1,6 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
@@ -100,3 +103,4 @@ I don't know if I like philosophy (atleast, anymore) but **I am a philosophical 
   </script>
 
 </body>
+</html>
