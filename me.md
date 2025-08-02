@@ -1,6 +1,26 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+<style>
+    #gifContainer {
+      display: none; /* Hide the GIF initially */
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="text-align: center;">
+    <button onclick="showGIF()">Reveal the GIF</button>
+  </div>
+
 
 Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
@@ -12,8 +32,16 @@ Well...
 
 
 ## How am I doing?
-[](https://tenor.com/view/im-fine-little-boy-crying-gif-15238441)
-<div class="tenor-gif-embed" data-postid="15238441" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441">Im Fine Little Boy GIF</a>from <a href="https://tenor.com/search/im+fine-gifs">Im Fine GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  <div id="gifContainer">
+    <div class="tenor-gif-embed" 
+         data-postid="15238441" 
+         data-share-method="host" 
+         data-aspect-ratio="1.78771" 
+         data-width="100%">
+      <a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441">Im Fine Little Boy GIF</a>
+      from <a href="https://tenor.com/search/im+fine-gifs">Im Fine GIFs</a>
+    </div>
+  </div>
 
 <style>
 body{
@@ -64,6 +92,11 @@ I don't know if I like philosophy (atleast, anymore) but **I am a philosophical 
 **I have started loving to create content.** I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can't think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)
 
 
-## My other blog
+  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  <script>
+    function showGIF() {
+      document.getElementById('gifContainer').style.display = 'block';
+    }
+  </script>
 
-## My YouTube channel
+</body>
