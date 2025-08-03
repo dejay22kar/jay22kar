@@ -47,13 +47,6 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p>Alright, now then... Hi! Welcome to my personal site. Let me start with answering the usual questions first - </p>
 
-<h2 id="why-did-i-make-this-website">Why did I make this website?</h2>
-<p>Well…</p>
-<ol>
-  <li>Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.</li>
-  <li>And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!</li>
-</ol>
-
 <h2 id="how-am-i-doing">How am I doing?</h2>
 <div class="content-section">
   <p></p>
@@ -66,6 +59,13 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
     <button class="show-more-btn">Click to know</button>
   </div>
 </div>
+
+<h2 id="why-did-i-make-this-website">Why did I make this website?</h2>
+<p>Well…</p>
+<ol>
+  <li>Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.</li>
+  <li>And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!</li>
+</ol>
 
 <h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
 <p>I am from and currently based in Mumbai, India.</p>
@@ -83,7 +83,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
   <li><strong>Math -</strong> Just at an intermediate level. Its mind-blowing and mind-boggling!</li>
   <li><strong>Music -</strong> Oooofff… where do I even begin. Let me just share a song with you - <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">guess?</a></li>
   <li><strong>Bookish -</strong> “Yes, Bookish” assured Jay nodding his head as he imagined the confused face of the reader while reading this. “Don’t you know Bookish!? The language novels speak?” asked Jay enthusiastically.</li>
-  <li><strong>Actions -</strong> Well, this one’s tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice. Secondly, you rarely come across people who speak it.</li>
+  <li><strong>Actions -</strong> Well, this one’s tricky. I can be quite fluent at it one day and completely forget it the other; it's hard to practice. Secondly, you rarely come across people who speak it.</li>
 </ul>
 
 <h2> My hobbies and interests - </h2>
@@ -104,7 +104,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 <p><strong>I love music (and music composition)!</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. Also, I attended a Hans Zimmer concert in 2023. What!? It’s worth mentioning twice!</p>
 
 <p><strong>I have started loving to create content.</strong> I first had the taste of it when I made a blog on Mechanical/Aerospace engineering and a YouTube channel associated with it almost a decade ago (links below).<br>
-It was a shame that such a dynamic subject was taught using words. I liked explaining things and I also wanted to make some money. I took some inspiration and help from my seniors and there it was - MechStuff, my baby! I pour my heart in creating content and I am super proud of some of the articles and tutorials I created; and trust me dear friend - seeing your article or video ranking 1st on Google page is a feeling nothing less than of an orgasm.  
+It was a shame that such a dynamic subject was taught using words. I liked explaining things and I also wanted to make some money. I took some inspiration and help from my seniors and there it was - MechStuff, my baby! I pour my heart in creating content and I am super proud of some of the articles and tutorials I created; and trust me dear friend - seeing your article or video ranking 1st on Google page is a feeling nothing less than of an orgasm. <br> 
 
 But I have had some rough years recently and so now, I wanna create some personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
 
@@ -159,7 +159,7 @@ But I have had some rough years recently and so now, I wanna create some persona
       text-decoration: underline;
     }
   </style>
-</head>
+
 <body>
 
   <h1 style="text-align: center;">Connect with Me</h1>
@@ -168,35 +168,35 @@ But I have had some rough years recently and so now, I wanna create some persona
 
     <div class="card">
       <a href="https://mechstuff.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/mechstuffLogo.webp" alt="MechStuff Blog" />
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/mechstuffLogo.webp" alt="MechStuff Blog" />
       </a>
       <p>My First Blog<br><a href="https://mechstuff.com" target="_blank">MechStuff</a></p>
     </div>
 
     <div class="card">
       <a href="https://www.youtube.com/@mechstuff" target="_blank">
-        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/mechstuffYT.webp" alt="MechStuff YouTube" />
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/mechstuffYT.webp" alt="MechStuff YouTube" />
       </a>
       <p>My YouTube Channel<br><a href="https://www.youtube.com/@mechstuff" target="_blank">@MechStuff</a></p>
     </div>
 
     <div class="card">
       <a href="https://www.youtube.com/@jay22kar" target="_blank">
-        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/jay22karYT.webp" alt="Jay Baviskar YouTube" />
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/jay22karYT.webp" alt="Jay Baviskar YouTube" />
       </a>
       <p>My New Channel<br><a href="https://www.youtube.com/@jay22kar" target="_blank">@jay22kar</a></p>
     </div>
 
     <div class="card">
       <a href="https://linkedin.com/in/jay22kar" target="_blank">
-        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/linkedinJay.webp" alt="LinkedIn" />
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/linkedinJay.webp" alt="LinkedIn" />
       </a>
       <p>Connect on LinkedIn<br><a href="https://linkedin.com/in/jay22kar" target="_blank">jay22kar</a></p>
     </div>
 
     <div class="card">
       <a href="https://www.instagram.com/jay22kar/" target="_blank">
-        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/instaJay.webp" alt="Instagram" />
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/instaJay.webp" alt="Instagram" />
       </a>
       <p>Follow me on Instagram<br><a href="https://www.instagram.com/jay22kar/" target="_blank">@jay22kar</a></p>
     </div>
