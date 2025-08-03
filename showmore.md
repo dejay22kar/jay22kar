@@ -68,7 +68,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 </div>
 
 <h2 id="where-am-i-based-out-out-of">What are my physical features? (if for strange reasons you wanna know)</h2>
-<p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall</p>
+<p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall.</p>
 
 <h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
 <p>I am from and currently based in Mumbai, India.</p>
@@ -79,27 +79,15 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
   <li><strong>French -</strong> Oui, mais je suis encore un debutant :P</li>
   <li><strong>Marathi -</strong> Because its my mothertongue</li>
   <li><strong>Hindi -</strong> Because its the common tongue of India</li>
-  <li><strong>Swedish -</strong> I know enough Swedish to say - Jag inte prata svenska (I don’t speak Swedish)</li>
+  <li><strong>Gujrati -</strong> O bhay/ben... ekdam nechral chhu! </li>
   <li><strong>Math -</strong> Just at an intermediate level. Its mind-blowing and mind-boggling!</li>
   <li><strong>Music -</strong> Oooofff… where do I even begin. Let me just share a song with you - <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">guess?</a></li>
-  <li><strong>Bookish -</strong> “Yes, Bookish” assured Jay nodding his head as he imagined the confused face of the reader while reading this. “Don’t you like Bookish? The language novels speak?” asked Jay enthusiastically.</li>
+  <li><strong>Bookish -</strong> “Yes, Bookish” assured Jay nodding his head as he imagined the confused face of the reader while reading this. “Don’t you know Bookish!? The language novels speak?” asked Jay enthusiastically.</li>
   <li><strong>Actions -</strong> Well, this one’s tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice. Secondly, you rarely come across people who speak it.</li>
 </ul>
 
-<div class="content-section">
-  <p>This is the first part of the article...</p>
-  <div class="hidden-content">
-    <p>Details revealed after clicking first button.</p>
-  </div>
-  <div class="button-wrapper">
-    <button class="show-more-btn">I wanna know more...</button>
-  </div>
-</div>
 
-<div class="content-section">
-  <p>Another interesting chunk...</p>
-  <div class="hidden-content">
-    <p>I loved Science and Math when I was a kid. It fascinated me! I am grateful for my mother that she let me buy all the story books related to scientists, inventors and mathematicians (I can still remember the scenes I imagined as a kid when I read them). My love for them obviously transformed into love for Physics, which got transformed to mechanics/mechanical engineering eventually finding my core niche as Heat and mass transfer and computer simulations now.</p>
+<p>I loved Science and Math when I was a kid. It fascinated me! I am grateful for my mother that she let me buy all the story books related to scientists, inventors and mathematicians (I can still remember the scenes I imagined as a kid when I read them). My love for them obviously transformed into love for Physics, which got transformed to mechanics/mechanical engineering eventually finding my core niche as Heat and mass transfer and computer simulations now.</p>
 
 <p>Personally, I have a lot of other diverse interests -</p>
 
@@ -115,23 +103,104 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p><strong>I have taken quite some liking to literature</strong>, especially flash fiction and short stories. I like to make lists of books I wanna read instead of actually reading them - it’s one my guilty pleasures. Also, I think I am too dumb for poems, but I absolutey love poetic things!</p>
 
-<p><strong>I have started loving to create content.</strong> I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
+<p><strong>I have started loving to create content.</strong> I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create some personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
+
+<p>Below are some links where I share some content. Would love to hear your thoughts if something resonates with you :)</p>
+
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      max-height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card p {
+      padding: 15px;
+      font-size: 16px;
+    }
+
+    .card a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align: center;">Where to Find Me</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <a href="https://mechstuff.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/mechstuffLogo.webp" alt="MechStuff Blog" />
+      </a>
+      <p>My First Blog<br><a href="https://mechstuff.com" target="_blank">MechStuff</a></p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.youtube.com/@mechstuff" target="_blank">
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/mechstuffYT.webp" alt="MechStuff YouTube" />
+      </a>
+      <p>My YouTube Channel<br><a href="https://www.youtube.com/@mechstuff" target="_blank">@MechStuff</a></p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.youtube.com/@jay22kar" target="_blank">
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/jay22karYT.webp" alt="Jay Baviskar YouTube" />
+      </a>
+      <p>My New Channel<br><a href="https://www.youtube.com/@jay22kar" target="_blank">@jay22kar</a></p>
+    </div>
+
+    <div class="card">
+      <a href="https://linkedin.com/in/jay22kar" target="_blank">
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/linkedinJay.webp" alt="LinkedIn" />
+      </a>
+      <p>Connect on LinkedIn<br><a href="https://linkedin.com/in/jay22kar" target="_blank">jay22kar</a></p>
+    </div>
+
+    <div class="card">
+      <a href="https://www.instagram.com/jay22kar/" target="_blank">
+        <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/images/mis/instaJay.webp" alt="Instagram" />
+      </a>
+      <p>Follow me on Instagram<br><a href="https://www.instagram.com/jay22kar/" target="_blank">@jay22kar</a></p>
+    </div>
 
   </div>
-  <div class="button-wrapper" style="display: none;">
-    <button class="show-more-btn">A little more...</button>
-  </div>
-</div>
-
-<div class="content-section">
-  <p>Wrapping it up...</p>
-  <div class="hidden-content">
-    <p>Jeez, calm down. Here's some random useless facts about me</p>
-  </div>
-  <div class="button-wrapper" style="display: none;">
-    <button class="show-more-btn">MORE!!</button>
-  </div>
-</div>
 
 
 <script>
