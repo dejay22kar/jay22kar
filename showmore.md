@@ -55,12 +55,23 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 </ol>
 
 <h2 id="how-am-i-doing">How am I doing?</h2>
-<p><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441"></a></p>
-<div class="tenor-gif-embed" data-postid="15238441" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441">Im Fine Little Boy GIF</a>from <a href="https://tenor.com/search/im+fine-gifs">Im Fine GIFs</a></div>
+<div class="content-section">
+  <p></p>
+  <div class="hidden-content">
+    <p><div class="tenor-gif-embed" data-postid="15238441" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/im-fine-little-boy-crying-gif-15238441">Im Fine Little Boy GIF</a>from <a href="https://tenor.com/search/im+fine-gifs">Im Fine GIFs</a></div>
 <script type="text/javascript" async="" src="https://tenor.com/embed.js"></script>
+</p>
+  </div>
+  <div class="button-wrapper">
+    <button class="show-more-btn">Click to know</button>
+  </div>
+</div>
 
-<h2 id="where-am-i-based-out-out-of">Where am I based out out of?</h2>
-<p>I am born, brought up and currently based in Mumbai, India.</p>
+<h2 id="where-am-i-based-out-out-of">What are my physical features? (if for strange reasons you wanna know)</h2>
+<p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall</p>
+
+<h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
+<p>I am from and currently based in Mumbai, India.</p>
 
 <h2 id="languages-i-speak--">Languages I speak -</h2>
 <ul>
