@@ -45,7 +45,7 @@
 <p>Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what’s a number doing in my name? Well, my last name is Baviskar. ‘Bavis’ in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar. <br />
 I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo.</p>
 
-<p>Alright, now then... Hi! Welcome to my personal site. </p>
+<p>Alright, now then... Hi! Welcome to my personal site. Let me start with answering the usual questions first - </p>
 
 <h2 id="why-did-i-make-this-website">Why did I make this website?</h2>
 <p>Well…</p>
@@ -67,31 +67,29 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
   </div>
 </div>
 
-<h2 id="where-am-i-based-out-out-of">What are my physical features? (if for strange reasons you wanna know)</h2>
-<p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall.</p>
-
 <h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
 <p>I am from and currently based in Mumbai, India.</p>
+
+<h2 id="where-am-i-based-out-out-of">What are my physical features? (for strange reasons if you wanna know)</h2>
+<p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall.</p>
 
 <h2 id="languages-i-speak--">Languages I speak -</h2>
 <ul>
   <li><strong>English -</strong> Not that great vocabulary though (which I believe, can be good for writing sometimes. Yes, you read that right - good)</li>
-  <li><strong>French -</strong> Oui, mais je suis encore un debutant :P</li>
+  <li><strong>French -</strong> Oui, mais je suis encore un debutant </li>
   <li><strong>Marathi -</strong> Because its my mothertongue</li>
   <li><strong>Hindi -</strong> Because its the common tongue of India</li>
-  <li><strong>Gujrati -</strong> O bhay/ben... ekdam nechral chhu! </li>
+  <li><strong>Gujarati -</strong> "Savaar-savaar ma mharo magaj ni kharab karta tame! Chal fafda khai le..." </li>
   <li><strong>Math -</strong> Just at an intermediate level. Its mind-blowing and mind-boggling!</li>
   <li><strong>Music -</strong> Oooofff… where do I even begin. Let me just share a song with you - <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">guess?</a></li>
   <li><strong>Bookish -</strong> “Yes, Bookish” assured Jay nodding his head as he imagined the confused face of the reader while reading this. “Don’t you know Bookish!? The language novels speak?” asked Jay enthusiastically.</li>
   <li><strong>Actions -</strong> Well, this one’s tricky. I can be quite fluent at it one day and completely forget it the other. Its hard to practice. Secondly, you rarely come across people who speak it.</li>
 </ul>
 
-
-<p>I loved Science and Math when I was a kid. It fascinated me! I am grateful for my mother that she let me buy all the story books related to scientists, inventors and mathematicians (I can still remember the scenes I imagined as a kid when I read them). My love for them obviously transformed into love for Physics, which got transformed to mechanics/mechanical engineering eventually finding my core niche as Heat and mass transfer and computer simulations now.</p>
+<h2> My hobbies and interests - </h2>
+<p>I loved Science and Math when I was a kid. It fascinated me! I am grateful for my mother that she let me buy all the story books related to scientists, inventors and mathematicians (I can still remember the scenes I imagined as a kid when I read them). My love for them obviously transformed into love for Physics, which got transformed to mechanics/mechanical engineering eventually finding my core niche as Heat and mass transfer and computer simulations now, professionally.</p>
 
 <p>Personally, I have a lot of other diverse interests -</p>
-
-<p><strong>I love music!</strong> What’s my genre? None and all. I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. Also, I attended a Hans Zimmer concert in 2023. What!? It’s worth mentioning twice!</p>
 
 <p>I’ve realised that it’s not something that I absolutely love, but <strong>I am good at table tennis</strong>.</p>
 
@@ -103,9 +101,12 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p><strong>I have taken quite some liking to literature</strong>, especially flash fiction and short stories. I like to make lists of books I wanna read instead of actually reading them - it’s one my guilty pleasures. Also, I think I am too dumb for poems, but I absolutey love poetic things!</p>
 
-<p><strong>I have started loving to create content.</strong> I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create some personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
+<p><strong>I love music (and music composition)!</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. Also, I attended a Hans Zimmer concert in 2023. What!? It’s worth mentioning twice!</p>
 
-<p>Below are some links where I share some content. Would love to hear your thoughts if something resonates with you :)</p>
+<p><strong>I have started loving to create content.</strong> I first had the taste of it when I made a blog on Mechanical/Aerospace engineering and a YouTube channel associated with it almost a decade ago (links below).<br>
+It was a shame that such a dynamic subject was taught using words. I liked explaining things and I also wanted to make some money. I took some inspiration and help from my seniors and there it was - MechStuff, my baby! I pour my heart in creating content and I am super proud of some of the articles and tutorials I created; and trust me dear friend - seeing your article or video ranking 1st on Google page is a feeling nothing less than of an orgasm.  
+
+But I have had some rough years recently and so now, I wanna create some personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
 
 <style>
     body {
@@ -161,8 +162,8 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 </head>
 <body>
 
-  <h2 style="text-align: center;">Where to Find Me</h2>
-
+  <h1 style="text-align: center;">Connect with Me</h1>
+<p>Below are some links where I share some content. If something from this website or the other links resonate with you, I would love to hear your thoughts :)</p>
   <div class="grid">
 
     <div class="card">
