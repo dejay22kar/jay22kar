@@ -4,6 +4,16 @@
 <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 
+Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
+I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
+
+## Why did I make this website?
+Well...  
+1. Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.
+2. And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!
+
+
+## How am I doing?
 <style>
     #gifContainer {
       display: none; /* Hide the GIF initially */
@@ -24,17 +34,6 @@
     <button onclick="showGIF()">Reveal the GIF</button>
   </div>
 
-
-Alright, Lets talk about the elephant in the room first - This seems to be a personal website from the name and URL, so what's a number doing in my name? Well, my last name is Baviskar. 'Bavis' in my mothertongue (Marathi) means 22. Hence, Baviskar = 22kar.   
-I remember I came up with it when I was a kid and it felt veryy creative (at that time it did xO) and then it got stuck with me like a tattoo. 
-
-## Why did I make this website?
-Well...  
-1. Firstly, it had been in my woah-that-is-so-coool-I-wanna-have-it list from a while.
-2. And secondly, I had been gravely away from myself for a while and making this website, designing it, curating the things I like and I create, I thought was a good way to rediscover and remind myself who I am. So, here it is - tadaa!
-
-
-## How am I doing?
   <div id="gifContainer">
     <div class="tenor-gif-embed" 
          data-postid="15238441" 
@@ -55,6 +54,14 @@ body{
       background-size: cover;
 }
 </style>
+
+  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  <script>
+    function showGIF() {
+      document.getElementById('gifContainer').style.display = 'block';
+    }
+  </script>
+</body>
 
 ## Where am I based out out of?
 I am born, brought up and currently based in Mumbai, India.
@@ -95,12 +102,5 @@ I don't know if I like philosophy (atleast, anymore) but **I am a philosophical 
 **I have started loving to create content.** I first had the taste of it when I made MechStuff - a blog on mechanical engineering and a YouTube channel associated with it almost a decade ago. I have had some rough years recently and now I wanna create personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can't think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)
 
 
-  <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-  <script>
-    function showGIF() {
-      document.getElementById('gifContainer').style.display = 'block';
-    }
-  </script>
 
-</body>
 </html>
