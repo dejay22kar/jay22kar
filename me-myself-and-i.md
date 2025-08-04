@@ -138,8 +138,8 @@ But I have had some rough years recently and so now, I wanna create some persona
 
     .card img {
       width: 100%;
-      height: auto;
-      max-height: 180px;
+      height: 100%;
+    <!--  max-height: 180px;  -->
       object-fit: cover;
       display: block;
     }
