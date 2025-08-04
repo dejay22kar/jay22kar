@@ -117,7 +117,7 @@ But I have had some rough years recently and so now, I wanna create some persona
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
       max-width: 1000px;
       margin: 0 auto;
@@ -126,23 +126,24 @@ But I have had some rough years recently and so now, I wanna create some persona
     .card {
       background: white;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       overflow: hidden;
       text-align: center;
       transition: transform 0.2s ease;
-    }
 
+    }
+z
     .card:hover {
       transform: translateY(-5px);
     }
 
-    .card img {
-      width: 100%;
-      height: 100%;
-    <!--  max-height: 180px;  -->
-      object-fit: cover;
-      display: block;
-    }
+.card img {
+  width: 100%;
+  height: auto;
+  max height: 200px;
+  object-fit: cover;
+  display: block;
+}
 
     .card p {
       padding: 15px;
@@ -203,7 +204,6 @@ But I have had some rough years recently and so now, I wanna create some persona
 
   </div>
 
-
 <script>
 const buttons = document.querySelectorAll('.show-more-btn');
 
@@ -226,4 +226,4 @@ buttons.forEach((button, index) => {
 </script>
 
 </body>
-</html>
+
