@@ -1,9 +1,9 @@
 Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
 
 
-<h1 style="text-align: center;">🎵 Music/Playlists</h1
+# 🎵 Music/Playlists
 
-<h1 style="text-align: center;">📚 Literature</h1>
+# 📚 Literature
 
 Some books and short stories that I felt deeply, enjoyed or gave me a major shift in perspective -
 ## Books
@@ -24,7 +24,7 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _The most dangerous game_ by Richard Connell
 - _How the leopard got his spots_ by Rudyard Kipling
 
-<h1 style="text-align: center;">🎥 Films and TV shows</h1>
+# 🎥 Films and TV shows
 
 Here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some... just emotions - pure raw emotions which didn't just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana sword. 
 
