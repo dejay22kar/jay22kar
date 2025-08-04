@@ -1,5 +1,14 @@
 Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
 
+- 🎵 Music
+- 📚 Literature
+    - [Books](https://jay22kar.me/my-favorites#books)
+    - [Short stories](https://jay22kar.me/my-favorites#short-stories)
+- 🎥 Films and TV shows
+    - [TV series](https://jay22kar.me/my-favorites#tv-shows)
+    - [Animated](https://jay22kar.me/my-favorites#animated)
+    - [Bollywood](https://jay22kar.me/my-favorites#bollywood)
+    - [Hollywood & others](https://jay22kar.me/my-favorites#hollywood-and-others)
 
 # 🎵 Music/Playlists
 
