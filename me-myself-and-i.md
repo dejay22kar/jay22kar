@@ -109,57 +109,84 @@ It was a shame that such a dynamic subject was taught using words. I liked expla
 But I have had some rough years recently and so now, I wanna create some personal content - about me, my thoughts, my feelings and emotions, my humor, my insights and whatever other nouns I can’t think of right now. Although a bit slow, I am glad that it has begun. This website is a proof :)</p>
 
 <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f9f9f9;
-    }
+  body {
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    background: #f9f9f9;
+  }
 
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobile: single column */
+    gap: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+  }
+
+  .card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card p {
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .card a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+  /* Tablet and up (min 600px) */
+  @media (min-width: 600px) {
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      max-width: 800px;
+    }
+
+    .card img {
+      height: 140px;
+    }
+  }
+
+  /* Desktop (min 900px) */
+  @media (min-width: 900px) {
+    .grid {
       gap: 20px;
-      max-width: 1000px;
-      margin: 0 auto;
     }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.2s ease;
-
-    }
-z
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-.card img {
-  width: 100%;
-  height: auto;
-  max height: 200px;
-  object-fit: cover;
-  display: block;
-}
 
     .card p {
-      padding: 15px;
-      font-size: 16px;
+      font-size: 15px;
     }
 
     .card a {
-      color: #007BFF;
-      text-decoration: none;
-      font-weight: bold;
+      font-size: 14px;
     }
-
-    .card a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  }
+</style>
 
 <body>
 
@@ -185,7 +212,7 @@ z
       <a href="https://www.youtube.com/@jay22kar" target="_blank">
         <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/jay22karYT.webp" alt="Jay Baviskar YouTube" />
       </a>
-      <p>My New Channel<br><a href="https://www.youtube.com/@jay22kar" target="_blank">@jay22kar</a></p>
+      <p>My Personal Channel<br><a href="https://www.youtube.com/@jay22kar" target="_blank">@jay22kar</a></p>
     </div>
 
     <div class="card">
@@ -199,7 +226,7 @@ z
       <a href="https://www.instagram.com/jay22kar/" target="_blank">
         <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/instaJay.webp" alt="Instagram" />
       </a>
-      <p>Follow me on Instagram<br><a href="https://www.instagram.com/jay22kar/" target="_blank">@jay22kar</a></p>
+      <p>Instagram<br><a href="https://www.instagram.com/jay22kar/" target="_blank">@jay22kar</a></p>
     </div>
 
   </div>
