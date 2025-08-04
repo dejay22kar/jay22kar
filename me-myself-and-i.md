@@ -145,7 +145,7 @@ But I have had some rough years recently and so now, I wanna create some persona
 
   .card p {
     padding: 10px;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
   }
 
@@ -153,7 +153,7 @@ But I have had some rough years recently and so now, I wanna create some persona
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .card a:hover {
@@ -163,12 +163,12 @@ But I have had some rough years recently and so now, I wanna create some persona
   /* Tablet and up (min 600px) */
   @media (min-width: 600px) {
     .grid {
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       max-width: 800px;
     }
 
     .card img {
-      height: 140px;
+      height: 150px;
     }
   }
 
@@ -219,7 +219,7 @@ But I have had some rough years recently and so now, I wanna create some persona
       <a href="https://linkedin.com/in/jay22kar" target="_blank">
         <img src="https://raw.githubusercontent.com/dejay22kar/jay22kar/main/photos/mis/linkedinJay.webp" alt="LinkedIn" />
       </a>
-      <p>Connect on LinkedIn<br><a href="https://linkedin.com/in/jay22kar" target="_blank">jay22kar</a></p>
+      <p>Connect on LinkedIn<br><a href="https://linkedin.com/in/jay22kar" target="_blank">@jay22kar</a></p>
     </div>
 
     <div class="card">
