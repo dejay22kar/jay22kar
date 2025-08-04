@@ -1,30 +1,37 @@
-Here, as the title suggests, you will just find some compilation of some of my favorite stuffs. Feel free to jump on anything 
+Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
 
-<h1 style="text-align: center;">🎵 Music/Playlists</h1>
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/71DXTDsTlfXKgStgiwhFOA?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BrinBcOBDxL4HhqZnwrNP?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+- [Music] (#music/playlists)
+      - [Books] (#books)
+      - [Short stories] (#short-stories)
+
+<h1 style="text-align: center;">🎵 Music/Playlists</h1
+
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/71DXTDsTlfXKgStgiwhFOA?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BrinBcOBDxL4HhqZnwrNP?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <h1 style="text-align: center;">📚 Literature</h1>
 
 Some books and short stories that I felt deeply, enjoyed or gave me a major shift in perspective -
 ## Books
 
-- Harry Potter & Goblet of Fire by J.K. Rowling
-- Harry Potter & the Half-Blood Prince by J.K. Rowling
-- Harry Potter & the Deathly Hallows by J.K. Rowling
-- The Great Gatsby by Scott Fitzgerald
-- The Art of Strategy by Dixit and Nalebuff
-- Incognito by David Eagleman
-- The Power of Habit by Charles Duhigg
-- The Courage to be disliked by Fumitake Koga and Ichiro Kishimi
+- _Harry Potter & Goblet of Fire_ by J.K. Rowling
+- _Harry Potter & the Half-Blood Prince_ by J.K. Rowling
+- _Harry Potter & the Deathly Hallows_ by J.K. Rowling
+- _The Great Gatsby_ by F. Scott Fitzgerald
+- _The Art of Strategy_ by Dixit and Nalebuff
+- _Incognito_ by David Eagleman
+- _The Power of Habit_ by Charles Duhigg
+- _The Courage to be Disliked_ by Fumitake Koga and Ichiro Kishimi
   
 ## Short stories
 
-- The hunger artist by Franz Kafka
-- The Swimmer by John Cheever
-- The most dangerous game by Richard Connell
-- How the leopard got his spots by Rudyard Kipling
+- _The hunger artist_ by Franz Kafka
+- _The Swimmer_ by John Cheever
+- _The most dangerous game_ by Richard Connell
+- _How the leopard got his spots_ by Rudyard Kipling
 
 <h1 style="text-align: center;">🎥 Films and TV shows</h1>
 
@@ -34,7 +41,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Breaking Bad
 - Game of Thrones (nope, not 8, there are only 7 seasons of GoT)
 - The Last of Us
-- Station 11
+- Station Eleven
 - Chernobyl
 - Band of Brothers
 - FRIENDS
@@ -78,4 +85,4 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - La la land
 - Schindler's List
 - The Imitation Game
-... and so many more actually. I will add them as they strike me :)
+... and so many more actually. I will add them as they strike me.
