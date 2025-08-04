@@ -10,7 +10,7 @@ Here, as the title suggests, you will just find compilation of some of my favori
     - [Bollywood](https://jay22kar.me/my-favorites#bollywood)
     - [Hollywood & others](https://jay22kar.me/my-favorites#hollywood-and-others)
 
-# 🎵 Music/Playlists
+<h1 align="center"> 🎵 Music/Playlists </h1>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -18,7 +18,7 @@ Here, as the title suggests, you will just find compilation of some of my favori
 
   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BrinBcOBDxL4HhqZnwrNP?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-# 📚 Literature
+<h1 align="center"> 📚 Literature </h1>
 
 Some books and short stories that I felt deeply, enjoyed or gave me a major shift in perspective -
 ## Books
@@ -39,7 +39,7 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _The most dangerous game_ by Richard Connell
 - _How the leopard got his spots_ by Rudyard Kipling
 
-# 🎥 Films and TV shows
+<h1 align="center"> 🎥 Films and TV shows </h1>
 
 Here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some... just emotions - pure raw emotions which didn't just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana sword. 
 
