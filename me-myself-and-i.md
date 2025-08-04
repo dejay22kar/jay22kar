@@ -117,7 +117,7 @@ But I have had some rough years recently and so now, I wanna create some persona
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr; /* Mobile: single column */
+    grid-template-columns: 2fr; /* Mobile: single column */
     gap: 15px;
     max-width: 100%;
     margin: 0 auto;
@@ -135,13 +135,13 @@ But I have had some rough years recently and so now, I wanna create some persona
   .card:hover {
     transform: translateY(-3px);
   }
-
-  .card img {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    display: block;
-  }
+  
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Makes the image a perfect square */
+  object-fit: cover;
+  display: block;
+}
 
   .card p {
     padding: 10px;
