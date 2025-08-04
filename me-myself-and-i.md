@@ -70,10 +70,13 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 <h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
 <p>I am from and currently based in Mumbai, India.</p>
 
-<h2 id="where-am-i-based-out-out-of">What are my physical features? (for strange reasons if you wanna know)</h2>
+<h2 id="living">What do I do for living?</h2>
+<p>Currently looking for a role as CFD / Thermal / Aerodynamics / Simulation / Application engineer (Know someone who has a similar role? Get in touch with me!)</p>
+
+<h2 id="physical-features">What are my physical features? (for strange reasons if you wanna know)</h2>
 <p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall.</p>
 
-<h2 id="languages-i-speak--">Languages I speak -</h2>
+<h2 id="languages-i-speak">Languages I speak -</h2>
 <ul>
   <li><strong>English -</strong> Not that great vocabulary though (which I believe, can be good for writing sometimes. Yes, you read that right - good)</li>
   <li><strong>French -</strong> Oui, mais je suis encore un debutant </li>
@@ -101,7 +104,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p><strong>I have taken quite some liking to literature</strong>, especially flash fiction and short stories. I like to make lists of books I wanna read instead of actually reading them - it’s one my guilty pleasures. Also, I think I am too dumb for poems, but I absolutey love poetic things!</p>
 
-<p><strong>I love music (and music composition)!</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny it. Also, I attended a Hans Zimmer concert in 2023. What!? It’s worth mentioning twice!</p>
+<p><strong>I love music (and music composition)!</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny the feeling in it. Also, did I mention I attended a Hans Zimmer concert in 2023? Abso-fucking-lutely surreal!</p>
 
 <p><strong>I have started loving to create content.</strong> I first had the taste of it when I made a blog on Mechanical/Aerospace engineering and a YouTube channel associated with it almost a decade ago (links below).<br>
 It was a shame that such a dynamic subject was taught using words. I liked explaining things and I also wanted to make some money. I took some inspiration and help from my seniors and there it was - MechStuff, my baby! I pour my heart in creating content and I am super proud of some of the articles and tutorials I created; and trust me dear friend - seeing your article or video ranking 1st on Google page is a feeling nothing less than of an orgasm. <br> 
@@ -189,9 +192,10 @@ But I have had some rough years recently and so now, I wanna create some persona
 </style>
 
 <body>
-
-  <h1 style="text-align: center;">Connect with Me</h1>
+  
 <p>Below are some links where I share some content. If something from this website or the other links resonate with you, I would love to hear your thoughts :)</p>
+  <h1 style="text-align: center;">Connect with Me</h1>
+
   <div class="grid">
 
     <div class="card">
