@@ -1,16 +1,7 @@
 Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
 
-- [Music] (#music/playlists)
-      - [Books] (#books)
-      - [Short stories] (#short-stories)
 
 <h1 style="text-align: center;">🎵 Music/Playlists</h1
-
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gHX9noYu623xl5I2AWEaa?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/71DXTDsTlfXKgStgiwhFOA?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BrinBcOBDxL4HhqZnwrNP?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <h1 style="text-align: center;">📚 Literature</h1>
 
