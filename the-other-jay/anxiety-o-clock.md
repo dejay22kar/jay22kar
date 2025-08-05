@@ -19,7 +19,7 @@ My breaths started pacing up, as if I needed to breathe more air to cool somethi
 
 It probably reminded me of what I was scared of at that time but not now exactly when I write this. And how scary it is sometimes to be scared of something that you don’t even know about; as if you’re blindfolded, and then asked to guess if those slender legs are of a spider or a cockroach or of a tarantula, that’s crawling up your skin. Better the demon you know than the one you don’t, isn’t it?   
 
-However, I spent a few seconds or minutes with that ball and suddenly a voice inside me told me to chant. I started chanting “I am safe. I am safe. I am safe.” It didn’t feel better. I kept repeating, but I felt stupid and lacked confidence for doing it without knowing. Nothing happened. I kept chanting, but this time, I tried to _feel_ how safe I really am - how warm I am under my thick blanket cocooned by it, how my face is buried cozily inside the pillow, how I had my other pillow to hold and grab tightly and that, under the blanket, on this bed, in my room, when it’s so cold outside, I, am, safe; that in this very moment, I am safe.   
+However, I spent a few seconds or minutes with that ball and suddenly a voice inside me told me to chant. I started chanting “I am safe. I am safe. I am safe.” It didn’t feel better. I kept repeating, but I felt stupid and lacked confidence for doing it without knowing. Nothing happened. I kept chanting, but this time, I tried to _feel_ how safe I really am - how warm I am under my thick blanket cocooned by it, how my face is buried cozily inside the pillow, how I had my other pillow to hold and grab tightly and that, under the blanket, on this bed, in my room, when it’s 0<sup>o</sup>C outside, I am safe; that in this very moment, I-am-safe.   
 
 The early morning bird somewhere near my window chirped to tell me in its own way - it’s okay. The ball suddenly started losing its power as it started dissolving into nothing. 
 I felt better as my breaths slowed down; calmly in no time, I went to sleep again.    
@@ -28,7 +28,7 @@ I felt better as my breaths slowed down; calmly in no time, I went to sleep agai
 Now while I write I wonder, if it’s something meant to explode and I just delayed it, delayed it to the next morning perhaps?   
 Or probably it was an illusion all along - being scared of something that I am indeed seeing... but all I needed to do is just shake and disturb the surface of the water to know it isn’t real.    
 
+\- Clair de lone, March 2025
 
-
-[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
+[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay/)
 
