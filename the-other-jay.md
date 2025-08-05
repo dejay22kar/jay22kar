@@ -1,13 +1,12 @@
-## [Thoughts](https://dejay22kar.github.io/jay22kar/thoughts) | [Music](https://dejay22kar.github.io/jay22kar/music) | [Games](https://dejay22kar.github.io/jay22kar/games) | [The other Jay](https://dejay22kar.github.io/jay22kar/jay222kar)
 
-Well, I don't have a split personality disorder (or not that I'm aware of🫢) and that you'd find my another personality over here. 
-Here you would find yet just another recollection of some of my writings which I am not comfortable with sharing with everyone *yet*, but I would make them public in near future. These source of these writings were from majorly from the toughest times of my life and are related to mental health issues, trauma and toxic behaviors that we learn on our way to protect ourselves. 
+Well, I don't have a split personality disorder (or not that I'm aware of) and that you'd find my another personality over here.    
 
-Simply put, this page consists just another collection of my writings which I am not comfortable sharing with everyone *yet*. But I know I would be with some people and I needed a place where I can keep them all at one place. Hence, this page :)
-If you're curious enough to want to read them, please contact me and then let me decide if I am comfortable enough with sharing you :)
+All I needed was another just another place where I could have collection of some of my other writings which I am not comfortable with sharing with everyone *yet*, but I know I will be with my closed ones and a few others, and hence such a page with such a filter. The source of these writings were majorly from the difficult times and emotions that I have had in my life, and words - I think, I have felt to be the fastest and easiest way to express, validate and paint them.    
+
+I intend to make them public in future but not so soon. But if you're curious — or for any reason would like to read them — feel free to reach out. I might be open to sharing if it feels like the right fit :)
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <style>
@@ -51,7 +50,7 @@ body.dark-mode {
 <script>
 function checkPassword() {
     const password = document.getElementById("passwordInput").value;
-    const correctPassword = "123"; // replace with your actual password
+    const correctPassword = "jay222kar"; // replace with your actual password
 
     if (password === correctPassword) {
         // Add the class to trigger animation
@@ -62,8 +61,8 @@ function checkPassword() {
 
         // Redirect after 10 seconds
         setTimeout(function() {
-            window.location.href = "https://mechstuff.com"; 
-        }, 10000);
+            window.location.href = "https://jay22kar.me/the-other-jay/"; 
+        }, 8000);
     } else {
         alert("Incorrect password. Please try again.");
     }
