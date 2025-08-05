@@ -73,4 +73,4 @@ I am Suffering. 
     
 \- Clair de lone, 20 April 2024
 
-[&#129044; Back to The other Jay](https://jay22kar/the-other-jay)
+[&#129044; Back to The other Jay](https://jay22kar/the-other-jay/)
