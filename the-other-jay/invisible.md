@@ -46,4 +46,4 @@ The song was -
 
 Then fast forward more years and today I understand why I felt the way I felt while I write this. 
 
-[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
+[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay/)
