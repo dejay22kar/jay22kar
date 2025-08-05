@@ -22,23 +22,17 @@ Fast forward a few years and then I realised why I loved that song, what did it 
 The song was -      
 
 <div class="video-container">
-  <iframe 
-    src="https://www.youtube.com/embed/NVVrT_wNw_Y?si=m-fWqHTzm0q6xLGK" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
+  <iframe src="https://www.youtube.com/embed/NVVrT_wNw_Y?si=m-fWqHTzm0q6xLGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
   </iframe>
 </div>
 
 <style>
 .video-container {
+  width: 75%;
+  margin: 0 auto;             /* This centers the container horizontally */
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;     /* 16:9 aspect ratio */
   height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto; /* center horizontally */
 }
 
 .video-container iframe {
@@ -47,8 +41,7 @@ The song was -
   left: 0;
   width: 100%;
   height: 100%;
-}
-</style>   
+} 
  <br> 
 
 Then fast forward more years and today I understand why I felt the way I felt while I write this. 
