@@ -1,10 +1,9 @@
-[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
 
 <head>
 <style>
 body {
   background-color: #202124;             
-  color: #E8E6E3;
+  color: #F2E8D5;
 }
 <!-- Old background color #383838;    Apple font colour #E8E6E3;     warm white #F2E8D5 -->
 </style>
@@ -20,7 +19,8 @@ I had recently started watching Vh1 on TV and it had become my favorite channel!
 
 Fast forward a few years and then I realised why I loved that song, what did it say, what I felt, what is that uneasy, resisting, wanting-to-escape feeling called. 
 
-The song was -    
+The song was -      
+
 <div class="video-container">
   <iframe 
     src="https://www.youtube.com/embed/NVVrT_wNw_Y?si=m-fWqHTzm0q6xLGK" 
@@ -48,8 +48,8 @@ The song was -
   width: 100%;
   height: 100%;
 }
-</style>
-  
+</style>   
+ <br> 
 
 Then fast forward more years and today I understand why I felt the way I felt while I write this. 
 
