@@ -1,4 +1,12 @@
-[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
+<head>
+<style>
+body {
+  background-color: #202124;             
+  color: #E8E6E3;
+}
+<!-- Old background color #383838;    Apple font colour #E8E6E3;     warm white #F2E8D5 -->
+</style>
+</head> 
 
 <h1 style="text-align: center;">The Rope</h1>
 
@@ -60,7 +68,9 @@ I am the rope. 
 No matter who wins,    
 I have to endure.    
 Who am I, again?   
-I am Suffering. 
+I am Suffering.    
+   
+    
+\- Clair de lone, 20 April 2024
 
-
-[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay)
+[&#129044; Back to The other Jay](https://jay22kar/the-other-jay)
