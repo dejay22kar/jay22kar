@@ -42,7 +42,7 @@ The song was -
   width: 100%;
   height: 100%;
 } 
- <br> 
+</style> 
 
 Then fast forward more years and today I understand why I felt the way I felt while I write this. 
 
