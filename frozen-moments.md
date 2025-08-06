@@ -46,7 +46,7 @@ pointer-events: none;
 
     const image = document.createElement('img');
     image.src = `photos/gothenburg/thumbnail_got_${i}.webp`;
-    image.alt = `Denmark_image_${i}`;
+    image.alt = `Sweden_image_${i}`;
     
     link.appendChild(image);
     galleryContainer.appendChild(link);
@@ -63,8 +63,15 @@ pointer-events: none;
   </div>
   <div class="content hidden">
     <p>
-      Most of the photos are from Copenhagen (Mother of God, I could talk about that city all day!) <br> 
-      Some other photos are from Fredrikshavn and Skagen - the northern tip of Denmark. 
+      Most of the photos are from Copenhagen (Mother of God, I could talk about that city all day!)<br>
+...<br>
+(The canals, the bright coloured buildings, the leafy walls, the number of bicycles, the church bells, the not-as-cold-as-Sweden and not-as-hot-as-Germany perfect temperature, the modern architecture but also the European architecture, the lush green parks in the very heart of the city — and what not!)<br>
+Anyways, some other photos are from Fredrikshavn and Skagen — the northern tip of Denmark.<br>
+(Also, Denmark is one of the highest paying countries in the world with an unmatched work-life balance. Isn’t that perfect?)<br>
+(Wait, did I also tell you that it was this city where I met the <em>prettiest</em> girl I have <em>ever</em> talked to in my life? Yeah... I’m still recovering from that. Do you see any reason for me to <strong>not</strong> want to move there?)<br>
+(Okay... I need to stop. I told you I could keep going!!)<br>
+
+    </p>  
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
 <script>
@@ -150,9 +157,9 @@ pointer-events: none;
 
 <div class="section">
   <button onclick="toggleSection(this)">📷 Miscellaneous </button>
-  <div class="preview">Miscellaneous photos from India. Coming soon...</div>
+  <div class="preview">Miscellaneous photos from India. </div>
   <div class="content hidden">
-    <p>
+    <p> Coming soon...
 <div class="gallery" id="miscGallery"></div>
     </p>
   </div>
