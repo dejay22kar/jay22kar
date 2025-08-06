@@ -22,25 +22,34 @@
       /* Remove fixed positioning - keeps natural size */
       max-width: 90vw;
       height: auto;
-      opacity: 0.85;
+      opacity: 1;
       pointer-events: none; /* Optional: to avoid clicks on video */
       display: block;
     }
     .text-content {
-      margin-top: 1rem; /* space below video */
+      margin-top: 2rem; /* space below video */
       text-align: center;
       /* No background or border */
       color: #555;
       max-width: 90vw;
-      line-height: 1.4;
-      font-size: 1.2rem;
+      line-height: 1.5;
+      font-size: 1.5rem;
     }
     .text-content a {
       color: #007acc;
       text-decoration: underline;
     }
+
+    @media (min-width: 768px) {
+  video {
+    max-width: 50vw; /* 50% of viewport width */
+    height: auto;
+  }
+}
+
   </style>
 </head>
+  
 <body>
   <video autoplay muted loop playsinline>
     <source src="photos/blinkingJay.webm" type="video/webm" />
@@ -50,8 +59,8 @@
   <div class="text-content">
     <h1 style="margin: 0;">404</h1>
     <p>
-      Sorry, what you're looking for is stuck somewhere in the realm of quantum entanglement<br />
-      <a href="/">Return Home</a>
+      Go <a href="/">Home</a>, you're drunk. <br />
+      What you're looking for is stuck somewhere in the realm of quantum entanglement.
     </p>
   </div>
 </body>
