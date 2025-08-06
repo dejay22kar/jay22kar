@@ -9,10 +9,10 @@ body {
   margin: 0;
   min-height: 100%;
   background: linear-gradient(45deg, #ffffff, #ffeef0, #ffe7e0, #fff5db, #f1fce3, #e0f7f1, #e0f1fb, #ebe5f9, #f7e4f9, #fff9fc);
-  background-size: 200% 200%;
+  background-size: 150% 150%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  animation: gradientShift 27s ease infinite;
+  animation: gradientShift 22s ease infinite;
 }
 @keyframes gradientShift {
   0%   { background-position: 0% 50%; }
