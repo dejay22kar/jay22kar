@@ -1,12 +1,12 @@
 <div id="top"></div>
 
 <style>
-  body {
+  html {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(45deg, #ffffff, #ffeef0, #ffe7e0, #fff5db, #f1fce3, #e0f7f1, #e0f1fb, #ebe5f9, #f7e4f9, #fff9fc, #ffffff);
+    background: linear-gradient(45deg, #ffffff, #ffeef0, #ffe7e0, #fff5db, #f1fce3, #e0f7f1, #e0f1fb, #ebe5f9, #f7e4f9, #fff9fc);
     background-size: 300% 300%;
-    animation: gradientShift 60s ease infinite;
+    animation: gradientShift 40s ease infinite;
   }
 
   @keyframes gradientShift {
@@ -35,7 +35,7 @@
 </style>
 
 
-Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
+Just a curated mix of some of my favorite stuffs; feel free to jump on anything.
 
 - 🎵 Music
 - 📚 Literature
@@ -130,9 +130,9 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - The Imitation Game    
 ... and so many more actually. I will add them as they strike me.
 
-<a href="#top" class="go-top">↑ Go to top</a>
+<a href="#top" class="go-top"><b>↑ Go to top<b></a>
 
-<a href="https://jay22kar.me" class="go-home">🏠 Go to homepage</a>     
+<a href="https://jay22kar.me" align="center" class="go-home"><b>🏠 Go to homepage<b></a><br><br><br>   
 
 
 
