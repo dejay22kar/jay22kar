@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>404 – Not Found</title>
   <style>
     html, body {
-      height: 100%;
       margin: 0;
       padding: 0;
-    }
-    body {
-      height: 100vh;
-      width: 100vw;
-      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      background: #ffffff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #333;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: #222;
-      color: #fff;
-      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
     }
-    .video-bg {
-      position: fixed;
-      top: 0; left: 0; width: 100vw; height: 100vh;
-      object-fit: cover;
-      z-index: 0;
-      pointer-events: none;
+    video {
+      /* Remove fixed positioning - keeps natural size */
+      max-width: 90vw;
+      height: auto;
       opacity: 0.85;
+      pointer-events: none; /* Optional: to avoid clicks on video */
+      display: block;
     }
-    .center-content {
-      position: relative;
-      z-index: 1;
-      background: rgba(30, 30, 40, 0.6);
-      padding: 2rem 3rem;
-      border-radius: 18px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+    .text-content {
+      margin-top: 1rem; /* space below video */
       text-align: center;
+      /* No background or border */
+      color: #555;
+      max-width: 90vw;
+      line-height: 1.4;
+      font-size: 1.2rem;
     }
-    h1 {
-      margin: 0 0 10px 0;
-      font-size: 2.2em;
-      letter-spacing: 2px;
-    }
-    p {
-      font-size: 1.2em;
-      margin: 0;
-      color: #f9b;
+    .text-content a {
+      color: #007acc;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <!-- Replace the src value with a link to your video file (or use a hosted video like from your repo or elsewhere) -->
-  <video class="video-bg" autoplay muted loop playsinline>
-    <source src="photos/blinkingJay.webm" type="video/webm">
-    <source src="photos/blinkingJay.mp4" type="video/mp4">
-    <!-- Optional: Add a fallback image just in case -->
-    <!-- <img src="fallback.jpg" alt=""> -->
+  <video autoplay muted loop playsinline>
+    <source src="photos/blinkingJay.webm" type="video/webm" />
+    <source src="photos/blinkingJay.mp4" type="video/mp4" />
+    <!-- fallback -->
   </video>
-  <div class="center-content">
-    <h1>404</h1>
-    <p>Sorry, what you're looking for is stuck somewhere in the realm of quantum entanglement <br>
-    <a href="/" style="color:#fff; text-decoration:underline;">Return Home</a></p>
+  <div class="text-content">
+    <h1 style="margin: 0;">404</h1>
+    <p>
+      Sorry, what you're looking for is stuck somewhere in the realm of quantum entanglement<br />
+      <a href="/">Return Home</a>
+    </p>
   </div>
 </body>
 </html>
