@@ -27,7 +27,9 @@ pointer-events: none;
   }
 </style>
 
-<p> Here are some photos that I have taken in my recent years and I will keep on adding more from the less recent times as I get time. 90% of the photos are taken from my phone. I have tried my best to organise them. Hope some of the photos will make you feel something 🙂 </p>
+<h1 align="center"> Frozen moments </h1>
+
+<p> Here are some photos that I have taken in my recent years and I will keep on adding more from the less recent times as I get time. 90% of the photos are taken from my phone. I have tried my best to organise them. Hope some of the photos will make you feel something. </p>
 
 <div class="section">
   <button onclick="toggleSection(this)">🇸🇪 Sweden</button>
@@ -65,13 +67,12 @@ pointer-events: none;
     <p>
       Most of the photos are from Copenhagen (Mother of God, I could talk about that city all day!)<br>
 ...<br>
-(The canals, the bright coloured buildings, the leafy walls, the number of bicycles, the church bells, the not-as-cold-as-Sweden and not-as-hot-as-Germany perfect temperature, the modern architecture but also the European architecture, the lush green parks in the very heart of the city — and what not!)<br>
+(The canals, the bright coloured buildings, the leafy walls, the multi-coloured bicycles, the church bells, the not-as-cold-as-Sweden and not-as-hot-as-Germany perfect temperature, the modern architecture but also the European architecture, the lush green parks in the very heart of the city — and what not!)<br>
 Anyways, some other photos are from Fredrikshavn and Skagen — the northern tip of Denmark.<br>
 (Also, Denmark is one of the highest paying countries in the world with an unmatched work-life balance. Isn’t that perfect?)<br>
 (Wait, did I also tell you that it was this city where I met the <em>prettiest</em> girl I have <em>ever</em> talked to in my life? Yeah... I’m still recovering from that. Do you see any reason for me to <strong>not</strong> want to move there?)<br>
 (Okay... I need to stop. I told you I could keep going!!)<br>
-
-    </p>  
+ 
 <div class="gallery" id="Copenhagen_Gallery"></div>
 
 <script>
