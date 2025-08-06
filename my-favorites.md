@@ -1,3 +1,26 @@
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    animation: backgroundFade 60s infinite linear;
+    transition: background-color 3s ease-in-out;
+  }
+
+  @keyframes backgroundFade {
+    0%   { background-color: #ffffff; }
+    11%  { background-color: #ffeef0; }
+    22%  { background-color: #ffe7e0; }
+    33%  { background-color: #fff5db; }
+    44%  { background-color: #f1fce3; }
+    55%  { background-color: #e0f7f1; }
+    66%  { background-color: #e0f1fb; }
+    77%  { background-color: #ebe5f9; }
+    88%  { background-color: #f7e4f9; }
+    100%  { background-color: #fff9fc; }
+  }
+</style>
+
+
 Here, as the title suggests, you will just find compilation of some of my favorite stuffs. Feel free to jump on anything 
 
 - 🎵 Music
