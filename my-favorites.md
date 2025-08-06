@@ -9,7 +9,7 @@ body {
   margin: 0;
   min-height: 100%;
   background: linear-gradient(45deg, #ffffff, #ffeef0, #ffe7e0, #fff5db, #f1fce3, #e0f7f1, #e0f1fb, #ebe5f9, #f7e4f9, #fff9fc);
-  background-size: 300% 300%;
+  background-size: 200% 200%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation: gradientShift 40s ease infinite;
@@ -137,7 +137,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 
 <a href="#top" class="go-top"><b>↑ Go to top</b></a>
 
-<a href="https://jay22kar.me" align="center" class="go-home"></b>🏠 Go to homepage<b></a><br><br><br>   
+<a href="https://jay22kar.me" align="center" class="go-home"><b>🏠 Go to homepage</b></a><br><br><br>   
 
 
 
