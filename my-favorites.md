@@ -12,7 +12,7 @@ body {
   background-size: 200% 200%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  animation: gradientShift 40s ease infinite;
+  animation: gradientShift 27s ease infinite;
 }
 @keyframes gradientShift {
   0%   { background-position: 0% 50%; }
