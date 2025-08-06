@@ -18,14 +18,22 @@
       justify-content: center;
       min-height: 100vh;
     }
-    video {
-      /* Remove fixed positioning - keeps natural size */
-      max-width: 90vw;
-      height: auto;
-      opacity: 1;
-      pointer-events: none; /* Optional: to avoid clicks on video */
-      display: block;
-    }
+  video {
+  max-width: 90vw;
+  height: auto;
+  opacity: 1;
+  pointer-events: none;
+  display: block;
+  object-fit: contain;
+}
+
+  @media (min-width: 768px) {
+  video {
+    max-width: 50vw;
+    object-fit: contain;
+  }
+}
+
     .text-content {
       margin-top: 2rem; /* space below video */
       text-align: center;
@@ -39,13 +47,6 @@
       color: #007acc;
       text-decoration: underline;
     }
-
-    @media (min-width: 768px) {
-  video {
-    max-width: 50vw; /* 50% of viewport width */
-    height: auto;
-  }
-}
 
   </style>
 </head>
