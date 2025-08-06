@@ -1,22 +1,36 @@
+<div id="top"></div>
+
 <style>
   body {
     margin: 0;
     height: 100vh;
-    animation: backgroundFade 60s infinite linear;
-    transition: background-color 3s ease-in-out;
+    background: linear-gradient(45deg, #ffffff, #ffeef0, #ffe7e0, #fff5db, #f1fce3, #e0f7f1, #e0f1fb, #ebe5f9, #f7e4f9, #fff9fc, #ffffff);
+    background-size: 300% 300%;
+    animation: gradientShift 60s ease infinite;
   }
 
-  @keyframes backgroundFade {
-    0%   { background-color: #ffffff; }
-    11%  { background-color: #ffeef0; }
-    22%  { background-color: #ffe7e0; }
-    33%  { background-color: #fff5db; }
-    44%  { background-color: #f1fce3; }
-    55%  { background-color: #e0f7f1; }
-    66%  { background-color: #e0f1fb; }
-    77%  { background-color: #ebe5f9; }
-    88%  { background-color: #f7e4f9; }
-    100%  { background-color: #fff9fc; }
+  @keyframes gradientShift {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .go-top {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: #888;
+    transition: color 0.3s;
+  }
+
+  .go-top:hover {
+    color: #444;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 </style>
 
@@ -113,5 +127,15 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Mr Bean Holidays
 - La la land
 - Schindler's List
-- The Imitation Game
+- The Imitation Game    
 ... and so many more actually. I will add them as they strike me.
+
+<a href="#top" class="go-top">↑ Go to top</a>
+
+<a href="https://jay22kar.me" class="go-home">🏠 Go to homepage</a>     
+
+
+
+
+           
+
