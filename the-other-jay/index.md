@@ -13,7 +13,6 @@ Hello dear human, Welcome to my super-personal page! Feel free to jump on anythi
 
 - [evoLdmort](https://jay22kar.me/the-other-jay/evoldmort)
 - [Invisible](https://jay22kar.me/the-other-jay/invisible)
-- [Anxiety o'clock](https://jay22kar.me/the-other-jay/anxiety-o-clock)
 - [The Rope](https://jay22kar.me/the-other-jay/the-rope)
 - Himself (Coming soon)
 - सबक (Coming soon)
