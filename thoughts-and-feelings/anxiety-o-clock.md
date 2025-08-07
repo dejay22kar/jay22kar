@@ -7,7 +7,8 @@ Today, just like many other days, I woke up early in the morning around 4 or 5 a
 
 I could feel my body getting ready for it, to save itself perhaps… it could save itself by releasing some of that fear in some kind of energy in case it explodes. My body got restless, as I kept changing my position or the way my legs folded and unfolded themselves like a robot - but a malfunctioned one - each time of different magnitude of fold subtending a different angle and in different direction. They positioned themselves around, above, beside, near, away from each other, over and over again.    
 My hands had their own malfunctioned rhythm - clenching together, clenching separately, under the pillow, above my chest, over my head, above my forehead, hugging myself, between my thighs and in so many more ways.    
-My breaths started pacing up, as if I needed to breathe more air to cool something down inside inhaling, or to get something out quicker exhaling. Sometimes deeper breaths instead of fast shallow ones; maybe those ones will be able to reach to the innermost core of that ball thing. It was all getting ready.   
+
+My breaths started pacing up, as if I needed to breathe more air to cool something inside inhaling, or to get something out quicker exhaling. Sometimes deeper breaths instead of fast shallow ones; maybe those ones will be able to reach to the innermost core of that ball thing. It was all getting ready.   
 
 It probably reminded me of what I was scared of at that time but not now exactly when I write this. And how scary it is sometimes to be scared of something that you don’t even know about; as if you’re blindfolded, and then asked to guess if those slender legs are of a spider or a cockroach or of a tarantula, that’s crawling up your skin. Better the demon you know than the one you don’t, isn’t it?   
 
