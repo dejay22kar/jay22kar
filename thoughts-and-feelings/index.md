@@ -10,7 +10,7 @@ Happy reading!
 ## Pieces
  - [God loves kids more than teachers](https://jay22kar.me/thoughts-and-feelings/god-loves-kids-more-than-teachers)
  - [A tree](jay22kar.me/thoughts-and-feelings/a-tree)
- - [Anxiety o'clock](https://jay22kar.me/the-other-jay/anxiety-o-clock)
+ - [Anxiety o'clock](https://jay22kar.me/thoughts-and-feelings/anxiety-o-clock)
  - [Clair de lone] (Coming soon) 
  - The matchmaker (Coming soon)
  - Train of thoughts (Not coming so soon)
