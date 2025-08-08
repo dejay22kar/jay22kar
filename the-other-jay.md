@@ -3,7 +3,7 @@ Well, I don't have a split personality disorder (or not that I'm aware of) and t
 
 All I needed was another just another place where I could have collection of some of my other writings which I am not comfortable with sharing with everyone *yet*, but I know I will be with my closed ones and a few others, and hence such a page with such a filter. The source of these writings were majorly from the difficult times and emotions that I have had in my life, and words - I think, I have felt to be the fastest and easiest way to express, validate and paint them.    
 
-I intend to make them public in future but not so soon. But if you're curious — or for any reason would like to read them — feel free to reach out. I might be open to sharing if it feels like the right fit :)
+I intend to make them public in future but not so soon. But if you're curious — or for any reason would like to read them — feel free to reach out. I might be open to sharing if it feels like the right fit.
 
 
 
