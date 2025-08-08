@@ -11,6 +11,24 @@
       padding: 20px;
     }
 
+  .go-top {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: #888;
+    transition: color 0.3s;
+  }
+
+  .go-top:hover {
+    color: #444;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
   .content-section {
   line-height: 1.6;
   margin: 0 auto 40px;
@@ -193,7 +211,9 @@ But I have had some rough years recently and so now, I wanna create some persona
 
 <body>
   
-<p>Below are some links where I share some content. If something from this website or the other links resonate with you, I would love to hear your thoughts :)</p>
+<p>Below are some links where I share some content. If something from this website or the other links resonate with you, I would love to hear your thoughts🙂. <br>
+My email id is <a href="mailto:declarelion@gmail.com">declarelion@gmail.com</a></p>
+ 
   <h1 style="text-align: center;">Connect with Me</h1>
 
   <div class="grid">
@@ -255,6 +275,8 @@ buttons.forEach((button, index) => {
 });
 
 </script>
+
+<p><a href="#top" class="go-top"><b>↑ Go to top</b></a></p>
 
 </body>
 
