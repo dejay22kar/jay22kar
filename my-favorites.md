@@ -80,6 +80,8 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _The Swimmer_ by John Cheever
 - _The most dangerous game_ by Richard Connell
 - _How the leopard got his spots_ by Rudyard Kipling
+- _Scheherazade_ by Haruki Murakami
+- _Kino_ by Haruki Murakami
 
 <h1 align="center"> 🎥 Films and TV shows </h1>
 
