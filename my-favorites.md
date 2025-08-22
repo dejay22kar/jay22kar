@@ -83,6 +83,7 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _Scheherazade_ by Haruki Murakami
 - _Kino_ by Haruki Murakami
 - _At Peace_ by Claudia Salazar Jimenez (Caution! Could be mildly/disturbing)
+- _Where fear goes to read a book_ by Neketra Trivedi
 
 <h1 align="center"> 🎥 Films and TV shows </h1>
 
@@ -93,7 +94,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Game of Thrones (nope, not 8, there are only 7 seasons of GoT)
 - The Last of Us
 - Station Eleven
-- Chernobyl
+- Chernobyl (the best background sound effects I have ever come across and how I wish it had been shot in Russian!) 
 - Band of Brothers
 - FRIENDS
 - Modern family
@@ -126,7 +127,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - The Before trilogy
 - The Star wars prequel trilogy
 - Amélie
-- Past Lives
+- Past Lives 
 - Whiplash
 - Her
 - Lost in Translation
