@@ -122,7 +122,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p><strong>I have taken quite some liking to literature</strong>, especially flash fiction and short stories. I like to make lists of books I wanna read instead of actually reading them - it’s one my guilty pleasures. Also, I think I am too dumb for poems, but I absolutey love poetic things!</p>
 
-<p><strong>I love music (and music composition)!</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny the feeling in it. Also, did I mention I attended a Hans Zimmer concert in 2023? Abso-fucking-lutely surreal!</p>
+<p><strong>I love music (and music composition!)</strong> What’s my genre? None and all! I do have special place for western classical, but otherwise, I like good music. A good music is like truth - noone can deny the feeling in it. Also, did I mention I attended a Hans Zimmer concert in 2023? Abso-fucking-lutely surreal!</p>
 
 <p><strong>I have started loving to create content.</strong> I first had the taste of it when I made a blog on Mechanical/Aerospace engineering and a YouTube channel associated with it almost a decade ago (links below).<br>
 It was a shame that such a dynamic subject was taught using words. I liked explaining things and I also wanted to make some money. I took some inspiration and help from my seniors and there it was - MechStuff, my baby! I pour my heart in creating content and I am super proud of some of the articles and tutorials I created; and trust me dear friend - seeing your article or video ranking 1st on Google page is a feeling nothing less than of an orgasm. <br> 
