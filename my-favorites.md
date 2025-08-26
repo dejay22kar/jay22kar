@@ -46,6 +46,7 @@ Just a curated mix of some of my favorite stuffs; feel free to jump on anything.
 - 📚 Literature
     - [Books](https://jay22kar.me/my-favorites#books)
     - [Short stories](https://jay22kar.me/my-favorites#short-stories)
+    - [Poems](https://jay22kar.me/my-favorites#poems)
 - 🎥 Films and TV shows
     - [TV series](https://jay22kar.me/my-favorites#tv-shows)
     - [Animated](https://jay22kar.me/my-favorites#animated)
@@ -84,6 +85,14 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _Kino_ by Haruki Murakami
 - _At Peace_ by Claudia Salazar Jimenez (Caution! Could be mildly/disturbing)
 - _Where fear goes to read a book_ by Neketra Trivedi
+
+## Poems
+
+- _If -_ by Rudyard Kipling
+- _A dream within a dream_ by Edgar Allan Poe
+- _The night has a thousand eyes_ by Francis William Bourdillon
+- _Dil aakhir tu kyu rota hai?_ by Javed Akhtar
+- _The Race_ by D.H. (Dee) Groberg
 
 <h1 align="center"> 🎥 Films and TV shows </h1>
 
