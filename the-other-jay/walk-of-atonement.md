@@ -1,4 +1,14 @@
+<head>
+<style>
+body {
+  background-color: #202124;             
+  color: #F2E8D5;
+}
+<!-- Old background color #383838;    Apple font colour #E8E6E3;     warm white #F2E8D5 -->
+</style>
+</head> 
 
+<h1 style="text-align: center;">Walk of Atonement</h1>
 
 You send your best predator to kill the best in us?    
 Shame on you! 
@@ -58,3 +68,5 @@ This, this is my walk of atonement!
 Looking at me now,   
 I can hear all the others saying -   
 Shame on you! 
+
+[&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay/)
