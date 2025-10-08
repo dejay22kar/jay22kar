@@ -3,7 +3,7 @@
 <style>
 body {
   background-color: #202124;             
-  color: #F2E8D5;
+  color: #E8E6E3;
 }
 <!-- Old background color #383838;    Apple font colour #E8E6E3;     warm white #F2E8D5 -->
 </style>
