@@ -14,6 +14,8 @@ Hello dear human, Welcome to my super-personal page! Feel free to jump on anythi
 - [evoLdmort](https://jay22kar.me/the-other-jay/evoldmort)
 - [Invisible](https://jay22kar.me/the-other-jay/invisible)
 - [The Rope](https://jay22kar.me/the-other-jay/the-rope)
+- [Walk of Atonement](https://jay22kar.me/the-other-jay/walk-of-atonement)
+- [दोस्त](https://jay22kar.me/the-other-jay/dost)
 - Himself (Coming soon)
 - सबक (Coming soon)
 - St Mungo's Hospital for Magical Maladies and Injuries (Not coming so soon)
