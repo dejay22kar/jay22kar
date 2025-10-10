@@ -78,26 +78,28 @@ function resizeCanvas() {
 resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
-const stars = Array.from({ length: 250 }, () => ({
+const stars = Array.from({ length: 125 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
   r: Math.random() * 1.5 + 0.5,
   o: Math.random(),
-  speed: (Math.random() * 0.04) + 0.01
+  speed: (Math.random() * 0.08) + 0.04
 }));
 
 function drawMoon() {
   const x = canvas.width - 100;
   const y = 100;
-  const radius = 30; // updated to your radius
+  const radius = 25; // updated to your radius
 
   const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
-  gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
+  gradient.addColorStop(0, "rgba(255, 255, 210, 0.5)");
   gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
   ctx.fillStyle = gradient;
-  ctx.beginPath();
+  ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
+  
+<!--  ctx.beginPath();
   ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
-  ctx.fill();
+  ctx.fill(); -->
 
   ctx.fillStyle = "#fefcd7";
   ctx.beginPath();
