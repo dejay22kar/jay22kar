@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Clair de lone</title>
+<style>
+  body {
+    margin: 0;
+    background: #0B1E44; /* Your night-sky color */
+    overflow: hidden;
+    color: white;
+    font-family: 'Georgia', serif;
+  }
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    margin: 10vh auto;
+    padding: 2rem;
+    background: rgba(15, 39, 51, 0.65);
+    border-radius: 1rem;
+    backdrop-filter: blur(6px);
+  }
+  h1 {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+<div class="content">
+  <!-- Content from clair-de-lone.md -->
+  <h1 style="text-align: center;">Clair de lone</h1>
+  <p>It was one of those long narrow streets and it was night.<br>
+  I was alone, but not lone.</p>
+
+  <p>All the wooden shops on both the sides were closed.<br>
+  There was no source of light, except the moonlight.</p>
+
+  <p>As I walked on that narrow street, I kept wanting to walk more.<br>
+  But as I reached the end of the street, I looked back again and I could see only two colours - the darkness and the moonlight.</p>
+
+  <p>I came back again to the centre, not wanting this moment to end.<br>
+  As the rays of moonlight fell on the roofs, I could see the stardust vaporising off the surface towards the sky. It was all glittering, my dear friend.</p>
+
+  <p>Was the stardust white? Or was it blue? It was white and blue.<br>
+  Exactly like the moon and the moonlight - the moon bright white yet the moonlight seeming so blue.</p>
+
+  <p>The mind inside the dream me, made that sparkling and twinkling sound.<br>
+  “That’s how it sounds in the movies!”, thought the dream me.</p>
+
+  <p>I saw myself in the centre of the street, my moonlit face, so blank and so awed,<br>
+  as I saw this whole surreal, mystical land evaporating... except me, so odd.</p>
+
+  <p>There were no people, as were no thoughts.<br>
+  Forget thinking, I wasn’t even feeling - neither my breaths nor my feet on the ground, I was completely lost.</p>
+
+  <p>I was not me.<br>
+  I was those wooden shops, that cobbled street, that shimmering stardust, the moon and the moonlight and that is why I still know them so well.</p>
+
+  <p>I was alone, but not lone.<br>
+  I experienced Clair de lone.</p>
+
+  <p><a href="https://dejay22kar.github.io/jay22kar/thoughts-and-feelings" style="color:#9dd6ff;">🠔 Back to Thoughts and Feelings</a></p>
+</div>
+
+<script>
+const canvas = document.getElementById("stars");
+const ctx = canvas.getContext("2d");
+const dpr = window.devicePixelRatio || 1;
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth * dpr;
+  canvas.height = window.innerHeight * dpr;
+  ctx.scale(dpr, dpr);
+}
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
+
+// Scale star density with screen area
+const area = window.innerWidth * window.innerHeight;
+const starCount = Math.floor(area / 8000); // balanced across devices
+
+const stars = Array.from({ length: starCount }, () => ({
+  x: Math.random() * window.innerWidth,
+  y: Math.random() * window.innerHeight,
+  r: Math.random() * 1.5 + 0.5,
+  o: Math.random()
+}));
+
+function drawStaticMoon() {
+  const x = window.innerWidth - 100;
+  const y = 100;
+  const radius = 30;
+
+  const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
+  gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
+  gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
+
+  ctx.fillStyle = gradient;
+  ctx.beginPath();
+  ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
+  ctx.fill();
+
+  ctx.fillStyle = "#fefcd7";
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+function drawStars() {
+  ctx.fillStyle = "#0f2733"; // background
+  ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+
+  ctx.fillStyle = "white";
+  stars.forEach(star => {
+    ctx.globalAlpha = star.o;
+    ctx.beginPath();
+    ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+    ctx.fill();
+
+    // twinkle control
+    star.o += (Math.random() - 0.5) * 0.1;
+    if (star.o < 0.1) star.o = 0.1;
+    if (star.o > 1) star.o = 1;
+  });
+
+  ctx.globalAlpha = 1; // reset opacity
+  drawStaticMoon();
+
+  requestAnimationFrame(drawStars);
+}
+
+drawStars();
+</script>
+</body>
+</html>
