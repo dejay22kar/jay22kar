@@ -3,23 +3,24 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Night Sky with Twinkling Stars</title>
+<title>Clair de lone – Night Sky</title>
 <style>
   html, body {
     margin: 0;
     padding: 0;
-    background: #0B1E44; /* Updated background color */
+    height: 100%;
     color: white;
     font-family: sans-serif;
     overflow-x: hidden;
+    background: none; /* background handled by canvas now */
   }
   canvas {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1; /* Sit behind content */
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* sit behind text */
   }
   .content {
     max-width: 800px;
@@ -75,25 +76,24 @@ function resizeCanvas() {
   canvas.height = window.innerHeight;
 }
 resizeCanvas();
-window.addEventListener('resize', resizeCanvas);
+window.addEventListener("resize", resizeCanvas);
 
 const stars = Array.from({ length: 250 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
   r: Math.random() * 1.5 + 0.5,
   o: Math.random(),
-  twinkleSpeed: (Math.random() * 0.02) + 0.01
+  speed: (Math.random() * 0.04) + 0.01
 }));
 
 function drawMoon() {
   const x = canvas.width - 100;
   const y = 100;
-  const radius = 30; // Updated radius
+  const radius = 30; // updated to your radius
 
   const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
   gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
   gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
-  
   ctx.fillStyle = gradient;
   ctx.beginPath();
   ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
@@ -106,16 +106,14 @@ function drawMoon() {
 }
 
 function drawStars() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#0B1E44";
+  ctx.fillStyle = "#0B1E44"; // night sky color
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "white";
   for (let star of stars) {
-    star.o += (Math.random() - 0.5) * star.twinkleSpeed;
-    if (star.o < 0.1) star.o = 0.1;
-    if (star.o > 1) star.o = 1;
+    star.o += (Math.random() - 0.5) * star.speed;
+    star.o = Math.max(0.1, Math.min(star.o, 1));
     ctx.globalAlpha = star.o;
+    ctx.fillStyle = "white";
     ctx.beginPath();
     ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
     ctx.fill();
