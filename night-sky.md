@@ -94,34 +94,30 @@ function drawMoon() {
   const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
   gradient.addColorStop(0, "rgba(255, 255, 210, 0.5)");
   gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
-  ctx.fillStyle = gradient;
-  ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
-  
-<!--  ctx.beginPath();
+  ctx.fillStyle = gradient;  
+  ctx.beginPath();
   ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
   ctx.fill(); 
-
+  
   ctx.fillStyle = "#fefcd7";
   ctx.beginPath();
   ctx.arc(x, y, radius, 0, Math.PI * 2);
-  ctx.fill();-->
+  ctx.fill();
 }
 
 function drawStars() {
   ctx.fillStyle = "#0B1E44"; // night sky color
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  for (let star of stars) {
-    star.o += (Math.random() - 0.5) * star.speed;
-    star.o = Math.max(0.1, Math.min(star.o, 1));
-    ctx.globalAlpha = star.o;
-    ctx.fillStyle = "white";
-    ctx.beginPath();
-    ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
-    ctx.fill();
-  }
-
-  ctx.globalAlpha = 1;
+stars.forEach(star => {
+  star.o += (Math.random() - 0.5) * star.speed;
+  star.o = Math.min(1, Math.max(0.1, star.o));
+  ctx.globalAlpha = star.o;
+  ctx.fillStyle = "white";
+  ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
+});
+ctx.globalAlpha = 1;
+  
   drawMoon();
   requestAnimationFrame(drawStars);
 }
