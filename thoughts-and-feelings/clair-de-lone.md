@@ -146,7 +146,7 @@
         }
       }
       requestAnimationFrame(fadeMoon);
-    }, 3000);
+    }, 5000);
   });
 
   drawStars();
