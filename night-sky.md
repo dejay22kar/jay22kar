@@ -99,12 +99,12 @@ function drawMoon() {
   
 <!--  ctx.beginPath();
   ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
-  ctx.fill(); -->
+  ctx.fill(); 
 
   ctx.fillStyle = "#fefcd7";
   ctx.beginPath();
   ctx.arc(x, y, radius, 0, Math.PI * 2);
-  ctx.fill();
+  ctx.fill();-->
 }
 
 function drawStars() {
