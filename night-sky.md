@@ -1,53 +1,90 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Clair de lone</title>
+<title>Night Sky with Twinkling Stars</title>
 <style>
   body {
     margin: 0;
-    background: #0B1E44;
-    color: white;
-    font-family: 'Georgia', serif;
+    background: #0f2733; /* your color */
+    overflow: hidden;
   }
-
-  /* Canvas sits behind content */
   canvas {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
-    pointer-events: none; /* Let page scroll normally */
-  }
-
-  /* Content area */
-  .content {
-    position: relative;
-    z-index: 2;
-    max-width: 700px;
-    margin: 10vh auto;
-    padding: 2rem;
-    background: rgba(15, 39, 51, 0.65);
-    border-radius: 1rem;
-    backdrop-filter: blur(6px);
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  a {
-    color: #9dd6ff;
   }
 </style>
 </head>
 <body>
 <canvas id="stars"></canvas>
 
-<div class="content">
-  <h1>Clair de lone</h1>
+<script>
+const canvas = document.getElementById("stars");
+const ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
+// Adjust this number for density of stars
+const stars = Array.from({ length: 250 }, () => ({
+  x: Math.random() * canvas.width,
+  y: Math.random() * canvas.height,
+  r: Math.random() * 1.5 + 0.5,
+  o: Math.random()
+}));
+
+function drawMoon() {
+  const x = canvas.width - 100;
+  const y = 100;
+  const radius = 40;
+
+  const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
+  gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
+  gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
+
+  ctx.fillStyle = gradient;
+  ctx.beginPath();
+  ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
+  ctx.fill();
+
+  ctx.fillStyle = "#fefcd7";
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+function drawStars() {
+  ctx.fillStyle = "#0f2733"; // clear with background
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // draw twinkling stars
+  ctx.fillStyle = "white";
+  stars.forEach(star => {
+    ctx.globalAlpha = star.o;
+    ctx.beginPath();
+    ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+    ctx.fill();
+    // control twinkling speed here ↓↓↓
+    star.o += (Math.random() - 0.5) * 0.05; 
+    if (star.o < 0.1) star.o = 0.1;
+    if (star.o > 1) star.o = 1;
+  });
+
+  // draw glowing moon
+  drawMoon();
+
+  requestAnimationFrame(drawStars);
+}
+
+drawStars();
+</script>
+
+
+<canvas id="stars"></canvas>
+<div class="content">
+  <!-- Content from clair-de-lone.md -->
+  <h1 style="text-align: center;">Clair de lone</h1>
   <p>It was one of those long narrow streets and it was night.<br>
   I was alone, but not lone.</p>
 
@@ -78,74 +115,9 @@
   <p>I was alone, but not lone.<br>
   I experienced Clair de lone.</p>
 
-  <p><a href="https://dejay22kar.github.io/jay22kar/thoughts-and-feelings">🠔 Back to Thoughts and Feelings</a></p>
+  <p><a href="https://dejay22kar.github.io/jay22kar/thoughts-and-feelings" style="color:#9dd6ff;">🠔 Back to Thoughts and Feelings</a></p>
 </div>
 
-<script>
-const canvas = document.getElementById("stars");
-const ctx = canvas.getContext("2d");
-let stars = [];
-let dpr = window.devicePixelRatio || 1;
 
-function resizeCanvas() {
-  canvas.width = window.innerWidth * dpr;
-  canvas.height = Math.max(document.body.scrollHeight, window.innerHeight) * dpr;
-  ctx.setTransform(1, 0, 0, 1, 0, 0); // reset
-  ctx.scale(dpr, dpr);
-
-  const area = window.innerWidth * window.innerHeight;
-  const starCount = Math.floor(area / 8000);
-  stars = Array.from({ length: starCount }, () => ({
-    x: Math.random() * window.innerWidth,
-    y: Math.random() * Math.max(document.body.scrollHeight, window.innerHeight),
-    r: Math.random() * 1.5 + 0.5,
-    o: Math.random()
-  }));
-}
-resizeCanvas();
-window.addEventListener("resize", resizeCanvas);
-
-function drawMoon() {
-  const x = window.innerWidth - 100;
-  const y = 100;
-  const radius = 30;
-
-  const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
-  gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
-  gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
-
-  ctx.fillStyle = gradient;
-  ctx.beginPath();
-  ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
-  ctx.fill();
-
-  ctx.fillStyle = "#fefcd7";
-  ctx.beginPath();
-  ctx.arc(x, y, radius, 0, Math.PI * 2);
-  ctx.fill();
-}
-
-function drawStars() {
-  ctx.fillStyle = "#0f2733";
-  ctx.fillRect(0, 0, window.innerWidth, Math.max(document.body.scrollHeight, window.innerHeight));
-
-  ctx.fillStyle = "white";
-  for (const star of stars) {
-    ctx.globalAlpha = star.o;
-    ctx.beginPath();
-    ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
-    ctx.fill();
-    star.o += (Math.random() - 0.5) * 0.05;
-    star.o = Math.min(1, Math.max(0.1, star.o));
-  }
-
-  ctx.globalAlpha = 1;
-  drawMoon();
-
-  requestAnimationFrame(drawStars);
-}
-
-drawStars();
-</script>
 </body>
 </html>
