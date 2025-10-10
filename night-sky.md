@@ -1,31 +1,30 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Night Sky with Twinkling Stars</title>
 <style>
-  body {
+  html, body {
     margin: 0;
+    padding: 0;
     background: #0B1E44; /* Updated background color */
-    overflow: hidden;
     color: white;
     font-family: sans-serif;
+    overflow-x: hidden;
   }
   canvas {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1; /* Layer behind content */
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Sit behind content */
   }
   .content {
-    position: relative;
-    z-index: 2; /* Layer above canvas */
     max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background: rgba(0,0,0,0.4);
-    border-radius: 10px;
+    margin: 60px auto;
+    padding: 0 20px;
   }
 </style>
 </head>
@@ -70,14 +69,20 @@
 <script>
 const canvas = document.getElementById("stars");
 const ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
 
 const stars = Array.from({ length: 250 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
   r: Math.random() * 1.5 + 0.5,
-  o: Math.random()
+  o: Math.random(),
+  twinkleSpeed: (Math.random() * 0.02) + 0.01
 }));
 
 function drawMoon() {
@@ -88,7 +93,7 @@ function drawMoon() {
   const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
   gradient.addColorStop(0, "rgba(255, 255, 210, 0.8)");
   gradient.addColorStop(1, "rgba(255, 255, 210, 0)");
-
+  
   ctx.fillStyle = gradient;
   ctx.beginPath();
   ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
@@ -106,18 +111,18 @@ function drawStars() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = "white";
-  stars.forEach(star => {
+  for (let star of stars) {
+    star.o += (Math.random() - 0.5) * star.twinkleSpeed;
+    if (star.o < 0.1) star.o = 0.1;
+    if (star.o > 1) star.o = 1;
     ctx.globalAlpha = star.o;
     ctx.beginPath();
     ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
     ctx.fill();
-    star.o += (Math.random() - 0.5) * 0.05; 
-    if (star.o < 0.1) star.o = 0.1;
-    if (star.o > 1) star.o = 1;
-  });
+  }
 
+  ctx.globalAlpha = 1;
   drawMoon();
-
   requestAnimationFrame(drawStars);
 }
 
