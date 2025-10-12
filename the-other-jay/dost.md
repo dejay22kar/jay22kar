@@ -26,9 +26,8 @@ body {
 विश्वास करुंगा तभी,    
 जब तुम खुद आओगे चल के मेरे पास
 
- **English transliterated version** <span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
-
- Text<span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
+ <style="text-align: center;">Transliterated English version</> 
+ <span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
 
 Khuda nahi, usse bhi zyada, balki    
 Dost samajhta tha tujhe,   
