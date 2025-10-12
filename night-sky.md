@@ -150,6 +150,72 @@
   });
 
   drawStars();
+
+    let shootingStars = [];
+
+function spawnShootingStar() {
+  // Moon position
+  const startX = canvas.width - 80;
+  const startY = 80;
+  // Center of the canvas
+  const endX = canvas.width / 2;
+  const endY = canvas.height / 2;
+  shootingStars.push({
+    x: startX,
+    y: startY,
+    endX, endY,
+    progress: 0,
+    length: 80 + Math.random() * 50 // random tail length
+  });
+}
+
+function drawShootingStars() {
+  for (let i = 0; i < shootingStars.length; i++) {
+    let star = shootingStars[i];
+    star.progress += 0.02;
+    if (star.progress >= 1) {
+      shootingStars.splice(i, 1);
+      i--;
+      continue;
+    }
+    // Calculate current position
+    let currX = star.x + (star.endX - star.x) * star.progress;
+    let currY = star.y + (star.endY - star.y) * star.progress;
+
+    // Draw shooting star tail
+    let tailX = star.x + (star.endX - star.x) * (star.progress - 0.1);
+    let tailY = star.y + (star.endY - star.y) * (star.progress - 0.1);
+    ctx.save();
+    ctx.strokeStyle = "rgba(150,200,255,"+(1-star.progress)+")";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(tailX, tailY);
+    ctx.lineTo(currX, currY);
+    ctx.stroke();
+    ctx.restore();
+
+    // Draw shooting star head
+    ctx.save();
+    ctx.fillStyle = "white";
+    ctx.globalAlpha = 0.7;
+    ctx.beginPath();
+    ctx.arc(currX, currY, 3, 0, Math.PI*2);
+    ctx.fill();
+    ctx.restore();
+  }
+}
+
+// Add inside your animation loop:
+function drawStars() {
+  // ... existing code
+  drawShootingStars();
+  // ... existing code
+  requestAnimationFrame(drawStars);
+}
+
+// Every 5 seconds, launch a shooting star
+setInterval(spawnShootingStar, 5000);
+
   </script>
 </body>
 </html>
