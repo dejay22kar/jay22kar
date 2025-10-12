@@ -68,104 +68,62 @@
     <p><a href="https://dejay22kar.github.io/jay22kar/thoughts-and-feelings" style="color:#9dd6ff;">🠔 Back to Thoughts and Feelings</a></p>
   </div>
 
-  <script>
-  const canvas = document.getElementById("stars");
-  const ctx = canvas.getContext("2d");
+<script>
+const canvas = document.getElementById("stars");
+const ctx = canvas.getContext("2d");
 
-  function resizeCanvas() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  }
-  resizeCanvas();
-  window.addEventListener("resize", resizeCanvas);
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
 
-  const stars = Array.from({ length: 80 }, () => ({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
-    r: Math.random() * 1.5 + 0.5,
-    o: Math.random(),
-    speed: (Math.random() * 0.12) + 0.08
-  }));
+const stars = Array.from({ length: 80 }, () => ({
+  x: Math.random() * canvas.width,
+  y: Math.random() * canvas.height,
+  r: Math.random() * 1.5 + 0.5,
+  o: Math.random(),
+  speed: (Math.random() * 0.12) + 0.08
+}));
 
-  let moonOpacity = 0;
+let moonOpacity = 0;
 
-  function drawMoon() {
-    const x = canvas.width - 80;
-    const y = 80;
-    const radius = 22;
+// --- Moon Drawing ---
+function drawMoon() {
+  const x = canvas.width - 80;
+  const y = 80;
+  const radius = 22;
 
-    const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
-    gradient.addColorStop(0, `rgba(255, 255, 210, ${0.5 * moonOpacity})`);
-    gradient.addColorStop(1, `rgba(255, 255, 210, 0)`);
-    ctx.fillStyle = gradient;  
-    ctx.beginPath();
-    ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
-    ctx.fill(); 
-    
-    ctx.fillStyle = `rgba(254, 252, 215, ${moonOpacity})`;
-    ctx.beginPath();
-    ctx.arc(x, y, radius, 0, Math.PI * 2);
-    ctx.fill();
-  }
+  const gradient = ctx.createRadialGradient(x, y, radius * 0.5, x, y, radius * 2);
+  gradient.addColorStop(0, `rgba(255, 255, 210, ${0.5 * moonOpacity})`);
+  gradient.addColorStop(1, `rgba(255, 255, 210, 0)`);
+  ctx.fillStyle = gradient;
+  ctx.beginPath();
+  ctx.arc(x, y, radius * 2, 0, Math.PI * 2);
+  ctx.fill();
 
-  function drawStars() {
-    ctx.fillStyle = "#0B1E44";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = `rgba(254, 252, 215, ${moonOpacity})`;
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2);
+  ctx.fill();
+}
 
-    stars.forEach(star => {
-      star.o += (Math.random() - 0.5) * star.speed;
-      star.o = Math.min(1, Math.max(0.1, star.o));
-      ctx.globalAlpha = star.o;
-      ctx.fillStyle = "white";
-      ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
-    });
-    ctx.globalAlpha = 1;
-    
-    drawMoon();
-    requestAnimationFrame(drawStars);
-  }
-
-  window.addEventListener('load', () => {
-    const overlay = document.getElementById('fade-overlay');
-    // Start fade out of white overlay
-    overlay.style.opacity = '0';
-
-    // After overlay fades (3s), hide overlay and start moon fade in
-    setTimeout(() => {
-      overlay.style.display = 'none';
-
-      // Animate moon opacity from 0 to 1 over 2 seconds
-      const fadeDuration = 2000;
-      const fadeStart = performance.now();
-
-      function fadeMoon(timestamp) {
-        let progress = (timestamp - fadeStart) / fadeDuration;
-        moonOpacity = Math.min(1, progress);
-        if (moonOpacity < 1) {
-          requestAnimationFrame(fadeMoon);
-        }
-      }
-      requestAnimationFrame(fadeMoon);
-    }, 3000);
-  });
-
-  drawStars();
-
-    let shootingStars = [];
+// --- Shooting Star ---
+let shootingStars = [];
 
 function spawnShootingStar() {
-  // Moon position
   const startX = canvas.width - 80;
   const startY = 80;
-  // Center of the canvas
   const endX = canvas.width / 2;
   const endY = canvas.height / 2;
+
   shootingStars.push({
     x: startX,
     y: startY,
-    endX, endY,
-    progress: 0,
-    length: 80 + Math.random() * 50 // random tail length
+    endX,
+    endY,
+    progress: 0
   });
 }
 
@@ -178,15 +136,14 @@ function drawShootingStars() {
       i--;
       continue;
     }
-    // Calculate current position
+
     let currX = star.x + (star.endX - star.x) * star.progress;
     let currY = star.y + (star.endY - star.y) * star.progress;
-
-    // Draw shooting star tail
     let tailX = star.x + (star.endX - star.x) * (star.progress - 0.1);
     let tailY = star.y + (star.endY - star.y) * (star.progress - 0.1);
+
     ctx.save();
-    ctx.strokeStyle = "rgba(150,200,255,"+(1-star.progress)+")";
+    ctx.strokeStyle = `rgba(150, 200, 255, ${1 - star.progress})`;
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.moveTo(tailX, tailY);
@@ -194,29 +151,58 @@ function drawShootingStars() {
     ctx.stroke();
     ctx.restore();
 
-    // Draw shooting star head
     ctx.save();
     ctx.fillStyle = "white";
-    ctx.globalAlpha = 0.7;
     ctx.beginPath();
-    ctx.arc(currX, currY, 3, 0, Math.PI*2);
+    ctx.arc(currX, currY, 3, 0, Math.PI * 2);
     ctx.fill();
     ctx.restore();
   }
 }
 
-// Add inside your animation loop:
+// --- Main Starfield ---
 function drawStars() {
-  // ... existing code
+  ctx.fillStyle = "#0B1E44";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Draw stars
+  stars.forEach(star => {
+    star.o += (Math.random() - 0.5) * star.speed;
+    star.o = Math.min(1, Math.max(0.1, star.o));
+    ctx.globalAlpha = star.o;
+    ctx.fillStyle = "white";
+    ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
+  });
+  ctx.globalAlpha = 1;
+
+  drawMoon();
   drawShootingStars();
-  // ... existing code
   requestAnimationFrame(drawStars);
 }
 
-// Every 5 seconds, launch a shooting star
-setInterval(spawnShootingStar, 5000);
+// --- Fade-in and animation start ---
+window.addEventListener('load', () => {
+  const overlay = document.getElementById('fade-overlay');
+  overlay.style.opacity = '0';
+  setTimeout(() => {
+    overlay.style.display = 'none';
+    const fadeDuration = 2000;
+    const fadeStart = performance.now();
 
-  </script>
+    function fadeMoon(timestamp) {
+      let progress = (timestamp - fadeStart) / fadeDuration;
+      moonOpacity = Math.min(1, progress);
+      if (moonOpacity < 1) requestAnimationFrame(fadeMoon);
+    }
+    requestAnimationFrame(fadeMoon);
+  }, 3000);
+});
+
+setInterval(spawnShootingStar, 5000);
+drawStars();
+</script>
+
+
 </body>
 </html>
 
