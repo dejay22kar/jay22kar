@@ -26,7 +26,7 @@ body {
 विश्वास करुंगा तभी,    
 जब तुम खुद आओगे चल के मेरे पास
 
- <style="text-align: center;">Transliterated English version</> 
+<p style="text-align: center; font-weight: bold;">Transliterated English version</p>
  <span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
 
 Khuda nahi, usse bhi zyada, balki    
@@ -36,7 +36,7 @@ Jab itni maar padi mujhe?
 
 Haat nahi toh do shabd sahanabhuti ke,     
 Bass itni si thi re meri pyaas,    
-Par nahi lagta abhi ki Chal bhi paunga mai kabhi,    
+Par nahi lagta abhi, ki chal bhi paunga mai kabhi,    
 Isliye mat rakh mujhse ab koi aas
 
 Bass, bharosa uth sa gaya hai tum par se abhi,   
