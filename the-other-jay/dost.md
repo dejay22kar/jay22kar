@@ -9,7 +9,7 @@ body {
 </style>
 </head> 
 
-<h1 style="text-align: center;">दोस्त</h1>
+<h1 style="text-align: center;">दोस्त / Dost</h1>
 
 खुदा नहीं, उससे भी ज्यादा, बल्की    
 दोस्त समझता था तुझे,   
@@ -25,5 +25,25 @@ body {
 नहीं आऊंगा कभी तुम्हारे पास,   
 विश्वास करुंगा तभी,    
 जब तुम खुद आओगे चल के मेरे पास
+
+ **English transliterated version** <span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
+
+ Text<span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
+
+Khuda nahi, usse bhi zyada, balki    
+Dost samajhta tha tujhe,   
+Kyu bass yuhi khada reh gaya re tu,   
+Jab itni maar padi mujhe? 
+
+Haat nahi toh do shabd sahanabhuti ke,     
+Bass itni si thi re meri pyaas,    
+Par nahi lagta abhi ki Chal bhi paunga mai kabhi,    
+Isliye mat rakh mujhse ab koi aas
+
+Bass, bharosa uth sa gaya hai tum par se abhi,   
+Nahi aaunga kabhi tumhare pass,   
+Vishwaas karunga tabhi,    
+Jab tum khud aaoge chal ke mere pass
+
   
 [&#129044; Back to The other Jay](https://dejay22kar.github.io/jay22kar/the-other-jay/)
