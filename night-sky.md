@@ -111,39 +111,42 @@ function drawMoon() {
 
 // --- Shooting Star ---
 let shootingStars = [];
+const shootingStarAngle = 30 * Math.PI / 180; // 30° in radians
+const starSpeed = 600; // pixels per second (adjust to taste)
 
 function spawnShootingStar() {
-  const startX = canvas.width - 80;
-  const startY = 80;
-  const endX = canvas.width / 2;
-  const endY = canvas.height / 2;
-
+  const startX = 0; // left edge
+  const startY = canvas.height * 0.42; // about upper-center (adjust as needed)
+  const vx = Math.cos(shootingStarAngle) * starSpeed; // x speed
+  const vy = Math.sin(shootingStarAngle) * starSpeed; // y speed
   shootingStars.push({
     x: startX,
     y: startY,
-    endX,
-    endY,
-    progress: 0
+    vx: vx,
+    vy: vy,
+    startTime: performance.now()
   });
 }
 
-function drawShootingStars() {
+function drawShootingStars(now) {
   for (let i = 0; i < shootingStars.length; i++) {
     let star = shootingStars[i];
-    star.progress += 0.02;
-    if (star.progress >= 1) {
+    // Find how long this star has been alive
+    let elapsed = (now - star.startTime) / 1000; // in seconds
+    let currX = star.x + star.vx * elapsed;
+    let currY = star.y + star.vy * elapsed;
+    let tailX = currX - star.vx * 0.1; // 0.1 second behind
+    let tailY = currY - star.vy * 0.1;
+
+    // Remove stars if they're off-screen
+    if (currX > canvas.width || currY > canvas.height) {
       shootingStars.splice(i, 1);
       i--;
       continue;
     }
 
-    let currX = star.x + (star.endX - star.x) * star.progress;
-    let currY = star.y + (star.endY - star.y) * star.progress;
-    let tailX = star.x + (star.endX - star.x) * (star.progress - 0.1);
-    let tailY = star.y + (star.endY - star.y) * (star.progress - 0.1);
-
     ctx.save();
-    ctx.strokeStyle = `rgba(150, 200, 255, ${1 - star.progress})`;
+    ctx.strokeStyle = "rgba(150,200,255,0.6)";
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.moveTo(tailX, tailY);
@@ -160,24 +163,19 @@ function drawShootingStars() {
   }
 }
 
-// --- Main Starfield ---
-function drawStars() {
+// In your animation loop, pass the current timestamp:
+function drawStars(now) {
   ctx.fillStyle = "#0B1E44";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-  // Draw stars
-  stars.forEach(star => {
-    star.o += (Math.random() - 0.5) * star.speed;
-    star.o = Math.min(1, Math.max(0.1, star.o));
-    ctx.globalAlpha = star.o;
-    ctx.fillStyle = "white";
-    ctx.fillRect(Math.round(star.x), Math.round(star.y), 2, 2);
-  });
-  ctx.globalAlpha = 1;
-
-  drawMoon();
-  drawShootingStars();
+  // ... existing star/moon code ...
+  drawShootingStars(now);
   requestAnimationFrame(drawStars);
+}
+
+// Launch a shooting star every 5 seconds
+setInterval(spawnShootingStar, 5000);
+// Kick off the loop
+requestAnimationFrame(drawStars);
 }
 
 // --- Fade-in and animation start ---
