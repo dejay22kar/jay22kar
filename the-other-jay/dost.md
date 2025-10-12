@@ -26,7 +26,6 @@ body {
 विश्वास करुंगा तभी,    
 जब तुम खुद आओगे चल के मेरे पास
 
-<p style="text-align: center; font-weight: bold;">Transliterated English version</p>
  <span style="border-bottom: 1px solid; width: 100%; display: inline-block; vertical-align: middle;"></span>
 
 Khuda nahi, usse bhi zyada, balki    
