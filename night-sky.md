@@ -176,7 +176,7 @@ function drawStars(now) {
 setInterval(spawnShootingStar, 5000);
 // Kick off the loop
 requestAnimationFrame(drawStars);
-}
+  
 
 // --- Fade-in and animation start ---
 window.addEventListener('load', () => {
