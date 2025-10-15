@@ -33,8 +33,8 @@ The fire inside me, that fuels my mind relentlessly haranguing with questions of
 The burn inside my chest of being separated by so many “issues”.   
 That fire, even extinguishable by other elements, you are that fire. 
 
-You are ether.       
-The fundamental space that exists in, around, above, between and comprising all the things, everywhere;    
+You are ether.   
+The fundamental space that exists in, around, above and between all the things, everywhere;    
 And also that void from which all my creativity emerges,   
 You are that void that has left me empty, yet has filled me with you.   
 That paradoxical and intangible element, you are that ether.    
