@@ -93,6 +93,7 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 - _The night has a thousand eyes_ by Francis William Bourdillon
 - _Dil aakhir tu kyu rota hai?_ by Javed Akhtar
 - _The Race_ by D.H. (Dee) Groberg
+- _Shakuntala ka gajra_ by Siddhi Paraskar
 
 <h1 align="center"> 🎥 Films and TV shows </h1>
 
@@ -109,7 +110,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Modern family
 - Normal people
 
-## Animated
+## Animated films
 - Wall-E
 - Big Hero 6
 - Luca
@@ -135,6 +136,7 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - The Batman trilogy
 - The Before trilogy
 - The Star wars prequel trilogy
+- The Avengers series
 - Amélie
 - Past Lives 
 - Whiplash
