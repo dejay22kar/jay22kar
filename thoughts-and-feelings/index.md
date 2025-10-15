@@ -13,6 +13,7 @@ Happy reading!
  - [Anxiety o'clock](https://jay22kar.me/thoughts-and-feelings/anxiety-o-clock)
  - [Clair de lone](https://jay22kar.me/thoughts-and-feelings/clair-de-lone)
  - The matchmaker (Coming soon)
+ - That thing behind her left bosom (Coming sooner than expected)
  - Train of thoughts (Not coming so soon)
 
 ## Blogs
