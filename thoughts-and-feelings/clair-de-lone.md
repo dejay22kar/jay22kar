@@ -51,13 +51,13 @@
     <p>As I walked on that narrow street, I kept wanting to walk more.<br>
     But as I reached the end of the street, I looked back again and I could see only two colours - the darkness and the moonlight.</p>
     <p>I came back again to the centre, not wanting this moment to end.<br>
-    As the rays of moonlight fell on the roofs, I could see the stardust vaporising off the surface towards the sky. It was all glittering, my dear friend.</p>
+    As the rays of moonlight fell on the roofs, I could see the stardust vaporising towards the sky. It was all glittering, my dear friend.</p>
     <p>Was the stardust white? Or was it blue? It was white and blue.<br>
     Exactly like the moon and the moonlight - the moon bright white yet the moonlight seeming so blue.</p>
     <p>The mind inside the dream me, made that sparkling and twinkling sound.<br>
     “That’s how it sounds in the movies!”, thought the dream me.</p>
     <p>I saw myself in the centre of the street, my moonlit face, so blank and so awed,<br>
-    as I saw this whole surreal, mystical land evaporating... except me, so odd.</p>
+    as I saw this whole surreal, mystical land evaporating, except me... so odd.</p>
     <p>There were no people, as were no thoughts.<br>
     Forget thinking, I wasn’t even feeling - neither my breaths nor my feet on the ground, I was completely lost.</p>
     <p>I was not me.<br>
