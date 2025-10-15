@@ -20,7 +20,7 @@ That which keeps me afloat and wrecks, you are that water. 
 You are the air and the sky.    
 I turn back and smile with a relief, that, I am finally going away from you,   
 Then, my smile instantly fades away from my face as I look up ahead,   
-To find out that I am only getting closer to you.       
+To find out that, ironically, I am only getting closer to you.       
 That which keeps me alive, yes, you are that air.  
 
 You are earth.   
