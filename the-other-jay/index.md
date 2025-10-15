@@ -12,11 +12,12 @@ body {
 Hello dear human, Welcome to my super-personal page! Feel free to jump on anything that intrigues you. 
 
 - [evoLdmort](https://jay22kar.me/the-other-jay/evoldmort)
+- [The One Element](https://jay22kar.me/the-other-jay/the-one-element)
 - [Invisible](https://jay22kar.me/the-other-jay/invisible)
+- [दोस्त](https://jay22kar.me/the-other-jay/dost)
 - [The Rope](https://jay22kar.me/the-other-jay/the-rope)
 - [Walk of Atonement](https://jay22kar.me/the-other-jay/walk-of-atonement)
-- [दोस्त](https://jay22kar.me/the-other-jay/dost)
-- Himself (Coming soon)
+- [Himself](https://jay22kar.me/the-other-jay/himself) 
 - सबक (Coming soon)
 - St Mungo's Hospital for Magical Maladies and Injuries (Not coming so soon)
 
