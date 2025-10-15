@@ -30,8 +30,8 @@ Between being with 'them’ in fiction and
 their absence in reality,   
 I’m caught in the middle 
 
-Between million thoughts and thousands of words to say    
-and saying none to anyone,   
+Between a million thoughts and thousands of words to say and    
+saying none to anyone,   
 I’m caught in the middle 
 
 Between reminding myself the past to learn from it and   
@@ -51,7 +51,7 @@ keeping myself busy to the point of burning out, 
 I’m caught in the middle
 
 Between sobbing “It happened with me!!”    
-and Accepting “Yes, it happened with me”,   
+and accepting “Yes, it happened with me”,   
 I’m caught in the middle 
 
 Somewhere between dying and living,    
