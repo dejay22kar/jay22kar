@@ -86,10 +86,10 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 </ol>
 
 <h2 id="where-am-i-based-out-out-of">Where am I from?</h2>
-<p>I am from and currently based in Mumbai, India.</p>
+<p>I am from Mumbai, India.</p>
 
 <h2 id="living">What do I do for living?</h2>
-<p>Currently looking for a role as CFD / Thermal / Aerodynamics / Simulation / Application engineer (Know someone who has a similar role? Get in touch with me!)</p>
+<p>Currently working as CFD Simulation engineer in Pune, a city 3 hours away from Mumbai</p>
 
 <h2 id="physical-features">What are my physical features? (for strange reasons if you wanna know)</h2>
 <p>I weigh 202 kg on Jupiter and I am 0.001366 miles tall.</p>
