@@ -31,7 +31,7 @@ That known yet unreachable piece of land, you are that earth. 
 You are fire.    
 The fire inside me, that fuels my mind relentlessly haranguing with questions of you,   
 The burn inside my chest of being separated by so many “issues”.   
-That fire, even extinguishable by other elements, you are that fire. 
+That fire, even inextinguishable by other elements, you are that fire. 
 
 You are ether.   
 The fundamental space that exists in, around, above and between all the things, everywhere;    
