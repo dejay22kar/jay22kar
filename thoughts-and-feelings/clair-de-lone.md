@@ -61,7 +61,7 @@
     <p>There were no people, as were no thoughts.<br>
     Forget thinking, I wasn’t even feeling - neither my breaths nor my feet on the ground, I was completely lost.</p>
     <p>I was not me.<br>
-    I was those wooden shops, that cobbled street, that shimmering stardust, the moon and the moonlight and that is why I still know them so well.</p>
+    I was those wooden shops, that cobbled street, that shimmering stardust, the moon and the moonlight along with myself. I was one.</p>
     <p>I was alone, but not lone.<br>
     I experienced Clair de lone.</p><br>
     
