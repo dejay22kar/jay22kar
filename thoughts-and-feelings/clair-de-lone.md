@@ -63,7 +63,7 @@
     <p>I was not me.<br>
     I was those wooden shops, that cobbled street, that shimmering stardust, the moon and the moonlight along with myself. I was one.</p>
     <p>I was alone, but not lone.<br>
-    I experienced Clair de lone.</p><br>
+    I felt, Clair de lone.</p><br>
     
     <p><a href="https://dejay22kar.github.io/jay22kar/thoughts-and-feelings" style="color:#9dd6ff;">🠔 Back to Thoughts and Feelings</a></p>
   </div>
