@@ -1,27 +1,126 @@
-<form>
-  <h2>Applications Open for Marriage Season 2026-27!</h2>
-  <p>Imagine you're applying for the most exciting life program. Fill out the details below!</p>
-  
-  <label for="name">Full Name:</label>
-  <input type="text" id="name" name="name"><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marriage Applications 2026-27!</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #FFB6C1, #ADD8E6);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 30px;
+    }
+    h2 {
+      color: #E91E63;
+      margin-bottom: 5px;
+    }
+    h4 {
+      color: #2196F3;
+    }
+    label {
+      display: block;
+      margin: 16px 0 6px 0;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 95%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #E91E63;
+      margin-bottom: 12px;
+      font-size: 1em;
+    }
+    .submit-btn {
+      background: #E91E63;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 30px;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 10px;
+    }
+    .submit-btn:hover {
+      background: #2196F3;
+    }
+    #reply-box {
+      margin-top: 18px;
+      color: #43A047;
+      font-size: 1.1em;
+      background: #F3E5F5;
+      padding: 10px;
+      border-radius: 10px;
+      display: none;
+      animation: pop 0.8s;
+    }
+    @keyframes pop {
+      0% {transform: scale(0.5);}
+      80% {transform: scale(1.1);}
+      100% {transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Applications Open for Marriage Season 2026-27!</h2>
+    <h4>🎓 Apply for a Lifetime Program With Me! 🎉</h4>
+    <form id="marriageForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="why">Why are you choosing me?</label>
+      <textarea id="why" name="why" required></textarea>
+      <label for="motivation">Motivation Letter:</label>
+      <textarea id="motivation" name="motivation" required></textarea>
+      <label for="expectations">What are you looking forward to?</label>
+      <textarea id="expectations" name="expectations"></textarea>
+      <label for="activities">List your hobbies/interests:</label>
+      <textarea id="activities" name="activities"></textarea>
+      <label for="reference">Reference (optional):</label>
+      <input type="text" id="reference" name="reference">
+      <label for="file">Upload a funny selfie or meme (optional):</label>
+      <input type="file" id="file" name="file" accept="image/*,video/*">
+      <button type="submit" class="submit-btn">Submit Application 🚀</button>
+    </form>
+    <div id="reply-box"></div>
+    <hr>
+    <small>
+      🤓 Pro tip: Applications with memes get priority review! <br>
+      🍕 Coffee dates and pizza parties are considered strong extracurriculars.
+    </small>
+  </div>
+  <script>
+    document.getElementById('marriageForm').onsubmit = function(event) {
+      event.preventDefault();
 
-  <label for="why">Why are you choosing me?</label>
-  <textarea id="why" name="why"></textarea><br>
+      // Fun auto-reply messages
+      const replies = [
+        "🎉 Thanks for applying! The Admissions Committee will review your profile over coffee and cookies.",
+        "🍀 Application received! We'll notify you after a very thorough examination (and probably a few pizza slices).",
+        "😂 Your application just made our day. Stay tuned for the results. Meanwhile, practice your dad-jokes!",
+        "👩‍💻 Wow! You might just be our star student this season. Fingers crossed!"
+      ];
 
-  <label for="motivation">Motivation Letter:</label>
-  <textarea id="motivation" name="motivation"></textarea><br>
+      // Choose a random reply
+      const replyBox = document.getElementById('reply-box');
+      replyBox.innerText = replies[Math.floor(Math.random() * replies.length)];
+      replyBox.style.display = 'block';
 
-  <label for="expectations">What are you looking forward to?</label>
-  <textarea id="expectations" name="expectations"></textarea><br>
+      // TODO: Replace this with real submission logic (Formspree, Google Forms, etc.)
+      // Here, the form DOES NOT send data anywhere yet.
 
-  <label for="activities">List your hobbies/interests:</label>
-  <textarea id="activities" name="activities"></textarea><br>
-
-  <label for="reference">Reference (optional):</label>
-  <input type="text" id="reference" name="reference"><br>
-
-  <label for="file">Upload a funny selfie or meme (optional):</label>
-  <input type="file" id="file" name="file"><br>
-  
-  <button type="submit">Submit Application</button>
-</form>
+      // Optionally, reset the form
+      document.getElementById('marriageForm').reset();
+    };
+  </script>
+</body>
+</html>
