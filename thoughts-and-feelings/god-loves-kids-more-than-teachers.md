@@ -8,9 +8,6 @@
 <p>Folding your arms on the desk, you glance at the person you’re “kinda” attracted to for a second (they must be sleepy as well, you think), and finally rest your head. Smelling that familiar wooden smell as you shove yourself upto the point where your nose touches the desk, you go to sleep. 
 You realise you were never so thankful to God before! God acknowledged it.</p>
 
-I swear to god, staying awake during X teacher's lectures has to be one of the hardest things one has to do
-
-
 <p>He went on further to cut the power supply off, which was his way of saying “Have a good nap”. He smiled but you’re already asleep. The universe smiled.</p>
 
 [🠔 Back to Thoughts and Feelings](https://dejay22kar.github.io/jay22kar/thoughts-and-feelings)
