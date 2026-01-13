@@ -114,7 +114,7 @@ I remember I came up with it when I was a kid and it felt veryy creative (at tha
 
 <p>I’ve realised that it’s not something that I absolutely love, but <strong>I am good at table tennis</strong>.</p>
 
-<p><strong>I have recently started loving films</strong> actually. Or now that I think, I have started appreciating the art in them, because again, I have started understanding art more in itself.</p>
+<p><strong>I have recently started loving films and cinematography</strong>. Or now that I think, I have started appreciating the art in them, because again, I have started understanding art more in itself.</p>
 
 <p>I don’t know if I like philosophy (atleast, anymore) but <strong>I am a philosophical man</strong>. I do ask a lot of questions, but asking them for 25 years and going mad, a chapter from a book made my realise that it’s important to ask the right questions. It’s another thing that I still ask wrong questions though (inserts Captain America: I can do this all day gif*)</p>
 
