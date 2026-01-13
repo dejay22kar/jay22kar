@@ -9,11 +9,13 @@ Happy reading!
 
 ## Pieces
  - [God loves kids more than teachers](https://jay22kar.me/thoughts-and-feelings/god-loves-kids-more-than-teachers)
+ - [दोस्त / Dost](https://jay22kar.me/thoughts-and-feelings/dost)
  - [A tree](https://jay22kar.me/thoughts-and-feelings/a-tree)
  - [Anxiety o'clock](https://jay22kar.me/thoughts-and-feelings/anxiety-o-clock)
  - [Clair de lone](https://jay22kar.me/thoughts-and-feelings/clair-de-lone)
+ - [दुआ / Dua](https://jay22kar.me/thoughts-and-feelings/dua)
  - The matchmaker (Coming soon)
- - That thing behind her left bosom (Coming sooner than expected)
+ - ताबीज / Tabeez (Coming sooner than expected)
  - Train of thoughts (Not coming so soon)
 
 ## Blogs
