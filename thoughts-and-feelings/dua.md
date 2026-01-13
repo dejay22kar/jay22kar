@@ -11,13 +11,13 @@ body {
 <h1 style="text-align: center;"> दुआ / Dua</h1>
 
 <p align="center">
-  <img src="photos/Other/tum mujhe dekhna.jpg" alt="Description" style="max-width:100%; height:auto;">
+  <img src="../photos/Other/tum mujhe dekhna.jpg" alt="tume mujhe dekhna" style="max-width:100%; height:auto;">
 </p>
 
 
 तुम मुझे देखना…   
 
-जब मैं खुदा के सामने खड़ा रहू,       
+जब मैं खुदा के सामने खड़ा रहू,   
 हाथ जोड़े, बंद आँखें, दुआ करूँ,   
 तुम्हारे बगल मैं, तुम्हारे साथ…   
 तुम मुझे देखना   
