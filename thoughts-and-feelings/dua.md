@@ -10,9 +10,14 @@ body {
 
 <h1 style="text-align: center;"> दुआ / Dua</h1>
 
+<p align="center">
+  <img src="photos/Other/tum mujhe dekhna.jpg" alt="Description" style="max-width:100%; height:auto;">
+</p>
+
+
 तुम मुझे देखना…   
 
-जब मैं ईश्वर के सामने खड़ा रहू,       
+जब मैं खुदा के सामने खड़ा रहू,       
 हाथ जोड़े, बंद आँखें, दुआ करूँ,   
 तुम्हारे बगल मैं, तुम्हारे साथ…   
 तुम मुझे देखना   
@@ -29,14 +34,14 @@ body {
 
 Tum mujhe dekhna...   
 
-Jab mai Ishwar ke saamne khada rahu,   
+Jab mai Khuda ke saamne khada rahu,   
 Haat jode, band aankhein, dua karu,   
 Tumhare bagal mai, tumhare sath…   
 Tum mujhe dekhna.   
 
 Mai samaj jaunga,   
-Ki meri awaaz uss tak,   
-Aur uski awaaz tum tak,   
+Ki meri awaaz Uss tak,   
+Aur Uski awaaz tum tak,   
 Pahauch gayi hai.   
 
 Kyuki tum mujhe dekho,   
