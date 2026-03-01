@@ -104,11 +104,13 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Game of Thrones (nope, not 8, there are only 7 seasons of GoT)
 - The Last of Us
 - Station Eleven
+- Pluribus
 - Chernobyl (the best background sound effects I have ever come across and how I wish it had been shot in Russian!) 
 - Band of Brothers
 - FRIENDS
 - Modern family
 - Normal people
+- The Office
 
 ## Animated films
 - Wall-E
@@ -147,7 +149,8 @@ Here are some of the my favorite movies and TV shows. Screen productions that pr
 - Mr Bean Holidays
 - La la land
 - Schindler's List
-- The Imitation Game    
+- The Imitation Game
+- 18x2 Beyond Youthful Days
 ... and so many more actually. I will add them as they strike me.
 
 <a href="#top" class="go-top"><b>↑ Go to top</b></a>
