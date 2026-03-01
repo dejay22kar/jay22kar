@@ -100,9 +100,10 @@ Some books and short stories that I felt deeply, enjoyed or gave me a major shif
 Here are some of the my favorite movies and TV shows. Screen productions that provided me some value. Some of them offered incredible story, some goosebumps, some offered a punch at the end, some an edge of the seat thrill, some were just cinematic masterpieces - their camera movements, shots, transitions, an unprecedented way of showing stories visually, and some... just emotions - pure raw emotions which didn't just touch me, it moved me to the bone and pierced through my heart through-and-through like a nice sharp and sleek Japanese katana. 
 
 ## TV Shows
+- Adolescence
 - Breaking Bad
 - Game of Thrones (nope, not 8, there are only 7 seasons of GoT)
-- The Last of Us
+- When they see us
 - Station Eleven
 - Pluribus
 - Chernobyl (the best background sound effects I have ever come across and how I wish it had been shot in Russian!) 
