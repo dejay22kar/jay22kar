@@ -106,13 +106,16 @@ Anyways, some other photos are from Fredrikshavn and Skagen — the northern tip
      
       Edit 1 - It is 30 May 2026, exactly a year since I was having this trip. I tried to share just a few of my feelings and experiences through an Instagram post which I originally think belongs here, but it went quite well with the raw photos and videos, so I let it be. I hereby embed the post so that you could read it.    
  
-      <blockquote
-  class="instagram-media"
-  data-instgrm-permalink="https://www.instagram.com/p/DY9kCFhiN2V/"
-  data-instgrm-version="14">
-</blockquote>
-
-<script async src="//www.instagram.com/embed.js"></script> 
+<div style="display: flex; justify-content: center;">
+  <blockquote
+    class="instagram-media"
+    data-instgrm-permalink="https://www.instagram.com/p/DY9kCFhiN2V/"
+    data-instgrm-version="14"
+    data-instgrm-captioned
+    style="min-width: 326px; max-width: 540px; width: 100%;">
+  </blockquote>
+</div>
+<script async src="https://www.instagram.com/embed.js"></script>
       
 <div class="gallery" id="Poland_Gallery"></div>
 
