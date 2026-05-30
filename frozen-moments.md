@@ -103,7 +103,7 @@ Anyways, some other photos are from Fredrikshavn and Skagen — the northern tip
   <div class="content hidden">
     <p>
       It has been a month returning from Poland (while I write and upload these photos), and I would say it was... an experience. I am still processing what I felt and trying to give my feelings some words. Talking about the photos, I am a bit disappointed and unsatisfied because I expected I would have much more photos but apparently I don't. Ehh, whatever. I know I am going back someday 🙂<br>    
-     
+     <br>
       Edit 1 - It is 30 May 2026, exactly a year since I was having this trip. I tried to share just a few of my feelings and experiences through an Instagram post which I originally think belongs here, but it went quite well with the raw photos and videos, so I let it be. I hereby embed the post so that you could read it.    
  
 <div style="display: flex; justify-content: center;">
@@ -145,9 +145,8 @@ Anyways, some other photos are from Fredrikshavn and Skagen — the northern tip
   <div class="preview">The place I lived for 2 years in Sweden</div>
   <div class="content hidden">
     <p>
-      Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful times (and "metamorphosis" stage) of my life in this house. <br>
-      Naturally, I have grown to be very fond and attached to it since it gave me a safe space to be and feel anything, anytime. It has been one of the best things that has happened to me and perhaps this is my humble way to capture it, to keep it with me, in the form of photos (and videos on <a href="https://www.youtube.com/@jay22kar" target="_blank">YouTube</a>
-). I will forever be grateful to universe for this house, this room - Room 1514.
+      Here are some photos that I have taken in and from my room in Gothenburg, Sweden, over the time. I have had some of my worst and - I wouldn't say best - but the most meaningful times (and metamorphosis stage) of my life in this house. <br>
+      Naturally, I have grown to be very fond and attached to it since it gave me a safe space to be and feel anything, anytime. It has been one of the best things that has happened to me and perhaps this is my humble way to capture it, to keep it with me, in the form of photos (and videos on <a href="https://www.youtube.com/@jay22kar" target="_blank">YouTube</a>). I will forever be grateful to universe for this house, this room - Room 1514.
 
 <div class="gallery" id="roomGallery"></div>
 
